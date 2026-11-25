@@ -12,7 +12,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.LauncherRootView
+<org.acreetionos.launcher.LauncherRootView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:id="@+id/launcher"
@@ -20,7 +20,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <com.android.launcher3.dragndrop.DragLayer
+    <org.acreetionos.launcher.dragndrop.DragLayer
         android:id="@+id/drag_layer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -28,7 +28,7 @@
         android:clipToPadding="false"
         android:importantForAccessibility="no">
 
-        <com.android.launcher3.views.AccessibilityActionsView
+        <org.acreetionos.launcher.views.AccessibilityActionsView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:contentDescription="@string/home_screen"
@@ -36,7 +36,7 @@
 
         <!-- The workspace contains 5 screens of cells -->
         <!-- DO NOT CHANGE THE ID -->
-        <com.android.launcher3.Workspace
+        <org.acreetionos.launcher.Workspace
             android:id="@+id/workspace"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -51,7 +51,7 @@
 
         <!-- Keep these behind the workspace so that they are not visible when
          we go into AllApps -->
-        <com.android.launcher3.pageindicators.PageIndicatorDots
+        <org.acreetionos.launcher.pageindicators.PageIndicatorDots
             android:id="@+id/page_indicator"
             android:layout_width="match_parent"
             android:layout_height="@dimen/workspace_page_indicator_height"
@@ -62,7 +62,7 @@
             android:id="@+id/drop_target_bar"
             layout="@layout/drop_target_bar" />
 
-        <com.android.launcher3.views.ScrimView
+        <org.acreetionos.launcher.views.ScrimView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/scrim_view"
@@ -78,6 +78,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-    </com.android.launcher3.dragndrop.DragLayer>
+    </org.acreetionos.launcher.dragndrop.DragLayer>
 
-</com.android.launcher3.LauncherRootView>
+</org.acreetionos.launcher.LauncherRootView>

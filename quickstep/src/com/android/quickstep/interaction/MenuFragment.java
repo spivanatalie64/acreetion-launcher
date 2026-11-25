@@ -27,7 +27,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.R;
+import org.acreetionos.launcher.R;
 
 /** Displays the gesture nav tutorial menu. */
 public final class MenuFragment extends GestureSandboxFragment {

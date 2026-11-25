@@ -15,8 +15,8 @@
  */
 package com.android.quickstep;
 
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
 
 import android.os.Bundle;
 import android.os.RemoteException;
@@ -31,8 +31,8 @@ import androidx.annotation.UiThread;
 
 import com.android.internal.jank.Cuj;
 import com.android.internal.os.IResultReceiver;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.RunnableList;
+import org.acreetionos.launcher.util.Preconditions;
+import org.acreetionos.launcher.util.RunnableList;
 import com.android.quickstep.util.ActiveGestureProtoLogProxy;
 import com.android.systemui.animation.TransitionAnimator;
 import com.android.systemui.shared.recents.model.ThumbnailData;

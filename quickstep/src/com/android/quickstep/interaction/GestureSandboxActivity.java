@@ -33,11 +33,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentActivity;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherPrefs;
-import com.android.launcher3.R;
-import com.android.launcher3.logging.StatsLogManager;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.InvariantDeviceProfile;
+import org.acreetionos.launcher.LauncherPrefs;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.logging.StatsLogManager;
 import com.android.quickstep.TouchInteractionService.TISBinder;
 import com.android.quickstep.interaction.TutorialController.TutorialType;
 import com.android.quickstep.util.LayoutUtils;

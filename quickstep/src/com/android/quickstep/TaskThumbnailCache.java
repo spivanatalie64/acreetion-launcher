@@ -15,8 +15,8 @@
  */
 package com.android.quickstep;
 
-import static com.android.launcher3.Flags.enableGridOnlyOverview;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.Flags.enableGridOnlyOverview;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -24,9 +24,9 @@ import android.content.res.Resources;
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
-import com.android.launcher3.R;
-import com.android.launcher3.util.CancellableTask;
-import com.android.launcher3.util.Preconditions;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.util.CancellableTask;
+import org.acreetionos.launcher.util.Preconditions;
 import com.android.quickstep.recents.data.HighResLoadingStateNotifier;
 import com.android.quickstep.task.thumbnail.data.TaskThumbnailDataSource;
 import com.android.quickstep.util.TaskKeyByLastActiveTimeCache;

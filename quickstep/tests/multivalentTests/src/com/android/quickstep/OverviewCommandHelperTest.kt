@@ -18,10 +18,10 @@ package com.android.quickstep
 
 import android.platform.test.flag.junit.SetFlagsRule
 import androidx.test.filters.SmallTest
-import com.android.launcher3.Flags
-import com.android.launcher3.util.LauncherMultivalentJUnit
-import com.android.launcher3.util.TestDispatcherProvider
-import com.android.launcher3.util.rule.setFlags
+import org.acreetionos.launcher.Flags
+import org.acreetionos.launcher.util.LauncherMultivalentJUnit
+import org.acreetionos.launcher.util.TestDispatcherProvider
+import org.acreetionos.launcher.util.rule.setFlags
 import com.android.quickstep.OverviewCommandHelper.CommandInfo
 import com.android.quickstep.OverviewCommandHelper.CommandInfo.CommandStatus
 import com.android.quickstep.OverviewCommandHelper.CommandType

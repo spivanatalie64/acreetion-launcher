@@ -17,7 +17,7 @@ package com.android.quickstep;
 
 import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
 
-import static com.android.launcher3.util.TestUtil.resolveSystemAppInfo;
+import static org.acreetionos.launcher.util.TestUtil.resolveSystemAppInfo;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -30,10 +30,10 @@ import android.content.Intent;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
-import com.android.launcher3.util.BaseLauncherActivityTest;
+import org.acreetionos.launcher.Launcher;
+import org.acreetionos.launcher.LauncherState;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.util.BaseLauncherActivityTest;
 import com.android.quickstep.views.DigitalWellBeingToast;
 import com.android.quickstep.views.RecentsView;
 import com.android.quickstep.views.TaskContainer;

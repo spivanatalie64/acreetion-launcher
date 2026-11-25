@@ -23,12 +23,12 @@ import static android.view.MotionEvent.ACTION_POINTER_UP;
 import static android.view.MotionEvent.ACTION_UP;
 import static android.view.MotionEvent.INVALID_POINTER_ID;
 
-import static com.android.launcher3.PagedView.ACTION_MOVE_ALLOW_EASY_FLING;
-import static com.android.launcher3.PagedView.DEBUG_FAILED_QUICKSWITCH;
-import static com.android.launcher3.Utilities.EDGE_NAV_BAR;
-import static com.android.launcher3.Utilities.squaredHypot;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
-import static com.android.launcher3.util.VelocityUtils.PX_PER_MS;
+import static org.acreetionos.launcher.PagedView.ACTION_MOVE_ALLOW_EASY_FLING;
+import static org.acreetionos.launcher.PagedView.DEBUG_FAILED_QUICKSWITCH;
+import static org.acreetionos.launcher.Utilities.EDGE_NAV_BAR;
+import static org.acreetionos.launcher.Utilities.squaredHypot;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.util.VelocityUtils.PX_PER_MS;
 import static com.android.quickstep.util.ActiveGestureLog.INTENT_EXTRA_LOG_TRACE_ID;
 
 import android.content.Context;
@@ -41,13 +41,13 @@ import android.view.VelocityTracker;
 
 import androidx.annotation.UiThread;
 
-import com.android.launcher3.Flags;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.testing.TestLogging;
-import com.android.launcher3.testing.shared.TestProtocol;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.TraceHelper;
+import org.acreetionos.launcher.Flags;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.testing.TestLogging;
+import org.acreetionos.launcher.testing.shared.TestProtocol;
+import org.acreetionos.launcher.util.Preconditions;
+import org.acreetionos.launcher.util.TraceHelper;
 import com.android.quickstep.AbsSwipeUpHandler;
 import com.android.quickstep.AbsSwipeUpHandler.Factory;
 import com.android.quickstep.GestureState;

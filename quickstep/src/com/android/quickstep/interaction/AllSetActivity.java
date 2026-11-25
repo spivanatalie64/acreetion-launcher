@@ -20,8 +20,8 @@ import static android.view.WindowInsetsController.APPEARANCE_LIGHT_STATUS_BARS;
 
 import static com.android.app.animation.Interpolators.FAST_OUT_SLOW_IN;
 import static com.android.app.animation.Interpolators.LINEAR;
-import static com.android.launcher3.Utilities.mapBoundToRange;
-import static com.android.launcher3.Utilities.mapRange;
+import static org.acreetionos.launcher.Utilities.mapBoundToRange;
+import static org.acreetionos.launcher.Utilities.mapRange;
 import static com.android.quickstep.OverviewComponentObserver.startHomeIntentSafely;
 
 import android.animation.Animator;
@@ -60,15 +60,15 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.AnimatedFloat;
-import com.android.launcher3.anim.AnimatorPlaybackController;
-import com.android.launcher3.taskbar.TaskbarManager;
-import com.android.launcher3.util.Executors;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.InvariantDeviceProfile;
+import org.acreetionos.launcher.LauncherAppState;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.anim.AnimatedFloat;
+import org.acreetionos.launcher.anim.AnimatorPlaybackController;
+import org.acreetionos.launcher.taskbar.TaskbarManager;
+import org.acreetionos.launcher.util.Executors;
 import com.android.quickstep.GestureState;
 import com.android.quickstep.OverviewComponentObserver;
 import com.android.quickstep.OverviewComponentObserver.OverviewChangeListener;

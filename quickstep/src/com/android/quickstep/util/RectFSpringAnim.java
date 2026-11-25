@@ -15,7 +15,7 @@
  */
 package com.android.quickstep.util;
 
-import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
+import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
 
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 
@@ -32,12 +32,12 @@ import androidx.dynamicanimation.animation.FloatPropertyCompat;
 import androidx.dynamicanimation.animation.SpringAnimation;
 import androidx.dynamicanimation.animation.SpringForce;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.FlingSpringAnim;
-import com.android.launcher3.touch.OverScroll;
-import com.android.launcher3.util.DynamicResource;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.anim.FlingSpringAnim;
+import org.acreetionos.launcher.touch.OverScroll;
+import org.acreetionos.launcher.util.DynamicResource;
 import com.android.quickstep.RemoteAnimationTargets.ReleaseCheck;
 import com.android.systemui.plugins.ResourceProvider;
 

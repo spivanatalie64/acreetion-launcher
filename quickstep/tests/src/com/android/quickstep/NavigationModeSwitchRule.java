@@ -30,12 +30,12 @@ import android.util.Log;
 
 import androidx.test.uiautomator.UiDevice;
 
-import com.android.launcher3.tapl.LauncherInstrumentation;
-import com.android.launcher3.tapl.TestHelpers;
-import com.android.launcher3.ui.AbstractLauncherUiTest;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.Wait;
-import com.android.launcher3.util.rule.FailureWatcher;
+import org.acreetionos.launcher.tapl.LauncherInstrumentation;
+import org.acreetionos.launcher.tapl.TestHelpers;
+import org.acreetionos.launcher.ui.AbstractLauncherUiTest;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.Wait;
+import org.acreetionos.launcher.util.rule.FailureWatcher;
 import com.android.systemui.shared.system.QuickStepContract;
 
 import org.junit.rules.TestRule;

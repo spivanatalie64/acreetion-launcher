@@ -22,8 +22,8 @@ import static android.content.Intent.ACTION_CHOOSER;
 import static android.content.Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS;
 import static android.view.Display.DEFAULT_DISPLAY;
 
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_TYPE_A;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_TYPE_A;
 import static com.android.wm.shell.Flags.enableFlexibleSplit;
 import static com.android.wm.shell.shared.GroupedTaskInfo.TYPE_SPLIT;
 
@@ -37,13 +37,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.UiThread;
 
-import com.android.launcher3.util.MainThreadInitializedObject;
-import com.android.launcher3.util.SafeCloseable;
-import com.android.launcher3.util.SplitConfigurationOptions;
-import com.android.launcher3.util.SplitConfigurationOptions.SplitStageInfo;
-import com.android.launcher3.util.SplitConfigurationOptions.StagePosition;
-import com.android.launcher3.util.SplitConfigurationOptions.StageType;
-import com.android.launcher3.util.TraceHelper;
+import org.acreetionos.launcher.util.MainThreadInitializedObject;
+import org.acreetionos.launcher.util.SafeCloseable;
+import org.acreetionos.launcher.util.SplitConfigurationOptions;
+import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitStageInfo;
+import org.acreetionos.launcher.util.SplitConfigurationOptions.StagePosition;
+import org.acreetionos.launcher.util.SplitConfigurationOptions.StageType;
+import org.acreetionos.launcher.util.TraceHelper;
 import com.android.systemui.shared.recents.model.Task;
 import com.android.systemui.shared.recents.model.Task.TaskKey;
 import com.android.systemui.shared.system.ActivityManagerWrapper;

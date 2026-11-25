@@ -19,7 +19,7 @@ import android.content.Context;
 import android.view.HapticFeedbackConstants;
 import android.view.MotionEvent;
 
-import com.android.launcher3.R;
+import org.acreetionos.launcher.R;
 import com.android.quickstep.GestureState;
 import com.android.quickstep.InputConsumer;
 import com.android.quickstep.SystemUiProxy;

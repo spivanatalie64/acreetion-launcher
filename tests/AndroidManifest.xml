@@ -16,7 +16,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.android.launcher3.tests">
+    package="org.acreetionos.launcher.tests">
 
     <uses-sdk android:targetSdkVersion="29" android:minSdkVersion="25"
               tools:overrideLibrary="android.support.test.uiautomator.v18"/>
@@ -29,6 +29,6 @@
         android:functionalTest="false"
         android:handleProfiling="false"
         android:name="androidx.test.runner.AndroidJUnitRunner"
-        android:targetPackage="com.android.launcher3" >
+        android:targetPackage="org.acreetionos.launcher" >
     </instrumentation>
 </manifest>

@@ -21,7 +21,7 @@ import android.app.ActivityTaskManager.INVALID_TASK_ID
 import android.graphics.Matrix
 import android.util.Log
 import androidx.core.graphics.ColorUtils
-import com.android.launcher3.util.coroutines.DispatcherProvider
+import org.acreetionos.launcher.util.coroutines.DispatcherProvider
 import com.android.quickstep.recents.data.RecentTasksRepository
 import com.android.quickstep.recents.usecase.GetThumbnailPositionUseCase
 import com.android.quickstep.recents.usecase.ThumbnailPositionState

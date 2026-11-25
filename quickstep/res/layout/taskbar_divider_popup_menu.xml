@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.taskbar.TaskbarDividerPopupView
+<org.acreetionos.launcher.taskbar.TaskbarDividerPopupView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -64,4 +64,4 @@
             android:text="@string/always_show_taskbar" />
 
     </LinearLayout>
-</com.android.launcher3.taskbar.TaskbarDividerPopupView>
+</org.acreetionos.launcher.taskbar.TaskbarDividerPopupView>

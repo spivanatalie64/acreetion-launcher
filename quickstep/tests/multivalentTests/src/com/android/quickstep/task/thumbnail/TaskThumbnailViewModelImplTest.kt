@@ -24,7 +24,7 @@ import android.graphics.Matrix
 import android.graphics.drawable.Drawable
 import android.view.Surface
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.android.launcher3.util.TestDispatcherProvider
+import org.acreetionos.launcher.util.TestDispatcherProvider
 import com.android.quickstep.recents.data.FakeTasksRepository
 import com.android.quickstep.recents.usecase.GetThumbnailPositionUseCase
 import com.android.quickstep.recents.usecase.ThumbnailPositionState.MatrixScaling

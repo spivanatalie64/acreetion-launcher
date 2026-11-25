@@ -18,9 +18,9 @@ package com.android.quickstep.inputconsumers;
 
 import static android.app.contextualsearch.ContextualSearchManager.ENTRYPOINT_LONG_PRESS_NAV_HANDLE;
 
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_ASSISTANT_SUCCESSFUL_NAV_HANDLE;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_OMNI_GET_LONG_PRESS_RUNNABLE;
-import static com.android.launcher3.logging.StatsLogManager.LauncherLatencyEvent.LAUNCHER_LATENCY_OMNI_RUNNABLE;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_ASSISTANT_SUCCESSFUL_NAV_HANDLE;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_OMNI_GET_LONG_PRESS_RUNNABLE;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherLatencyEvent.LAUNCHER_LATENCY_OMNI_RUNNABLE;
 
 import android.content.Context;
 import android.os.SystemClock;
@@ -30,12 +30,12 @@ import android.view.ViewConfiguration;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import com.android.launcher3.R;
-import com.android.launcher3.logging.InstanceId;
-import com.android.launcher3.logging.InstanceIdSequence;
-import com.android.launcher3.logging.StatsLogManager;
-import com.android.launcher3.util.ResourceBasedOverride;
-import com.android.launcher3.util.VibratorWrapper;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.logging.InstanceId;
+import org.acreetionos.launcher.logging.InstanceIdSequence;
+import org.acreetionos.launcher.logging.StatsLogManager;
+import org.acreetionos.launcher.util.ResourceBasedOverride;
+import org.acreetionos.launcher.util.VibratorWrapper;
 import com.android.quickstep.DeviceConfigWrapper;
 import com.android.quickstep.NavHandle;
 import com.android.quickstep.TopTaskTracker;

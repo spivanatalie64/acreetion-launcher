@@ -16,15 +16,15 @@
 
 package com.android.quickstep.util;
 
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_DESKTOP_MODE_SPLIT_LEFT_TOP;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_DESKTOP_MODE_SPLIT_RIGHT_BOTTOM;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_SPLIT_SELECTED_SECOND_APP;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_SPLIT_SELECTION_COMPLETE;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_SPLIT_SELECTION_EXIT_HOME;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_SPLIT_SELECTION_INITIATED;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_DESKTOP_MODE_SPLIT_LEFT_TOP;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_DESKTOP_MODE_SPLIT_RIGHT_BOTTOM;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_SPLIT_SELECTED_SECOND_APP;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_SPLIT_SELECTION_COMPLETE;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_SPLIT_SELECTION_EXIT_HOME;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_SPLIT_SELECTION_INITIATED;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
 import static com.android.quickstep.util.SplitSelectDataHolder.SPLIT_PENDINGINTENT_PENDINGINTENT;
 import static com.android.quickstep.util.SplitSelectDataHolder.SPLIT_PENDINGINTENT_TASK;
 import static com.android.quickstep.util.SplitSelectDataHolder.SPLIT_SHORTCUT_TASK;
@@ -68,22 +68,22 @@ import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
 import com.android.internal.logging.InstanceId;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.PendingAnimation;
-import com.android.launcher3.apppairs.AppPairIcon;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.icons.IconProvider;
-import com.android.launcher3.logging.StatsLogManager;
-import com.android.launcher3.model.data.ItemInfo;
-import com.android.launcher3.statehandlers.DepthController;
-import com.android.launcher3.statemanager.StateManager;
-import com.android.launcher3.taskbar.LauncherTaskbarUIController;
-import com.android.launcher3.testing.TestLogging;
-import com.android.launcher3.testing.shared.TestProtocol;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
-import com.android.launcher3.util.BackPressHandler;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.SplitConfigurationOptions.StagePosition;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.anim.PendingAnimation;
+import org.acreetionos.launcher.apppairs.AppPairIcon;
+import org.acreetionos.launcher.config.FeatureFlags;
+import org.acreetionos.launcher.icons.IconProvider;
+import org.acreetionos.launcher.logging.StatsLogManager;
+import org.acreetionos.launcher.model.data.ItemInfo;
+import org.acreetionos.launcher.statehandlers.DepthController;
+import org.acreetionos.launcher.statemanager.StateManager;
+import org.acreetionos.launcher.taskbar.LauncherTaskbarUIController;
+import org.acreetionos.launcher.testing.TestLogging;
+import org.acreetionos.launcher.testing.shared.TestProtocol;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.util.BackPressHandler;
+import org.acreetionos.launcher.util.ComponentKey;
+import org.acreetionos.launcher.util.SplitConfigurationOptions.StagePosition;
 import com.android.quickstep.OverviewComponentObserver;
 import com.android.quickstep.RecentsAnimationCallbacks;
 import com.android.quickstep.RecentsAnimationController;
@@ -162,7 +162,7 @@ public class SplitSelectStateController {
      * Tracks metrics from when first app is selected to split launch or cancellation. This also
      * gets passed over to shell when attempting to invoke split.
      */
-    private Pair<InstanceId, com.android.launcher3.logging.InstanceId> mSessionInstanceIds;
+    private Pair<InstanceId, org.acreetionos.launcher.logging.InstanceId> mSessionInstanceIds;
 
     private boolean mIsDestroyed = false;
 

@@ -18,7 +18,7 @@ package com.android.quickstep.util
 
 import android.content.ComponentName
 import android.content.Intent
-import com.android.launcher3.util.LauncherMultivalentJUnit
+import org.acreetionos.launcher.util.LauncherMultivalentJUnit
 import com.android.systemui.shared.recents.model.Task
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test

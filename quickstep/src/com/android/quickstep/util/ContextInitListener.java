@@ -15,9 +15,9 @@
  */
 package com.android.quickstep.util;
 
-import com.android.launcher3.util.ContextTracker;
-import com.android.launcher3.util.ContextTracker.SchedulerCallback;
-import com.android.launcher3.views.ActivityContext;
+import org.acreetionos.launcher.util.ContextTracker;
+import org.acreetionos.launcher.util.ContextTracker.SchedulerCallback;
+import org.acreetionos.launcher.views.ActivityContext;
 
 import java.util.function.BiPredicate;
 

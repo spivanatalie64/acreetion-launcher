@@ -22,7 +22,7 @@ import static android.view.MotionEvent.ACTION_MOVE;
 import static android.view.MotionEvent.ACTION_POINTER_DOWN;
 import static android.view.MotionEvent.ACTION_UP;
 
-import static com.android.launcher3.states.RotationHelper.deltaRotation;
+import static org.acreetionos.launcher.states.RotationHelper.deltaRotation;
 
 import android.content.res.Resources;
 import android.graphics.Point;
@@ -31,12 +31,12 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.Surface;
 
-import com.android.launcher3.R;
-import com.android.launcher3.testing.shared.ResourceUtils;
-import com.android.launcher3.testing.shared.TestProtocol;
-import com.android.launcher3.util.DisplayController.Info;
-import com.android.launcher3.util.NavigationMode;
-import com.android.launcher3.util.window.CachedDisplayInfo;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.testing.shared.ResourceUtils;
+import org.acreetionos.launcher.testing.shared.TestProtocol;
+import org.acreetionos.launcher.util.DisplayController.Info;
+import org.acreetionos.launcher.util.NavigationMode;
+import org.acreetionos.launcher.util.window.CachedDisplayInfo;
 import com.android.quickstep.util.ActiveGestureProtoLogProxy;
 import com.android.systemui.shared.Flags;
 

@@ -21,7 +21,7 @@ import android.view.Gravity
 import android.view.View
 import android.widget.FrameLayout
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.android.launcher3.Flags
+import org.acreetionos.launcher.Flags
 import com.android.quickstep.orientation.LandscapePagedViewHandler.SplitIconPositions
 import com.android.quickstep.views.IconAppChipView
 import com.google.common.truth.Truth.assertThat

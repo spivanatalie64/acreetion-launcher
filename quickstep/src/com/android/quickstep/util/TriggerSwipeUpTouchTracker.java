@@ -20,8 +20,8 @@ import static android.view.MotionEvent.ACTION_DOWN;
 import static android.view.MotionEvent.ACTION_MOVE;
 import static android.view.MotionEvent.ACTION_UP;
 
-import static com.android.launcher3.Utilities.squaredHypot;
-import static com.android.launcher3.util.VelocityUtils.PX_PER_MS;
+import static org.acreetionos.launcher.Utilities.squaredHypot;
+import static org.acreetionos.launcher.util.VelocityUtils.PX_PER_MS;
 
 import android.content.Context;
 import android.graphics.PointF;
@@ -30,8 +30,8 @@ import android.view.VelocityTracker;
 
 import androidx.annotation.NonNull;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
 
 /**
  * Tracks motion events to determine whether a gesture on the nav bar is a swipe up.

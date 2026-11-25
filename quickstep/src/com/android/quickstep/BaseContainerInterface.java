@@ -17,7 +17,7 @@ package com.android.quickstep;
 
 import static com.android.app.animation.Interpolators.INSTANT;
 import static com.android.app.animation.Interpolators.LINEAR;
-import static com.android.launcher3.LauncherAnimUtils.VIEW_BACKGROUND_COLOR;
+import static org.acreetionos.launcher.LauncherAnimUtils.VIEW_BACKGROUND_COLOR;
 import static com.android.quickstep.GestureState.GestureEndTarget.LAST_TASK;
 import static com.android.quickstep.GestureState.GestureEndTarget.RECENTS;
 
@@ -36,16 +36,16 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.annotation.UiThread;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Flags;
-import com.android.launcher3.R;
-import com.android.launcher3.statehandlers.DesktopVisibilityController;
-import com.android.launcher3.statemanager.BaseState;
-import com.android.launcher3.statemanager.StatefulContainer;
-import com.android.launcher3.taskbar.TaskbarUIController;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.WindowBounds;
-import com.android.launcher3.views.ScrimView;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.Flags;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.statehandlers.DesktopVisibilityController;
+import org.acreetionos.launcher.statemanager.BaseState;
+import org.acreetionos.launcher.statemanager.StatefulContainer;
+import org.acreetionos.launcher.taskbar.TaskbarUIController;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.WindowBounds;
+import org.acreetionos.launcher.views.ScrimView;
 import com.android.quickstep.orientation.RecentsPagedOrientationHandler;
 import com.android.quickstep.util.AnimatorControllerWithResistance;
 import com.android.quickstep.util.ContextInitListener;

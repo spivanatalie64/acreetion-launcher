@@ -27,8 +27,8 @@ import android.view.ViewOutlineProvider
 import androidx.annotation.ColorInt
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isInvisible
-import com.android.launcher3.R
-import com.android.launcher3.util.ViewPool
+import org.acreetionos.launcher.R
+import org.acreetionos.launcher.util.ViewPool
 import com.android.quickstep.recents.di.RecentsDependencies
 import com.android.quickstep.recents.di.get
 import com.android.quickstep.task.thumbnail.TaskThumbnailUiState.BackgroundOnly

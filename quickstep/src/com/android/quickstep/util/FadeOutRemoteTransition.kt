@@ -23,8 +23,8 @@ import android.view.SurfaceControl.Transaction
 import android.window.IRemoteTransitionFinishedCallback
 import android.window.RemoteTransitionStub
 import android.window.TransitionInfo
-import com.android.launcher3.anim.AnimatorListeners.forEndCallback
-import com.android.launcher3.util.Executors
+import org.acreetionos.launcher.anim.AnimatorListeners.forEndCallback
+import org.acreetionos.launcher.util.Executors
 import com.android.wm.shell.shared.TransitionUtil
 
 /** Remote animation which fades out the closing targets */

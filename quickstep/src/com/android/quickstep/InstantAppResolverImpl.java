@@ -24,8 +24,8 @@ import android.os.Process;
 import android.os.UserHandle;
 import android.util.Log;
 
-import com.android.launcher3.model.data.AppInfo;
-import com.android.launcher3.util.InstantAppResolver;
+import org.acreetionos.launcher.model.data.AppInfo;
+import org.acreetionos.launcher.util.InstantAppResolver;
 
 /**
  * Implementation of InstantAppResolver using platform APIs

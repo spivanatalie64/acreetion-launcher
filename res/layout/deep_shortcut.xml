@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.shortcuts.DeepShortcutView
+<org.acreetionos.launcher.shortcuts.DeepShortcutView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:id="@+id/deep_shortcut_material"
@@ -23,7 +23,7 @@
     android:background="@drawable/middle_item_primary"
     android:theme="@style/PopupItem" >
 
-    <com.android.launcher3.shortcuts.DeepShortcutTextView
+    <org.acreetionos.launcher.shortcuts.DeepShortcutTextView
         style="@style/BaseIcon"
         android:id="@+id/bubble_text"
         android:background="?android:attr/selectableItemBackground"
@@ -47,4 +47,4 @@
         android:layout_marginStart="@dimen/popup_padding_start"
         android:layout_gravity="start|center_vertical"
         android:background="@drawable/ic_deepshortcut_placeholder"/>
-</com.android.launcher3.shortcuts.DeepShortcutView>
+</org.acreetionos.launcher.shortcuts.DeepShortcutView>

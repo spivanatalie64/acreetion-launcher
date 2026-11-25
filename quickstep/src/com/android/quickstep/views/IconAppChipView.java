@@ -17,9 +17,9 @@ package com.android.quickstep.views;
 
 import static com.android.app.animation.Interpolators.EMPHASIZED;
 import static com.android.app.animation.Interpolators.LINEAR;
-import static com.android.launcher3.LauncherAnimUtils.SCALE_PROPERTY;
-import static com.android.launcher3.LauncherAnimUtils.VIEW_TRANSLATE_X;
-import static com.android.launcher3.LauncherAnimUtils.VIEW_TRANSLATE_Y;
+import static org.acreetionos.launcher.LauncherAnimUtils.SCALE_PROPERTY;
+import static org.acreetionos.launcher.LauncherAnimUtils.VIEW_TRANSLATE_X;
+import static org.acreetionos.launcher.LauncherAnimUtils.VIEW_TRANSLATE_Y;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -41,10 +41,10 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.MultiPropertyFactory;
-import com.android.launcher3.util.MultiValueAlpha;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.util.MultiPropertyFactory;
+import org.acreetionos.launcher.util.MultiValueAlpha;
 import com.android.quickstep.orientation.RecentsPagedOrientationHandler;
 import com.android.quickstep.util.RecentsOrientedState;
 

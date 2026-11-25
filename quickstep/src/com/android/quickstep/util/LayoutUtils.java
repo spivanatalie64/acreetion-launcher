@@ -20,9 +20,9 @@ import android.graphics.Rect;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.NavigationMode;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.NavigationMode;
 import com.android.quickstep.BaseContainerInterface;
 import com.android.quickstep.orientation.RecentsPagedOrientationHandler;
 

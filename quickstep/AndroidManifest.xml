@@ -20,7 +20,9 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
      xmlns:tools="http://schemas.android.com/tools"
-     package="com.android.launcher3">
+     package="org.acreetionos.launcher"
+     android:versionCode="1"
+     android:versionName="1.0">
 
     <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
     <uses-permission android:name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS"/>
@@ -53,7 +55,7 @@
     <permission android:name="${applicationId}.permission.START_WIDGET_PICKER_ACTIVITY"
         android:protectionLevel="signature|privileged" />
 
-    <application android:backupAgent="com.android.launcher3.LauncherBackupAgent"
+    <application android:backupAgent="org.acreetionos.launcher.LauncherBackupAgent"
          android:enableOnBackInvokedCallback="true"
          android:fullBackupOnly="true"
          android:fullBackupContent="@xml/backupscheme"
@@ -108,7 +110,7 @@
                  android:resource="@xml/overview_file_provider_paths"/>
         </provider>
 
-        <activity android:name="com.android.launcher3.proxy.ProxyActivityStarter"
+        <activity android:name="org.acreetionos.launcher.proxy.ProxyActivityStarter"
             android:theme="@style/ProxyActivityStarterTheme"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
@@ -145,7 +147,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.android.launcher3.WidgetPickerActivity"
+        <activity android:name="org.acreetionos.launcher.WidgetPickerActivity"
             android:theme="@style/WidgetPickerActivityTheme"
             android:excludeFromRecents="true"
             android:autoRemoveFromRecents="true"

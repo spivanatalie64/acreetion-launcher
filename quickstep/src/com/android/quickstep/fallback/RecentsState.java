@@ -15,18 +15,18 @@
  */
 package com.android.quickstep.fallback;
 
-import static com.android.launcher3.Flags.enableDesktopWindowingCarouselDetach;
-import static com.android.launcher3.LauncherState.FLAG_CLOSE_POPUPS;
-import static com.android.launcher3.uioverrides.states.BackgroundAppState.getOverviewScaleAndOffsetForBackgroundState;
-import static com.android.launcher3.uioverrides.states.OverviewModalTaskState.getOverviewScaleAndOffsetForModalState;
+import static org.acreetionos.launcher.Flags.enableDesktopWindowingCarouselDetach;
+import static org.acreetionos.launcher.LauncherState.FLAG_CLOSE_POPUPS;
+import static org.acreetionos.launcher.uioverrides.states.BackgroundAppState.getOverviewScaleAndOffsetForBackgroundState;
+import static org.acreetionos.launcher.uioverrides.states.OverviewModalTaskState.getOverviewScaleAndOffsetForModalState;
 
 import android.content.Context;
 import android.graphics.Color;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.R;
-import com.android.launcher3.statemanager.BaseState;
-import com.android.launcher3.util.Themes;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.statemanager.BaseState;
+import org.acreetionos.launcher.util.Themes;
 import com.android.quickstep.views.RecentsViewContainer;
 
 /**

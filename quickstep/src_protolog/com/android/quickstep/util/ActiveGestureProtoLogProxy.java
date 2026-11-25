@@ -17,7 +17,7 @@ package com.android.quickstep.util;
 
 import static android.view.MotionEvent.ACTION_DOWN;
 
-import static com.android.launcher3.Flags.enableActiveGestureProtoLog;
+import static org.acreetionos.launcher.Flags.enableActiveGestureProtoLog;
 import static com.android.quickstep.util.ActiveGestureErrorDetector.GestureEvent.CANCEL_RECENTS_ANIMATION;
 import static com.android.quickstep.util.ActiveGestureErrorDetector.GestureEvent.FINISH_RECENTS_ANIMATION;
 import static com.android.quickstep.util.ActiveGestureErrorDetector.GestureEvent.INVALID_VELOCITY_ON_SWIPE_UP;

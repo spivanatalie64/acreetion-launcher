@@ -25,7 +25,7 @@ import android.view.IWindowManager
 import android.view.WindowManagerGlobal
 import androidx.annotation.BinderThread
 import androidx.annotation.VisibleForTesting
-import com.android.launcher3.util.Executors
+import org.acreetionos.launcher.util.Executors
 
 /** Wrapper over system gesture exclusion listener to optimize for multiple RPCs */
 class GestureExclusionManager(private val windowManager: IWindowManager) {

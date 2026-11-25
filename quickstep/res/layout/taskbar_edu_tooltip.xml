@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.taskbar.TaskbarEduTooltip xmlns:android="http://schemas.android.com/apk/res/android"
+<org.acreetionos.launcher.taskbar.TaskbarEduTooltip xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="bottom|center"
@@ -40,4 +40,4 @@
         android:layout_width="@dimen/popup_arrow_width"
         android:layout_height="@dimen/popup_arrow_height"
         android:elevation="@dimen/taskbar_edu_tooltip_elevation" />
-</com.android.launcher3.taskbar.TaskbarEduTooltip>
+</org.acreetionos.launcher.taskbar.TaskbarEduTooltip>

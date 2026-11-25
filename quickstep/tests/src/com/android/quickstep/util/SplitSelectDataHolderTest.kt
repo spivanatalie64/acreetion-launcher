@@ -24,10 +24,10 @@ import android.content.ContextWrapper
 import android.content.Intent
 import android.os.UserHandle
 import androidx.test.platform.app.InstrumentationRegistry
-import com.android.launcher3.model.data.ItemInfo
-import com.android.launcher3.shortcuts.ShortcutKey
-import com.android.launcher3.ui.AbstractLauncherUiTest
-import com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT
+import org.acreetionos.launcher.model.data.ItemInfo
+import org.acreetionos.launcher.shortcuts.ShortcutKey
+import org.acreetionos.launcher.ui.AbstractLauncherUiTest
+import org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT
 import com.android.quickstep.util.SplitSelectDataHolder.Companion.SPLIT_PENDINGINTENT_PENDINGINTENT
 import com.android.quickstep.util.SplitSelectDataHolder.Companion.SPLIT_PENDINGINTENT_TASK
 import com.android.quickstep.util.SplitSelectDataHolder.Companion.SPLIT_SHORTCUT_TASK

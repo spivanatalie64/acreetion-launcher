@@ -25,8 +25,8 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.annotation.Px;
 
-import com.android.launcher3.R;
-import com.android.launcher3.views.ArrowTipView;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.views.ArrowTipView;
 import com.android.quickstep.TaskOverlayFactoryGo.OverlayUICallbacksGo;
 import com.android.quickstep.util.RecentsOrientedState;
 

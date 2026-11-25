@@ -17,13 +17,13 @@ package com.android.quickstep.util;
 
 import static android.app.WindowConfiguration.WINDOWING_MODE_FULLSCREEN;
 
-import static com.android.launcher3.Flags.enableGridOnlyOverview;
-import static com.android.launcher3.states.RotationHelper.deltaRotation;
-import static com.android.launcher3.touch.PagedOrientationHandler.MATRIX_POST_TRANSLATE;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_UNDEFINED;
-import static com.android.launcher3.util.SplitConfigurationOptions.StagePosition;
+import static org.acreetionos.launcher.Flags.enableGridOnlyOverview;
+import static org.acreetionos.launcher.states.RotationHelper.deltaRotation;
+import static org.acreetionos.launcher.touch.PagedOrientationHandler.MATRIX_POST_TRANSLATE;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_UNDEFINED;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.StagePosition;
 import static com.android.quickstep.util.RecentsOrientedState.postDisplayRotation;
 import static com.android.quickstep.util.RecentsOrientedState.preDisplayRotation;
 
@@ -42,12 +42,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.android.app.animation.Interpolators;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.AnimatedFloat;
-import com.android.launcher3.anim.PendingAnimation;
-import com.android.launcher3.util.SplitConfigurationOptions.SplitBounds;
-import com.android.launcher3.util.TraceHelper;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.anim.AnimatedFloat;
+import org.acreetionos.launcher.anim.PendingAnimation;
+import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitBounds;
+import org.acreetionos.launcher.util.TraceHelper;
 import com.android.quickstep.BaseActivityInterface;
 import com.android.quickstep.BaseContainerInterface;
 import com.android.quickstep.DesktopFullscreenDrawParams;

@@ -22,7 +22,7 @@ import android.app.RemoteAction
 import android.content.Context
 import android.graphics.drawable.Icon
 import android.view.accessibility.AccessibilityManager
-import com.android.launcher3.R
+import org.acreetionos.launcher.R
 import java.util.concurrent.Executor
 
 /**

@@ -15,7 +15,7 @@
  */
 package com.android.quickstep.util;
 
-import static com.android.launcher3.testing.shared.TestProtocol.PAUSE_DETECTED_MESSAGE;
+import static org.acreetionos.launcher.testing.shared.TestProtocol.PAUSE_DETECTED_MESSAGE;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -23,10 +23,10 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 
-import com.android.launcher3.Alarm;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AccessibilityManagerCompat;
+import org.acreetionos.launcher.Alarm;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.compat.AccessibilityManagerCompat;
 
 /**
  * Given positions along x- or y-axis, tracks velocity and acceleration and determines when there is

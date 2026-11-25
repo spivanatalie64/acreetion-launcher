@@ -19,8 +19,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 
-import com.android.launcher3.Hotseat;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.Hotseat;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
 import com.android.systemui.unfold.dagger.UnfoldMain;
 import com.android.systemui.unfold.updates.RotationChangeProvider;
 

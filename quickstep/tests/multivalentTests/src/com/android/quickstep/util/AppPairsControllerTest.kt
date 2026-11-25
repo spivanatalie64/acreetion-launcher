@@ -18,12 +18,12 @@ package com.android.quickstep.util
 
 import android.content.Context
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.android.launcher3.apppairs.AppPairIcon
-import com.android.launcher3.logging.StatsLogManager
-import com.android.launcher3.model.data.ItemInfo
-import com.android.launcher3.taskbar.TaskbarActivityContext
-import com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT
-import com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT
+import org.acreetionos.launcher.apppairs.AppPairIcon
+import org.acreetionos.launcher.logging.StatsLogManager
+import org.acreetionos.launcher.model.data.ItemInfo
+import org.acreetionos.launcher.taskbar.TaskbarActivityContext
+import org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT
+import org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT
 import com.android.quickstep.TopTaskTracker
 import com.android.quickstep.TopTaskTracker.CachedTaskInfo
 import com.android.systemui.shared.recents.model.Task

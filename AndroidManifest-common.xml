@@ -20,7 +20,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.android.launcher3">
+    package="org.acreetionos.launcher">
 
     <!--
     The manifest defines the common entries that should be present in any derivative of Launcher3.
@@ -68,8 +68,8 @@
     <uses-permission android:name="${applicationId}.permission.WRITE_SETTINGS" />
 
     <application
-        android:backupAgent="com.android.launcher3.LauncherBackupAgent"
-        android:name="com.android.launcher3.LauncherApplication"
+        android:backupAgent="org.acreetionos.launcher.LauncherBackupAgent"
+        android:name="org.acreetionos.launcher.LauncherApplication"
         android:fullBackupOnly="true"
         android:backupInForeground="true"
         android:fullBackupContent="@xml/backupscheme"
@@ -82,7 +82,7 @@
 
         <!-- Intent received when a session is committed -->
         <receiver
-            android:name="com.android.launcher3.SessionCommitReceiver"
+            android:name="org.acreetionos.launcher.SessionCommitReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.content.pm.action.SESSION_COMMITTED" />
@@ -90,7 +90,7 @@
         </receiver>
 
         <!-- Intent received used to initialize a restored widget -->
-        <receiver android:name="com.android.launcher3.AppWidgetsRestoredReceiver"
+        <receiver android:name="org.acreetionos.launcher.AppWidgetsRestoredReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_HOST_RESTORED"/>
@@ -98,7 +98,7 @@
         </receiver>
 
         <service
-            android:name="com.android.launcher3.notification.NotificationListener"
+            android:name="org.acreetionos.launcher.notification.NotificationListener"
             android:label="@string/notification_dots_service_title"
             android:exported="true"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
@@ -110,7 +110,7 @@
         <meta-data android:name="android.nfc.disable_beam_default"
                        android:value="true" />
 
-        <activity android:name="com.android.launcher3.dragndrop.AddItemActivity"
+        <activity android:name="org.acreetionos.launcher.dragndrop.AddItemActivity"
             android:theme="@style/AddItemActivityTheme"
             android:excludeFromRecents="true"
             android:autoRemoveFromRecents="true"
@@ -127,7 +127,7 @@
         represent the package name.
         -->
         <provider
-            android:name="com.android.launcher3.LauncherProvider"
+            android:name="org.acreetionos.launcher.LauncherProvider"
             android:authorities="${applicationId}.settings"
             android:exported="true"
             android:writePermission="${applicationId}.permission.WRITE_SETTINGS"
@@ -137,7 +137,7 @@
         The content provider for exposing various launcher grid options.
         -->
         <provider
-            android:name="com.android.launcher3.graphics.GridCustomizationsProvider"
+            android:name="org.acreetionos.launcher.graphics.GridCustomizationsProvider"
             android:authorities="${applicationId}.grid_control"
             android:exported="true"
             android:writePermission="${applicationId}.permission.WRITE_SETTINGS"
@@ -147,7 +147,7 @@
         The settings activity. To extend point settings_fragment_name to appropriate fragment class
         -->
         <activity
-            android:name="com.android.launcher3.settings.SettingsActivity"
+            android:name="org.acreetionos.launcher.settings.SettingsActivity"
             android:label="@string/settings_button_text"
             android:theme="@style/HomeSettings.Theme"
             android:exported="true"
@@ -159,7 +159,7 @@
         </activity>
 
         <provider
-            android:name="com.android.launcher3.testing.TestInformationProvider"
+            android:name="org.acreetionos.launcher.testing.TestInformationProvider"
             android:authorities="${applicationId}.TestInfo"
             android:readPermission="android.permission.WRITE_SECURE_SETTINGS"
             android:writePermission="android.permission.WRITE_SECURE_SETTINGS"
@@ -170,7 +170,7 @@
         Launcher activity for secondary display
         -->
         <activity
-            android:name="com.android.launcher3.secondarydisplay.SecondaryDisplayLauncher"
+            android:name="org.acreetionos.launcher.secondarydisplay.SecondaryDisplayLauncher"
             android:theme="@style/AppTheme"
             android:launchMode="singleTop"
             android:exported="true"
@@ -193,7 +193,7 @@
             android:value="true" />
 
         <activity
-            android:name="com.android.launcher3.lineage.trust.TrustAppsActivity"
+            android:name="org.acreetionos.launcher.lineage.trust.TrustAppsActivity"
             android:label="@string/trust_apps_manager_name"
             android:theme="@android:style/Theme.DeviceDefault.Settings"
             android:autoRemoveFromRecents="true" />

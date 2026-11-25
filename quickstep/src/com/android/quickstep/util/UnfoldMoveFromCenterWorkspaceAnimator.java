@@ -18,10 +18,10 @@ package com.android.quickstep.util;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.CellLayout;
+import org.acreetionos.launcher.ShortcutAndWidgetContainer;
+import org.acreetionos.launcher.Workspace;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
 import com.android.systemui.unfold.dagger.UnfoldMain;
 import com.android.systemui.unfold.updates.RotationChangeProvider;
 

@@ -25,15 +25,15 @@ import android.util.Pair
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.LinearLayout
-import com.android.launcher3.DeviceProfile
-import com.android.launcher3.logger.LauncherAtom
-import com.android.launcher3.touch.PagedOrientationHandler
-import com.android.launcher3.touch.PagedOrientationHandler.Float2DAction
-import com.android.launcher3.touch.PagedOrientationHandler.Int2DAction
-import com.android.launcher3.touch.SingleAxisSwipeDetector
-import com.android.launcher3.util.SplitConfigurationOptions
-import com.android.launcher3.util.SplitConfigurationOptions.SplitPositionOption
-import com.android.launcher3.util.SplitConfigurationOptions.StagePosition
+import org.acreetionos.launcher.DeviceProfile
+import org.acreetionos.launcher.logger.LauncherAtom
+import org.acreetionos.launcher.touch.PagedOrientationHandler
+import org.acreetionos.launcher.touch.PagedOrientationHandler.Float2DAction
+import org.acreetionos.launcher.touch.PagedOrientationHandler.Int2DAction
+import org.acreetionos.launcher.touch.SingleAxisSwipeDetector
+import org.acreetionos.launcher.util.SplitConfigurationOptions
+import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitPositionOption
+import org.acreetionos.launcher.util.SplitConfigurationOptions.StagePosition
 import com.android.quickstep.views.IconAppChipView
 
 /**
@@ -277,7 +277,7 @@ interface RecentsPagedOrientationHandler : PagedOrientationHandler {
     ): Int
 
     /**
-     * Sets linear layout orientation for [com.android.launcher3.popup.SystemShortcut] items inside
+     * Sets linear layout orientation for [org.acreetionos.launcher.popup.SystemShortcut] items inside
      * task menu view.
      */
     fun setTaskOptionsMenuLayoutOrientation(
@@ -288,7 +288,7 @@ interface RecentsPagedOrientationHandler : PagedOrientationHandler {
     )
 
     /**
-     * Sets layout param attributes for [com.android.launcher3.popup.SystemShortcut] child views
+     * Sets layout param attributes for [org.acreetionos.launcher.popup.SystemShortcut] child views
      * inside task menu view.
      */
     fun setLayoutParamsForTaskMenuOptionItem(

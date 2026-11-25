@@ -15,16 +15,16 @@
  */
 package com.android.quickstep;
 
-import static com.android.launcher3.util.DisplayController.CHANGE_ACTIVE_SCREEN;
-import static com.android.launcher3.util.DisplayController.CHANGE_ALL;
-import static com.android.launcher3.util.DisplayController.CHANGE_ROTATION;
+import static org.acreetionos.launcher.util.DisplayController.CHANGE_ACTIVE_SCREEN;
+import static org.acreetionos.launcher.util.DisplayController.CHANGE_ALL;
+import static org.acreetionos.launcher.util.DisplayController.CHANGE_ROTATION;
 
 import android.content.Context;
 import android.view.MotionEvent;
 
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.MainThreadInitializedObject;
-import com.android.launcher3.util.SafeCloseable;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.MainThreadInitializedObject;
+import org.acreetionos.launcher.util.SafeCloseable;
 
 public class SimpleOrientationTouchTransformer implements
         DisplayController.DisplayInfoChangeListener, SafeCloseable {

@@ -15,29 +15,29 @@
  */
 package com.android.quickstep.util;
 
-import static com.android.launcher3.AbstractFloatingView.TYPE_ALL_APPS_EDU;
-import static com.android.launcher3.AbstractFloatingView.getOpenView;
-import static com.android.launcher3.LauncherState.ALL_APPS;
-import static com.android.launcher3.LauncherState.HINT_STATE;
-import static com.android.launcher3.LauncherState.NORMAL;
-import static com.android.launcher3.LauncherState.OVERVIEW;
-import static com.android.launcher3.util.NavigationMode.NO_BUTTON;
-import static com.android.launcher3.util.OnboardingPrefs.ALL_APPS_VISITED_COUNT;
-import static com.android.launcher3.util.OnboardingPrefs.HOME_BOUNCE_COUNT;
-import static com.android.launcher3.util.OnboardingPrefs.HOME_BOUNCE_SEEN;
-import static com.android.launcher3.util.OnboardingPrefs.HOTSEAT_DISCOVERY_TIP_COUNT;
+import static org.acreetionos.launcher.AbstractFloatingView.TYPE_ALL_APPS_EDU;
+import static org.acreetionos.launcher.AbstractFloatingView.getOpenView;
+import static org.acreetionos.launcher.LauncherState.ALL_APPS;
+import static org.acreetionos.launcher.LauncherState.HINT_STATE;
+import static org.acreetionos.launcher.LauncherState.NORMAL;
+import static org.acreetionos.launcher.LauncherState.OVERVIEW;
+import static org.acreetionos.launcher.util.NavigationMode.NO_BUTTON;
+import static org.acreetionos.launcher.util.OnboardingPrefs.ALL_APPS_VISITED_COUNT;
+import static org.acreetionos.launcher.util.OnboardingPrefs.HOME_BOUNCE_COUNT;
+import static org.acreetionos.launcher.util.OnboardingPrefs.HOME_BOUNCE_SEEN;
+import static org.acreetionos.launcher.util.OnboardingPrefs.HOTSEAT_DISCOVERY_TIP_COUNT;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherPrefs;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.appprediction.AppsDividerView;
-import com.android.launcher3.hybridhotseat.HotseatPredictionController;
-import com.android.launcher3.statemanager.StateManager;
-import com.android.launcher3.statemanager.StateManager.StateListener;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
-import com.android.launcher3.util.DisplayController;
+import org.acreetionos.launcher.Launcher;
+import org.acreetionos.launcher.LauncherPrefs;
+import org.acreetionos.launcher.LauncherState;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.Workspace;
+import org.acreetionos.launcher.appprediction.AppsDividerView;
+import org.acreetionos.launcher.hybridhotseat.HotseatPredictionController;
+import org.acreetionos.launcher.statemanager.StateManager;
+import org.acreetionos.launcher.statemanager.StateManager.StateListener;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.util.DisplayController;
 import com.android.quickstep.views.AllAppsEduView;
 
 /**

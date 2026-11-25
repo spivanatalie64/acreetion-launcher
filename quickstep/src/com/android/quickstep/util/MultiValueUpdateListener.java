@@ -18,7 +18,7 @@ package com.android.quickstep.util;
 import android.animation.ValueAnimator;
 import android.view.animation.Interpolator;
 
-import com.android.launcher3.Utilities;
+import org.acreetionos.launcher.Utilities;
 
 import java.util.ArrayList;
 

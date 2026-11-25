@@ -17,14 +17,14 @@ package com.android.quickstep;
 
 import static androidx.test.InstrumentationRegistry.getTargetContext;
 
-import static com.android.launcher3.util.TestConstants.AppNames.TEST_APP_NAME;
+import static org.acreetionos.launcher.util.TestConstants.AppNames.TEST_APP_NAME;
 import static com.android.quickstep.TaplTestsTaskbar.TaskbarMode.PERSISTENT;
 import static com.android.quickstep.TaplTestsTaskbar.TaskbarMode.TRANSIENT;
 
 import androidx.test.filters.LargeTest;
 
-import com.android.launcher3.ui.PortraitLandscapeRunner.PortraitLandscape;
-import com.android.launcher3.util.rule.ScreenRecordRule;
+import org.acreetionos.launcher.ui.PortraitLandscapeRunner.PortraitLandscape;
+import org.acreetionos.launcher.util.rule.ScreenRecordRule;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

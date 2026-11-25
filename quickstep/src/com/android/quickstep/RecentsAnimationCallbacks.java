@@ -20,7 +20,7 @@ import static android.view.RemoteAnimationTarget.MODE_CLOSING;
 import static android.view.RemoteAnimationTarget.MODE_OPENING;
 import static android.view.WindowManager.LayoutParams.TYPE_DOCK_DIVIDER;
 
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 
 import android.graphics.Rect;
 import android.os.Bundle;
@@ -31,9 +31,9 @@ import androidx.annotation.BinderThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.UiThread;
 
-import com.android.launcher3.Flags;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.Preconditions;
+import org.acreetionos.launcher.Flags;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.util.Preconditions;
 import com.android.quickstep.util.ActiveGestureProtoLogProxy;
 import com.android.systemui.shared.recents.model.ThumbnailData;
 import com.android.systemui.shared.system.RecentsAnimationControllerCompat;

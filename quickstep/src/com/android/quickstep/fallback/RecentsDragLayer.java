@@ -18,8 +18,8 @@ package com.android.quickstep.fallback;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.android.launcher3.util.TouchController;
-import com.android.launcher3.views.BaseDragLayer;
+import org.acreetionos.launcher.util.TouchController;
+import org.acreetionos.launcher.views.BaseDragLayer;
 import com.android.quickstep.views.RecentsViewContainer;
 
 /**

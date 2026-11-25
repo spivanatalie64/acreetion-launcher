@@ -21,7 +21,7 @@ import android.view.SurfaceControl;
 import android.view.View;
 import android.view.ViewRootImpl;
 
-import com.android.launcher3.Utilities;
+import org.acreetionos.launcher.Utilities;
 
 import java.util.ArrayList;
 import java.util.function.BooleanSupplier;

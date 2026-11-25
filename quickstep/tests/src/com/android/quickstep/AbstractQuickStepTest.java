@@ -23,10 +23,10 @@ import android.os.SystemProperties;
 import androidx.test.uiautomator.By;
 import androidx.test.uiautomator.Until;
 
-import com.android.launcher3.tapl.LaunchedAppState;
-import com.android.launcher3.ui.AbstractLauncherUiTest;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
-import com.android.launcher3.util.TestUtil;
+import org.acreetionos.launcher.tapl.LaunchedAppState;
+import org.acreetionos.launcher.ui.AbstractLauncherUiTest;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.util.TestUtil;
 import com.android.quickstep.views.RecentsView;
 
 import org.junit.rules.RuleChain;

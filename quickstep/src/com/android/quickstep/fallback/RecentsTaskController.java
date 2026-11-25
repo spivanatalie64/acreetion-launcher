@@ -17,8 +17,8 @@ package com.android.quickstep.fallback;
 
 import android.content.Context;
 
-import com.android.launcher3.statemanager.StatefulContainer;
-import com.android.launcher3.uioverrides.touchcontrollers.TaskViewTouchController;
+import org.acreetionos.launcher.statemanager.StatefulContainer;
+import org.acreetionos.launcher.uioverrides.touchcontrollers.TaskViewTouchController;
 import com.android.quickstep.views.RecentsViewContainer;
 
 public class RecentsTaskController<T extends Context & RecentsViewContainer &

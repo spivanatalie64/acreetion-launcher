@@ -18,8 +18,8 @@ package com.android.quickstep
 
 import android.os.RemoteException
 import android.util.Log
-import com.android.launcher3.config.FeatureFlags
-import com.android.launcher3.util.Executors
+import org.acreetionos.launcher.config.FeatureFlags
+import org.acreetionos.launcher.util.Executors
 import com.android.wm.shell.shared.IHomeTransitionListener.Stub
 import com.android.wm.shell.shared.IShellTransitions
 

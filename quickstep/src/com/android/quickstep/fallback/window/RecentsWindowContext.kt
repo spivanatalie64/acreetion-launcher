@@ -23,11 +23,11 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import android.view.WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_ALWAYS
 import android.view.WindowManager.LayoutParams.PRIVATE_FLAG_CONSUME_IME_INSETS
-import com.android.launcher3.DeviceProfile
-import com.android.launcher3.InvariantDeviceProfile
-import com.android.launcher3.util.Themes
-import com.android.launcher3.views.ActivityContext
-import com.android.launcher3.views.BaseDragLayer
+import org.acreetionos.launcher.DeviceProfile
+import org.acreetionos.launcher.InvariantDeviceProfile
+import org.acreetionos.launcher.util.Themes
+import org.acreetionos.launcher.views.ActivityContext
+import org.acreetionos.launcher.views.BaseDragLayer
 import com.android.quickstep.fallback.RecentsDragLayer
 
 /**

@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.taskbar.TaskbarDragLayer
+<org.acreetionos.launcher.taskbar.TaskbarDragLayer
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/taskbar_container"
@@ -22,7 +22,7 @@
     android:clipChildren="false">
 
     <!-- TODO(b/349885828) : to be removed in future cl. -->
-    <com.android.launcher3.taskbar.TaskbarView
+    <org.acreetionos.launcher.taskbar.TaskbarView
         android:id="@+id/taskbar_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
         android:layout_marginBottom="@dimen/transient_taskbar_bottom_margin"
         android:clipChildren="false" />
 
-    <com.android.launcher3.taskbar.customization.CustomizableTaskbarView
+    <org.acreetionos.launcher.taskbar.customization.CustomizableTaskbarView
         android:id="@+id/customizable_taskbar_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
         android:layout_marginBottom="@dimen/transient_taskbar_bottom_margin"
         android:clipChildren="false" />
 
-    <com.android.launcher3.taskbar.TaskbarScrimView
+    <org.acreetionos.launcher.taskbar.TaskbarScrimView
         android:id="@+id/taskbar_scrim"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
@@ -57,7 +57,7 @@
         android:layout_height="match_parent"
         android:clipChildren="false">
 
-        <com.android.launcher3.taskbar.bubbles.BubbleBarView
+        <org.acreetionos.launcher.taskbar.bubbles.BubbleBarView
             android:id="@+id/taskbar_bubbles"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/bubblebar_size_with_pointer"
@@ -72,7 +72,7 @@
             android:elevation="@dimen/bubblebar_elevation" />
     </FrameLayout>
 
-    <com.android.launcher3.taskbar.navbutton.NearestTouchFrame
+    <org.acreetionos.launcher.taskbar.navbutton.NearestTouchFrame
         android:id="@+id/navbuttons_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -103,9 +103,9 @@
             android:paddingTop="@dimen/taskbar_contextual_padding_top"
             android:gravity="center_vertical"
             android:layout_gravity="end"/>
-    </com.android.launcher3.taskbar.navbutton.NearestTouchFrame>
+    </org.acreetionos.launcher.taskbar.navbutton.NearestTouchFrame>
 
-    <com.android.launcher3.taskbar.StashedHandleView
+    <org.acreetionos.launcher.taskbar.StashedHandleView
         android:id="@+id/stashed_handle"
         tools:comment1="The actual size and shape will be set as a ViewOutlineProvider at runtime"
         android:layout_width="wrap_content"
@@ -114,7 +114,7 @@
         android:clipToOutline="true"
         android:layout_gravity="bottom"/>
 
-    <com.android.launcher3.taskbar.StashedHandleView
+    <org.acreetionos.launcher.taskbar.StashedHandleView
         android:id="@+id/stashed_bubble_handle"
         tools:comment1="The actual size and shape will be set as a ViewOutlineProvider at runtime"
         android:layout_width="wrap_content"
@@ -124,4 +124,4 @@
         android:clipToOutline="true"
         android:layout_gravity="bottom"/>
 
-</com.android.launcher3.taskbar.TaskbarDragLayer>
+</org.acreetionos.launcher.taskbar.TaskbarDragLayer>

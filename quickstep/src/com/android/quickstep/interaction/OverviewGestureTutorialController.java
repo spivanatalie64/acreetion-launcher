@@ -26,10 +26,10 @@ import android.os.Handler;
 import androidx.annotation.ColorInt;
 import androidx.core.graphics.ColorUtils;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.AnimatedFloat;
-import com.android.launcher3.anim.PendingAnimation;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.anim.AnimatedFloat;
+import org.acreetionos.launcher.anim.PendingAnimation;
 import com.android.quickstep.SwipeUpAnimationLogic;
 import com.android.quickstep.interaction.EdgeBackGestureHandler.BackGestureResult;
 import com.android.quickstep.interaction.NavBarGestureHandler.NavBarGestureResult;

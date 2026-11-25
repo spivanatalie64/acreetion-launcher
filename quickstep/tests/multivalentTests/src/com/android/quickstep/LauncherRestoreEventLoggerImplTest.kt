@@ -20,10 +20,10 @@ import android.platform.test.annotations.EnableFlags
 import android.platform.test.flag.junit.SetFlagsRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
-import com.android.launcher3.Flags
-import com.android.launcher3.LauncherSettings.Favorites
-import com.android.launcher3.util.LauncherModelHelper
-import com.android.launcher3.util.LauncherModelHelper.SandboxModelContext
+import org.acreetionos.launcher.Flags
+import org.acreetionos.launcher.LauncherSettings.Favorites
+import org.acreetionos.launcher.util.LauncherModelHelper
+import org.acreetionos.launcher.util.LauncherModelHelper.SandboxModelContext
 import com.google.common.truth.Truth.assertThat
 import org.junit.After
 import org.junit.Before

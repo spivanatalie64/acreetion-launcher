@@ -44,12 +44,12 @@ import android.widget.ImageView;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.MainThreadInitializedObject;
-import com.android.launcher3.util.SystemUiController;
-import com.android.launcher3.util.SystemUiController.SystemUiControllerFlags;
-import com.android.launcher3.util.ViewPool;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.util.MainThreadInitializedObject;
+import org.acreetionos.launcher.util.SystemUiController;
+import org.acreetionos.launcher.util.SystemUiController.SystemUiControllerFlags;
+import org.acreetionos.launcher.util.ViewPool;
 import com.android.quickstep.FullscreenDrawParams;
 import com.android.quickstep.TaskOverlayFactory.TaskOverlay;
 import com.android.quickstep.orientation.RecentsPagedOrientationHandler;

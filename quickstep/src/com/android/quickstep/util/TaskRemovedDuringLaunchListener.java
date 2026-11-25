@@ -18,9 +18,9 @@ package com.android.quickstep.util;
 
 import static android.app.ActivityTaskManager.INVALID_TASK_ID;
 
-import static com.android.launcher3.BaseActivity.EVENT_DESTROYED;
-import static com.android.launcher3.BaseActivity.EVENT_RESUMED;
-import static com.android.launcher3.BaseActivity.EVENT_STOPPED;
+import static org.acreetionos.launcher.BaseActivity.EVENT_DESTROYED;
+import static org.acreetionos.launcher.BaseActivity.EVENT_RESUMED;
+import static org.acreetionos.launcher.BaseActivity.EVENT_STOPPED;
 
 import android.content.Context;
 

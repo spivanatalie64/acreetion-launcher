@@ -53,12 +53,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.test.platform.app.InstrumentationRegistry;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.LauncherRootView;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.statemanager.BaseState;
-import com.android.launcher3.statemanager.StatefulContainer;
-import com.android.launcher3.util.SystemUiController;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.LauncherRootView;
+import org.acreetionos.launcher.dragndrop.DragLayer;
+import org.acreetionos.launcher.statemanager.BaseState;
+import org.acreetionos.launcher.statemanager.StatefulContainer;
+import org.acreetionos.launcher.util.SystemUiController;
 import com.android.quickstep.fallback.window.RecentsWindowManager;
 import com.android.quickstep.util.ContextInitListener;
 import com.android.quickstep.views.RecentsView;

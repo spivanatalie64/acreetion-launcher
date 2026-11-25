@@ -21,9 +21,9 @@ import static android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION;
 import static android.view.WindowManager.ScreenshotSource.SCREENSHOT_OVERVIEW;
 import static android.view.WindowManager.TAKE_SCREENSHOT_PROVIDED_IMAGE;
 
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
-import static com.android.launcher3.util.Executors.THREAD_POOL_EXECUTOR;
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.THREAD_POOL_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
 
 import android.app.Activity;
 import android.app.ActivityOptions;
@@ -50,7 +50,7 @@ import androidx.core.content.FileProvider;
 
 import com.android.internal.app.ChooserActivity;
 import com.android.internal.util.ScreenshotRequest;
-import com.android.launcher3.BuildConfig;
+import org.acreetionos.launcher.BuildConfig;
 import com.android.quickstep.SystemUiProxy;
 import com.android.systemui.shared.recents.model.Task;
 

@@ -17,7 +17,7 @@
 package com.android.quickstep.recents.data
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.android.launcher3.FakeInvariantDeviceProfileTest
+import org.acreetionos.launcher.FakeInvariantDeviceProfileTest
 import com.android.quickstep.views.RecentsViewContainer
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test

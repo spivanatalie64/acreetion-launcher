@@ -19,7 +19,7 @@ import static java.lang.annotation.RetentionPolicy.SOURCE;
 
 import androidx.annotation.IntDef;
 
-import com.android.launcher3.util.IntArray;
+import org.acreetionos.launcher.util.IntArray;
 
 import java.lang.annotation.Retention;
 import java.util.List;

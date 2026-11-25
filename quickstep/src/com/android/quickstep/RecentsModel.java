@@ -17,9 +17,9 @@ package com.android.quickstep;
 
 import static android.os.Process.THREAD_PRIORITY_BACKGROUND;
 
-import static com.android.launcher3.Flags.enableGridOnlyOverview;
-import static com.android.launcher3.Flags.enableRefactorTaskThumbnail;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.Flags.enableGridOnlyOverview;
+import static org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 import static com.android.quickstep.TaskUtils.checkCurrentOrManagedUserId;
 
 import android.annotation.TargetApi;
@@ -37,11 +37,11 @@ import android.os.UserHandle;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import com.android.launcher3.icons.IconProvider;
-import com.android.launcher3.icons.IconProvider.IconChangeListener;
-import com.android.launcher3.util.Executors.SimpleThreadFactory;
-import com.android.launcher3.util.MainThreadInitializedObject;
-import com.android.launcher3.util.SafeCloseable;
+import org.acreetionos.launcher.icons.IconProvider;
+import org.acreetionos.launcher.icons.IconProvider.IconChangeListener;
+import org.acreetionos.launcher.util.Executors.SimpleThreadFactory;
+import org.acreetionos.launcher.util.MainThreadInitializedObject;
+import org.acreetionos.launcher.util.SafeCloseable;
 import com.android.quickstep.recents.data.RecentTasksDataSource;
 import com.android.quickstep.recents.data.TaskVisualsChangeNotifier;
 import com.android.quickstep.util.DesktopTask;

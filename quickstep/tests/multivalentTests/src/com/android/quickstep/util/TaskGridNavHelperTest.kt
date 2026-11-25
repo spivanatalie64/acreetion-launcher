@@ -15,7 +15,7 @@
  */
 package com.android.quickstep.util
 
-import com.android.launcher3.util.IntArray
+import org.acreetionos.launcher.util.IntArray
 import com.android.quickstep.util.TaskGridNavHelper.CLEAR_ALL_PLACEHOLDER_ID
 import com.android.quickstep.util.TaskGridNavHelper.DIRECTION_DOWN
 import com.android.quickstep.util.TaskGridNavHelper.DIRECTION_LEFT

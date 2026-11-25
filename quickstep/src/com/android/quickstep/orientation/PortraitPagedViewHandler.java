@@ -24,13 +24,13 @@ import static android.view.Gravity.TOP;
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
-import static com.android.launcher3.Flags.enableOverviewIconMenu;
-import static com.android.launcher3.LauncherAnimUtils.VIEW_TRANSLATE_X;
-import static com.android.launcher3.LauncherAnimUtils.VIEW_TRANSLATE_Y;
-import static com.android.launcher3.touch.SingleAxisSwipeDetector.VERTICAL;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_TYPE_MAIN;
+import static org.acreetionos.launcher.Flags.enableOverviewIconMenu;
+import static org.acreetionos.launcher.LauncherAnimUtils.VIEW_TRANSLATE_X;
+import static org.acreetionos.launcher.LauncherAnimUtils.VIEW_TRANSLATE_Y;
+import static org.acreetionos.launcher.touch.SingleAxisSwipeDetector.VERTICAL;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_TYPE_MAIN;
 
 import android.graphics.Matrix;
 import android.graphics.Point;
@@ -48,16 +48,16 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.logger.LauncherAtom;
-import com.android.launcher3.touch.DefaultPagedViewHandler;
-import com.android.launcher3.touch.SingleAxisSwipeDetector;
-import com.android.launcher3.util.SplitConfigurationOptions;
-import com.android.launcher3.util.SplitConfigurationOptions.SplitBounds;
-import com.android.launcher3.util.SplitConfigurationOptions.SplitPositionOption;
-import com.android.launcher3.util.SplitConfigurationOptions.StagePosition;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.logger.LauncherAtom;
+import org.acreetionos.launcher.touch.DefaultPagedViewHandler;
+import org.acreetionos.launcher.touch.SingleAxisSwipeDetector;
+import org.acreetionos.launcher.util.SplitConfigurationOptions;
+import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitBounds;
+import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitPositionOption;
+import org.acreetionos.launcher.util.SplitConfigurationOptions.StagePosition;
 import com.android.quickstep.views.IconAppChipView;
 
 import java.util.ArrayList;

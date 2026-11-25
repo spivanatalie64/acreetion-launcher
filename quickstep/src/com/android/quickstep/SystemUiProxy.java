@@ -17,10 +17,10 @@ package com.android.quickstep;
 
 import static android.app.ActivityManager.RECENT_IGNORE_UNAVAILABLE;
 
-import static com.android.launcher3.Flags.enableUnfoldStateAnimation;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
-import static com.android.launcher3.util.SplitConfigurationOptions.StagePosition;
+import static org.acreetionos.launcher.Flags.enableUnfoldStateAnimation;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.StagePosition;
 import static com.android.quickstep.util.LogUtils.splitFailureMessage;
 
 import android.app.ActivityManager;
@@ -61,10 +61,10 @@ import androidx.annotation.WorkerThread;
 import com.android.internal.logging.InstanceId;
 import com.android.internal.util.ScreenshotRequest;
 import com.android.internal.view.AppearanceRegion;
-import com.android.launcher3.dagger.ApplicationContext;
-import com.android.launcher3.dagger.LauncherAppSingleton;
-import com.android.launcher3.util.DaggerSingletonObject;
-import com.android.launcher3.util.Preconditions;
+import org.acreetionos.launcher.dagger.ApplicationContext;
+import org.acreetionos.launcher.dagger.LauncherAppSingleton;
+import org.acreetionos.launcher.util.DaggerSingletonObject;
+import org.acreetionos.launcher.util.Preconditions;
 import com.android.quickstep.dagger.QuickstepBaseAppComponent;
 import com.android.quickstep.util.ActiveGestureProtoLogProxy;
 import com.android.quickstep.util.ContextualSearchInvoker;

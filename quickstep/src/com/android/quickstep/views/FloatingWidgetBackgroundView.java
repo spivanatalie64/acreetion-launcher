@@ -30,8 +30,8 @@ import android.widget.RemoteViews.RemoteViewOutlineProvider;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.R;
-import com.android.launcher3.widget.LauncherAppWidgetHostView;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.widget.LauncherAppWidgetHostView;
 
 import java.util.stream.IntStream;
 

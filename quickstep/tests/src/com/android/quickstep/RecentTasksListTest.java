@@ -37,7 +37,7 @@ import android.content.res.Resources;
 import androidx.test.filters.SmallTest;
 
 import com.android.internal.R;
-import com.android.launcher3.util.LooperExecutor;
+import org.acreetionos.launcher.util.LooperExecutor;
 import com.android.quickstep.util.GroupTask;
 import com.android.quickstep.views.TaskViewType;
 import com.android.systemui.shared.recents.model.Task;

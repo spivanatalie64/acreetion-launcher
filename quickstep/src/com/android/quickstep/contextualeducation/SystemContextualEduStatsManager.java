@@ -16,8 +16,8 @@
 
 package com.android.quickstep.contextualeducation;
 
-import com.android.launcher3.contextualeducation.ContextualEduStatsManager;
-import com.android.launcher3.dagger.LauncherAppSingleton;
+import org.acreetionos.launcher.contextualeducation.ContextualEduStatsManager;
+import org.acreetionos.launcher.dagger.LauncherAppSingleton;
 import com.android.quickstep.SystemUiProxy;
 import com.android.systemui.contextualeducation.GestureType;
 

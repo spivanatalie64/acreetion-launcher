@@ -19,16 +19,16 @@ import android.graphics.Point
 import android.view.ViewGroup
 import com.android.app.animation.Interpolators.LINEAR
 import com.android.app.animation.Interpolators.clampToProgress
-import com.android.launcher3.CellLayout
-import com.android.launcher3.LauncherAnimUtils.HOTSEAT_SCALE_PROPERTY_FACTORY
-import com.android.launcher3.LauncherAnimUtils.SCALE_INDEX_UNFOLD_ANIMATION
-import com.android.launcher3.LauncherAnimUtils.VIEW_TRANSLATE_X
-import com.android.launcher3.LauncherAnimUtils.VIEW_TRANSLATE_Y
-import com.android.launcher3.LauncherAnimUtils.WORKSPACE_SCALE_PROPERTY_FACTORY
-import com.android.launcher3.Workspace
-import com.android.launcher3.anim.PendingAnimation
-import com.android.launcher3.uioverrides.QuickstepLauncher
-import com.android.launcher3.util.HorizontalInsettableView
+import org.acreetionos.launcher.CellLayout
+import org.acreetionos.launcher.LauncherAnimUtils.HOTSEAT_SCALE_PROPERTY_FACTORY
+import org.acreetionos.launcher.LauncherAnimUtils.SCALE_INDEX_UNFOLD_ANIMATION
+import org.acreetionos.launcher.LauncherAnimUtils.VIEW_TRANSLATE_X
+import org.acreetionos.launcher.LauncherAnimUtils.VIEW_TRANSLATE_Y
+import org.acreetionos.launcher.LauncherAnimUtils.WORKSPACE_SCALE_PROPERTY_FACTORY
+import org.acreetionos.launcher.Workspace
+import org.acreetionos.launcher.anim.PendingAnimation
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher
+import org.acreetionos.launcher.util.HorizontalInsettableView
 
 private typealias ViewGroupAction = (ViewGroup, Boolean) -> Unit
 

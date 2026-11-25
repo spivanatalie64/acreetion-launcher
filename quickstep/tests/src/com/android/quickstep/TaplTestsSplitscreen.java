@@ -16,7 +16,7 @@
 package com.android.quickstep;
 
 
-import static com.android.launcher3.config.FeatureFlags.enableSplitContextually;
+import static org.acreetionos.launcher.config.FeatureFlags.enableSplitContextually;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -28,9 +28,9 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 import androidx.test.platform.app.InstrumentationRegistry;
 
-import com.android.launcher3.tapl.Overview;
-import com.android.launcher3.tapl.Taskbar;
-import com.android.launcher3.tapl.TaskbarAppIcon;
+import org.acreetionos.launcher.tapl.Overview;
+import org.acreetionos.launcher.tapl.Taskbar;
+import org.acreetionos.launcher.tapl.TaskbarAppIcon;
 import com.android.quickstep.util.SplitScreenTestUtils;
 import com.android.wm.shell.Flags;
 

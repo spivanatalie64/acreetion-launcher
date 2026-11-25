@@ -18,8 +18,8 @@ package com.android.quickstep
 import android.graphics.Rect
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
-import com.android.launcher3.FakeInvariantDeviceProfileTest
-import com.android.launcher3.util.WindowBounds
+import org.acreetionos.launcher.FakeInvariantDeviceProfileTest
+import org.acreetionos.launcher.util.WindowBounds
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 import org.junit.runner.RunWith

@@ -15,13 +15,13 @@
  */
 package com.android.quickstep.util;
 
-import static com.android.launcher3.util.MultiTranslateDelegate.INDEX_MOVE_FROM_CENTER_ANIM;
+import static org.acreetionos.launcher.util.MultiTranslateDelegate.INDEX_MOVE_FROM_CENTER_ANIM;
 
 import android.annotation.NonNull;
 import android.view.View;
 
-import com.android.launcher3.Reorderable;
-import com.android.launcher3.util.MultiTranslateDelegate;
+import org.acreetionos.launcher.Reorderable;
+import org.acreetionos.launcher.util.MultiTranslateDelegate;
 import com.android.systemui.shared.animation.UnfoldMoveFromCenterAnimator.TranslationApplier;
 
 /**

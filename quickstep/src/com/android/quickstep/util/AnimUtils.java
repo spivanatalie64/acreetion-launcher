@@ -17,8 +17,8 @@
 package com.android.quickstep.util;
 
 import static com.android.app.animation.Interpolators.clampToProgress;
-import static com.android.launcher3.LauncherState.NORMAL;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.LauncherState.NORMAL;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 
 import android.animation.AnimatorSet;
 import android.annotation.NonNull;
@@ -26,11 +26,11 @@ import android.os.Bundle;
 import android.os.IRemoteCallback;
 import android.view.animation.Interpolator;
 
-import com.android.launcher3.logging.StatsLogManager;
-import com.android.launcher3.statemanager.BaseState;
-import com.android.launcher3.statemanager.StateManager;
-import com.android.launcher3.states.StateAnimationConfig;
-import com.android.launcher3.util.RunnableList;
+import org.acreetionos.launcher.logging.StatsLogManager;
+import org.acreetionos.launcher.statemanager.BaseState;
+import org.acreetionos.launcher.statemanager.StateManager;
+import org.acreetionos.launcher.states.StateAnimationConfig;
+import org.acreetionos.launcher.util.RunnableList;
 import com.android.quickstep.views.RecentsViewContainer;
 
 /**

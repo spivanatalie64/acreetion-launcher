@@ -18,7 +18,7 @@ package com.android.quickstep;
 
 import android.content.Context;
 
-import com.android.launcher3.R;
+import org.acreetionos.launcher.R;
 
 /**
  * Control and get information about the gesture nav bar at the bottom of the screen, which has

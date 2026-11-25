@@ -21,11 +21,11 @@ import static org.junit.Assert.assertTrue;
 import android.content.Intent;
 import android.platform.test.annotations.PlatinumTest;
 
-import com.android.launcher3.tapl.Overview;
-import com.android.launcher3.tapl.OverviewTask.OverviewTaskContainer;
-import com.android.launcher3.tapl.OverviewTaskMenu;
-import com.android.launcher3.ui.AbstractLauncherUiTest;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.tapl.Overview;
+import org.acreetionos.launcher.tapl.OverviewTask.OverviewTaskContainer;
+import org.acreetionos.launcher.tapl.OverviewTaskMenu;
+import org.acreetionos.launcher.ui.AbstractLauncherUiTest;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
 import com.android.quickstep.util.SplitScreenTestUtils;
 
 import org.junit.Test;

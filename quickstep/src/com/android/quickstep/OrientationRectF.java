@@ -15,7 +15,7 @@
  */
 package com.android.quickstep;
 
-import static com.android.launcher3.states.RotationHelper.deltaRotation;
+import static org.acreetionos.launcher.states.RotationHelper.deltaRotation;
 import static com.android.quickstep.util.RecentsOrientedState.postDisplayRotation;
 
 import android.graphics.Matrix;

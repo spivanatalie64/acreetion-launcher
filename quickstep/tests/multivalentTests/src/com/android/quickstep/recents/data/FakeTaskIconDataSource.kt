@@ -17,7 +17,7 @@
 package com.android.quickstep.recents.data
 
 import android.graphics.drawable.Drawable
-import com.android.launcher3.util.CancellableTask
+import org.acreetionos.launcher.util.CancellableTask
 import com.android.quickstep.TaskIconCache
 import com.android.quickstep.task.thumbnail.data.TaskIconDataSource
 import com.android.systemui.shared.recents.model.Task

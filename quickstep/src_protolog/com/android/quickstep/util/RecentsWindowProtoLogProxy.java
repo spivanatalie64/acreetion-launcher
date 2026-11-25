@@ -16,7 +16,7 @@
 
 package com.android.quickstep.util;
 
-import static com.android.launcher3.Flags.enableRecentsWindowProtoLog;
+import static org.acreetionos.launcher.Flags.enableRecentsWindowProtoLog;
 import static com.android.quickstep.util.QuickstepProtoLogGroup.RECENTS_WINDOW;
 import static com.android.quickstep.util.QuickstepProtoLogGroup.isProtoLogInitialized;
 

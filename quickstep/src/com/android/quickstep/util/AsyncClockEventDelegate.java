@@ -18,7 +18,7 @@ package com.android.quickstep.util;
 import static android.content.Intent.ACTION_TIMEZONE_CHANGED;
 import static android.content.Intent.ACTION_TIME_CHANGED;
 
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -32,14 +32,14 @@ import android.widget.TextClock.ClockEventDelegate;
 
 import androidx.annotation.WorkerThread;
 
-import com.android.launcher3.dagger.ApplicationContext;
-import com.android.launcher3.dagger.LauncherAppSingleton;
-import com.android.launcher3.util.DaggerSingletonObject;
-import com.android.launcher3.util.DaggerSingletonTracker;
-import com.android.launcher3.util.SafeCloseable;
-import com.android.launcher3.util.SettingsCache;
-import com.android.launcher3.util.SettingsCache.OnChangeListener;
-import com.android.launcher3.util.SimpleBroadcastReceiver;
+import org.acreetionos.launcher.dagger.ApplicationContext;
+import org.acreetionos.launcher.dagger.LauncherAppSingleton;
+import org.acreetionos.launcher.util.DaggerSingletonObject;
+import org.acreetionos.launcher.util.DaggerSingletonTracker;
+import org.acreetionos.launcher.util.SafeCloseable;
+import org.acreetionos.launcher.util.SettingsCache;
+import org.acreetionos.launcher.util.SettingsCache.OnChangeListener;
+import org.acreetionos.launcher.util.SimpleBroadcastReceiver;
 import com.android.quickstep.dagger.QuickstepBaseAppComponent;
 
 import java.util.ArrayList;

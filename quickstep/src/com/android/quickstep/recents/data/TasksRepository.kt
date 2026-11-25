@@ -18,7 +18,7 @@ package com.android.quickstep.recents.data
 
 import android.graphics.drawable.Drawable
 import android.util.Log
-import com.android.launcher3.util.coroutines.DispatcherProvider
+import org.acreetionos.launcher.util.coroutines.DispatcherProvider
 import com.android.quickstep.recents.data.TaskVisualsChangedDelegate.TaskIconChangedCallback
 import com.android.quickstep.recents.data.TaskVisualsChangedDelegate.TaskThumbnailChangedCallback
 import com.android.quickstep.task.thumbnail.data.TaskIconDataSource

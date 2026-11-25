@@ -22,9 +22,9 @@ import android.util.Log;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.icons.GraphicsUtils;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.icons.GraphicsUtils;
 
 /** Indicator displaying the current progress through the gesture navigation tutorial. */
 public class TutorialStepIndicator extends LinearLayout {

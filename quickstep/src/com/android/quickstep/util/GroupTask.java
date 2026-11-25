@@ -19,7 +19,7 @@ package com.android.quickstep.util;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.util.SplitConfigurationOptions.SplitBounds;
+import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitBounds;
 import com.android.quickstep.views.TaskViewType;
 import com.android.systemui.shared.recents.model.Task;
 

@@ -16,7 +16,7 @@
 
 package com.android.quickstep.views;
 
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_SPLIT_SELECTION_EXIT_CANCEL_BUTTON;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_SPLIT_SELECTION_EXIT_CANCEL_BUTTON;
 import static com.android.settingslib.widget.theme.R.dimen.settingslib_preferred_minimum_touch_target;
 
 import android.animation.Animator;
@@ -36,11 +36,11 @@ import androidx.dynamicanimation.animation.SpringAnimation;
 import androidx.dynamicanimation.animation.SpringForce;
 
 import com.android.app.animation.Interpolators;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.PendingAnimation;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.statemanager.StateManager;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.anim.PendingAnimation;
+import org.acreetionos.launcher.config.FeatureFlags;
+import org.acreetionos.launcher.statemanager.StateManager;
 import com.android.quickstep.util.AnimUtils;
 import com.android.quickstep.util.SplitSelectStateController;
 

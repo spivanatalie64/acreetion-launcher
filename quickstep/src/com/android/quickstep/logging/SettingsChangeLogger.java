@@ -16,20 +16,20 @@
 
 package com.android.quickstep.logging;
 
-import static com.android.launcher3.LauncherPrefs.THEMED_ICONS;
-import static com.android.launcher3.LauncherPrefs.getDevicePrefs;
-import static com.android.launcher3.LauncherPrefs.getPrefs;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_HOME_SCREEN_SUGGESTIONS_DISABLED;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_HOME_SCREEN_SUGGESTIONS_ENABLED;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_NOTIFICATION_DOT_DISABLED;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_NOTIFICATION_DOT_ENABLED;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_THEMED_ICON_DISABLED;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_THEMED_ICON_ENABLED;
-import static com.android.launcher3.model.DeviceGridState.KEY_WORKSPACE_SIZE;
-import static com.android.launcher3.model.PredictionUpdateTask.LAST_PREDICTION_ENABLED;
-import static com.android.launcher3.util.DisplayController.CHANGE_NAVIGATION_MODE;
-import static com.android.launcher3.util.SettingsCache.NOTIFICATION_BADGING_URI;
-import static com.android.launcher3.util.Themes.KEY_THEMED_ICONS;
+import static org.acreetionos.launcher.LauncherPrefs.THEMED_ICONS;
+import static org.acreetionos.launcher.LauncherPrefs.getDevicePrefs;
+import static org.acreetionos.launcher.LauncherPrefs.getPrefs;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_HOME_SCREEN_SUGGESTIONS_DISABLED;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_HOME_SCREEN_SUGGESTIONS_ENABLED;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_NOTIFICATION_DOT_DISABLED;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_NOTIFICATION_DOT_ENABLED;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_THEMED_ICON_DISABLED;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_THEMED_ICON_ENABLED;
+import static org.acreetionos.launcher.model.DeviceGridState.KEY_WORKSPACE_SIZE;
+import static org.acreetionos.launcher.model.PredictionUpdateTask.LAST_PREDICTION_ENABLED;
+import static org.acreetionos.launcher.util.DisplayController.CHANGE_NAVIGATION_MODE;
+import static org.acreetionos.launcher.util.SettingsCache.NOTIFICATION_BADGING_URI;
+import static org.acreetionos.launcher.util.Themes.KEY_THEMED_ICONS;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -41,19 +41,19 @@ import android.util.Xml;
 
 import androidx.annotation.VisibleForTesting;
 
-import com.android.launcher3.LauncherPrefs;
-import com.android.launcher3.R;
-import com.android.launcher3.dagger.ApplicationContext;
-import com.android.launcher3.logging.InstanceId;
-import com.android.launcher3.logging.StatsLogManager;
-import com.android.launcher3.logging.StatsLogManager.StatsLogger;
-import com.android.launcher3.model.DeviceGridState;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.DisplayController.Info;
-import com.android.launcher3.util.MainThreadInitializedObject;
-import com.android.launcher3.util.NavigationMode;
-import com.android.launcher3.util.SafeCloseable;
-import com.android.launcher3.util.SettingsCache;
+import org.acreetionos.launcher.LauncherPrefs;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.dagger.ApplicationContext;
+import org.acreetionos.launcher.logging.InstanceId;
+import org.acreetionos.launcher.logging.StatsLogManager;
+import org.acreetionos.launcher.logging.StatsLogManager.StatsLogger;
+import org.acreetionos.launcher.model.DeviceGridState;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.DisplayController.Info;
+import org.acreetionos.launcher.util.MainThreadInitializedObject;
+import org.acreetionos.launcher.util.NavigationMode;
+import org.acreetionos.launcher.util.SafeCloseable;
+import org.acreetionos.launcher.util.SettingsCache;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

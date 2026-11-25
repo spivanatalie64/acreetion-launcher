@@ -17,10 +17,10 @@
 package com.android.quickstep
 
 import android.view.View
-import com.android.launcher3.AbstractFloatingViewHelper
-import com.android.launcher3.R
-import com.android.launcher3.logging.StatsLogManager.LauncherEvent
-import com.android.launcher3.popup.SystemShortcut
+import org.acreetionos.launcher.AbstractFloatingViewHelper
+import org.acreetionos.launcher.R
+import org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent
+import org.acreetionos.launcher.popup.SystemShortcut
 import com.android.quickstep.views.RecentsView
 import com.android.quickstep.views.RecentsViewContainer
 import com.android.quickstep.views.TaskContainer

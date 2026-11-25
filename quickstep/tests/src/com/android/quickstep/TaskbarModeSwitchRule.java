@@ -25,11 +25,11 @@ import static com.android.quickstep.TaskbarModeSwitchRule.Mode.TRANSIENT;
 import android.content.Context;
 import android.util.Log;
 
-import com.android.launcher3.tapl.LauncherInstrumentation;
-import com.android.launcher3.tapl.TestHelpers;
-import com.android.launcher3.ui.AbstractLauncherUiTest;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.rule.FailureWatcher;
+import org.acreetionos.launcher.tapl.LauncherInstrumentation;
+import org.acreetionos.launcher.tapl.TestHelpers;
+import org.acreetionos.launcher.ui.AbstractLauncherUiTest;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.rule.FailureWatcher;
 
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;

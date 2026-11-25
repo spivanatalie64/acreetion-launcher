@@ -14,14 +14,14 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.folder.Folder xmlns:android="http://schemas.android.com/apk/res/android"
+<org.acreetionos.launcher.folder.Folder xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:defaultFocusHighlightEnabled="false"
     android:orientation="vertical" >
 
-    <com.android.launcher3.folder.FolderPagedView
+    <org.acreetionos.launcher.folder.FolderPagedView
         android:id="@+id/folder_content"
         android:clipToPadding="false"
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
         android:paddingLeft="@dimen/folder_footer_horiz_padding"
         android:paddingRight="@dimen/folder_footer_horiz_padding">
 
-        <com.android.launcher3.folder.FolderNameEditText
+        <org.acreetionos.launcher.folder.FolderNameEditText
             android:id="@+id/folder_name"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -53,7 +53,7 @@
             android:textColorHighlight="?android:attr/colorControlHighlight"
             android:textColorHint="?attr/folderHintTextColor"/>
 
-        <com.android.launcher3.pageindicators.PageIndicatorDots
+        <org.acreetionos.launcher.pageindicators.PageIndicatorDots
             android:id="@+id/folder_page_indicator"
             android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
@@ -63,4 +63,4 @@
 
     </LinearLayout>
 
-</com.android.launcher3.folder.Folder>
+</org.acreetionos.launcher.folder.Folder>

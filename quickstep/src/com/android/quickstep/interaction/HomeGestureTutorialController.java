@@ -17,8 +17,8 @@ package com.android.quickstep.interaction;
 
 import android.graphics.PointF;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
 import com.android.quickstep.interaction.EdgeBackGestureHandler.BackGestureResult;
 import com.android.quickstep.interaction.NavBarGestureHandler.NavBarGestureResult;
 import com.android.quickstep.util.LottieAnimationColorUtils;

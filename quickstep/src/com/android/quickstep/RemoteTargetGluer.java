@@ -28,8 +28,8 @@ import android.view.RemoteAnimationTarget;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.statehandlers.DesktopVisibilityController;
-import com.android.launcher3.util.SplitConfigurationOptions;
+import org.acreetionos.launcher.statehandlers.DesktopVisibilityController;
+import org.acreetionos.launcher.util.SplitConfigurationOptions;
 import com.android.quickstep.util.AnimatorControllerWithResistance;
 import com.android.quickstep.util.TaskViewSimulator;
 import com.android.quickstep.util.TransformParams;

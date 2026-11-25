@@ -15,9 +15,9 @@
  */
 package com.android.quickstep.util;
 
-import static com.android.launcher3.LauncherAnimUtils.HOTSEAT_SCALE_PROPERTY_FACTORY;
-import static com.android.launcher3.LauncherAnimUtils.SCALE_INDEX_UNFOLD_ANIMATION;
-import static com.android.launcher3.LauncherAnimUtils.WORKSPACE_SCALE_PROPERTY_FACTORY;
+import static org.acreetionos.launcher.LauncherAnimUtils.HOTSEAT_SCALE_PROPERTY_FACTORY;
+import static org.acreetionos.launcher.LauncherAnimUtils.SCALE_INDEX_UNFOLD_ANIMATION;
+import static org.acreetionos.launcher.LauncherAnimUtils.WORKSPACE_SCALE_PROPERTY_FACTORY;
 
 import android.annotation.Nullable;
 import android.os.Trace;
@@ -27,12 +27,12 @@ import android.view.WindowManager;
 
 import androidx.core.view.OneShotPreDrawListener;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DeviceProfile.OnDeviceProfileChangeListener;
-import com.android.launcher3.Hotseat;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
-import com.android.launcher3.util.HorizontalInsettableView;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.DeviceProfile.OnDeviceProfileChangeListener;
+import org.acreetionos.launcher.Hotseat;
+import org.acreetionos.launcher.Workspace;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.util.HorizontalInsettableView;
 import com.android.quickstep.SystemUiProxy;
 import com.android.quickstep.util.unfold.LauncherJankMonitorTransitionProgressListener;
 import com.android.quickstep.util.unfold.PreemptiveUnfoldTransitionProgressProvider;

@@ -17,8 +17,8 @@ package com.android.quickstep;
 
 import static com.android.app.animation.Interpolators.ACCELERATE_1_5;
 import static com.android.app.animation.Interpolators.LINEAR;
-import static com.android.launcher3.Flags.enableAdditionalHomeAnimations;
-import static com.android.launcher3.PagedView.INVALID_PAGE;
+import static org.acreetionos.launcher.Flags.enableAdditionalHomeAnimations;
+import static org.acreetionos.launcher.PagedView.INVALID_PAGE;
 
 import android.animation.Animator;
 import android.content.Context;
@@ -33,14 +33,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.UiThread;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.AnimatedFloat;
-import com.android.launcher3.anim.AnimationSuccessListener;
-import com.android.launcher3.anim.AnimatorPlaybackController;
-import com.android.launcher3.anim.PendingAnimation;
-import com.android.launcher3.touch.PagedOrientationHandler;
-import com.android.launcher3.views.ClipIconView;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.anim.AnimatedFloat;
+import org.acreetionos.launcher.anim.AnimationSuccessListener;
+import org.acreetionos.launcher.anim.AnimatorPlaybackController;
+import org.acreetionos.launcher.anim.PendingAnimation;
+import org.acreetionos.launcher.touch.PagedOrientationHandler;
+import org.acreetionos.launcher.views.ClipIconView;
 import com.android.quickstep.RemoteTargetGluer.RemoteTargetHandle;
 import com.android.quickstep.orientation.RecentsPagedOrientationHandler;
 import com.android.quickstep.util.AnimatorControllerWithResistance;
@@ -231,7 +231,7 @@ public abstract class SwipeUpAnimationLogic implements
         }
 
         /**
-         * Sets a {@link com.android.launcher3.views.ClipIconView.TaskViewArtist} that should be
+         * Sets a {@link org.acreetionos.launcher.views.ClipIconView.TaskViewArtist} that should be
          * used draw a {@link TaskView} during this home animation.
          */
         public void setTaskViewArtist(ClipIconView.TaskViewArtist taskViewArtist) { }

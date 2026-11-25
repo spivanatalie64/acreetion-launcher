@@ -15,8 +15,8 @@
  */
 package com.android.quickstep;
 
-import static com.android.launcher3.Flags.enableCursorHoverStates;
-import static com.android.launcher3.util.TestConstants.AppNames.TEST_APP_NAME;
+import static org.acreetionos.launcher.Flags.enableCursorHoverStates;
+import static org.acreetionos.launcher.util.TestConstants.AppNames.TEST_APP_NAME;
 import static com.android.quickstep.TaskbarModeSwitchRule.Mode.TRANSIENT;
 
 import static org.junit.Assume.assumeTrue;

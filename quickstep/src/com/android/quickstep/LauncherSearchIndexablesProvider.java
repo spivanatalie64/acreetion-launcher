@@ -28,7 +28,7 @@ import android.provider.SearchIndexablesContract.XmlResource;
 import android.provider.SearchIndexablesProvider;
 import android.util.Xml;
 
-import com.android.launcher3.R;
+import org.acreetionos.launcher.R;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

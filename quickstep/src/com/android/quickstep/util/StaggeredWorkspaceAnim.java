@@ -16,14 +16,14 @@
 package com.android.quickstep.util;
 
 import static com.android.app.animation.Interpolators.LINEAR;
-import static com.android.launcher3.LauncherAnimUtils.VIEW_TRANSLATE_Y;
-import static com.android.launcher3.LauncherState.BACKGROUND_APP;
-import static com.android.launcher3.LauncherState.NORMAL;
-import static com.android.launcher3.anim.AnimatorListeners.forEndCallback;
-import static com.android.launcher3.anim.PropertySetter.NO_ANIM_PROPERTY_SETTER;
-import static com.android.launcher3.states.StateAnimationConfig.SKIP_DEPTH_CONTROLLER;
-import static com.android.launcher3.states.StateAnimationConfig.SKIP_OVERVIEW;
-import static com.android.launcher3.states.StateAnimationConfig.SKIP_SCRIM;
+import static org.acreetionos.launcher.LauncherAnimUtils.VIEW_TRANSLATE_Y;
+import static org.acreetionos.launcher.LauncherState.BACKGROUND_APP;
+import static org.acreetionos.launcher.LauncherState.NORMAL;
+import static org.acreetionos.launcher.anim.AnimatorListeners.forEndCallback;
+import static org.acreetionos.launcher.anim.PropertySetter.NO_ANIM_PROPERTY_SETTER;
+import static org.acreetionos.launcher.states.StateAnimationConfig.SKIP_DEPTH_CONTROLLER;
+import static org.acreetionos.launcher.states.StateAnimationConfig.SKIP_OVERVIEW;
+import static org.acreetionos.launcher.states.StateAnimationConfig.SKIP_SCRIM;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -35,22 +35,22 @@ import android.view.ViewGroup;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Hotseat;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.QuickstepTransitionManager;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.anim.PendingAnimation;
-import com.android.launcher3.anim.SpringAnimationBuilder;
-import com.android.launcher3.celllayout.CellLayoutLayoutParams;
-import com.android.launcher3.statehandlers.DepthController;
-import com.android.launcher3.states.StateAnimationConfig;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.DynamicResource;
+import org.acreetionos.launcher.CellLayout;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.Hotseat;
+import org.acreetionos.launcher.LauncherState;
+import org.acreetionos.launcher.QuickstepTransitionManager;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.ShortcutAndWidgetContainer;
+import org.acreetionos.launcher.Workspace;
+import org.acreetionos.launcher.anim.PendingAnimation;
+import org.acreetionos.launcher.anim.SpringAnimationBuilder;
+import org.acreetionos.launcher.celllayout.CellLayoutLayoutParams;
+import org.acreetionos.launcher.statehandlers.DepthController;
+import org.acreetionos.launcher.states.StateAnimationConfig;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.DynamicResource;
 import com.android.quickstep.views.RecentsView;
 import com.android.systemui.plugins.ResourceProvider;
 

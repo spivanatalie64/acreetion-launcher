@@ -29,9 +29,9 @@ import android.view.ViewGroup.LayoutParams;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.testing.shared.ResourceUtils;
-import com.android.launcher3.util.DisplayController;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.testing.shared.ResourceUtils;
+import org.acreetionos.launcher.util.DisplayController;
 
 /**
  * Utility class to handle edge swipes for back gestures.

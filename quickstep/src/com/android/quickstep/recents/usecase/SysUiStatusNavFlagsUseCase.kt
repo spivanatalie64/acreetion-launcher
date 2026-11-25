@@ -17,10 +17,10 @@
 package com.android.quickstep.recents.usecase
 
 import android.view.WindowInsetsController
-import com.android.launcher3.util.SystemUiController.FLAG_DARK_NAV
-import com.android.launcher3.util.SystemUiController.FLAG_DARK_STATUS
-import com.android.launcher3.util.SystemUiController.FLAG_LIGHT_NAV
-import com.android.launcher3.util.SystemUiController.FLAG_LIGHT_STATUS
+import org.acreetionos.launcher.util.SystemUiController.FLAG_DARK_NAV
+import org.acreetionos.launcher.util.SystemUiController.FLAG_DARK_STATUS
+import org.acreetionos.launcher.util.SystemUiController.FLAG_LIGHT_NAV
+import org.acreetionos.launcher.util.SystemUiController.FLAG_LIGHT_STATUS
 import com.android.quickstep.recents.data.RecentTasksRepository
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.runBlocking

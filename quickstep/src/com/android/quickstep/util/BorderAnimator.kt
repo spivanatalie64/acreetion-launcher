@@ -28,7 +28,7 @@ import androidx.annotation.Px
 import androidx.core.animation.doOnEnd
 import androidx.core.animation.doOnStart
 import com.android.app.animation.Interpolators
-import com.android.launcher3.anim.AnimatedFloat
+import org.acreetionos.launcher.anim.AnimatedFloat
 import kotlin.math.roundToInt
 
 /**

@@ -21,17 +21,17 @@ import static android.view.MotionEvent.ACTION_DOWN;
 import static android.view.MotionEvent.ACTION_MOVE;
 import static android.view.MotionEvent.ACTION_UP;
 
-import static com.android.launcher3.Utilities.squaredHypot;
-import static com.android.launcher3.testing.shared.ResourceUtils.NAVBAR_BOTTOM_GESTURE_SIZE;
+import static org.acreetionos.launcher.Utilities.squaredHypot;
+import static org.acreetionos.launcher.testing.shared.ResourceUtils.NAVBAR_BOTTOM_GESTURE_SIZE;
 
 import android.content.Context;
 import android.graphics.Point;
 import android.graphics.PointF;
 import android.view.MotionEvent;
 
-import com.android.launcher3.R;
-import com.android.launcher3.testing.shared.ResourceUtils;
-import com.android.launcher3.util.DisplayController;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.testing.shared.ResourceUtils;
+import org.acreetionos.launcher.util.DisplayController;
 import com.android.quickstep.InputConsumer;
 import com.android.quickstep.RecentsAnimationDeviceState;
 import com.android.quickstep.SystemUiProxy;

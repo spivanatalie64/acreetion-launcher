@@ -17,10 +17,10 @@
 package com.android.quickstep.views;
 
 import static com.android.app.animation.Interpolators.EMPHASIZED;
-import static com.android.launcher3.Flags.enableOverviewIconMenu;
-import static com.android.launcher3.Flags.enableRefactorTaskThumbnail;
-import static com.android.launcher3.util.MultiPropertyFactory.MULTI_PROPERTY_VALUE;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
+import static org.acreetionos.launcher.Flags.enableOverviewIconMenu;
+import static org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail;
+import static org.acreetionos.launcher.util.MultiPropertyFactory.MULTI_PROPERTY_VALUE;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
 import static com.android.quickstep.views.TaskThumbnailViewDeprecated.DIM_ALPHA;
 
 import android.animation.Animator;
@@ -44,13 +44,13 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 import com.android.app.animation.Interpolators;
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.AnimationSuccessListener;
-import com.android.launcher3.anim.RoundedRectRevealOutlineProvider;
-import com.android.launcher3.popup.SystemShortcut;
-import com.android.launcher3.views.BaseDragLayer;
+import org.acreetionos.launcher.AbstractFloatingView;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.anim.AnimationSuccessListener;
+import org.acreetionos.launcher.anim.RoundedRectRevealOutlineProvider;
+import org.acreetionos.launcher.popup.SystemShortcut;
+import org.acreetionos.launcher.views.BaseDragLayer;
 import com.android.quickstep.TaskOverlayFactory;
 import com.android.quickstep.TaskUtils;
 import com.android.quickstep.orientation.RecentsPagedOrientationHandler;

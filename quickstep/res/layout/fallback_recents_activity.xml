@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.LauncherRootView
+<org.acreetionos.launcher.LauncherRootView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/launcher"
     android:layout_width="match_parent"
@@ -34,7 +34,7 @@
         android:layout_height="match_parent"
         android:clipChildren="false">
 
-        <com.android.launcher3.views.ScrimView
+        <org.acreetionos.launcher.views.ScrimView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/scrim_view"
@@ -53,4 +53,4 @@
             layout="@layout/overview_actions_container" />
 
     </com.android.quickstep.fallback.RecentsDragLayer>
-</com.android.launcher3.LauncherRootView>
+</org.acreetionos.launcher.LauncherRootView>

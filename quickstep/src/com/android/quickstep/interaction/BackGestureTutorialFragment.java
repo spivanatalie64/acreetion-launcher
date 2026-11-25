@@ -25,8 +25,8 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.R;
-import com.android.launcher3.logging.StatsLogManager;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.logging.StatsLogManager;
 import com.android.quickstep.interaction.TutorialController.TutorialType;
 
 import java.util.ArrayList;

@@ -23,8 +23,8 @@ import android.graphics.PointF;
 import android.view.View;
 
 import com.android.app.animation.Interpolators;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
 import com.android.quickstep.interaction.EdgeBackGestureHandler.BackGestureResult;
 import com.android.quickstep.interaction.NavBarGestureHandler.NavBarGestureResult;
 import com.android.quickstep.util.LottieAnimationColorUtils;

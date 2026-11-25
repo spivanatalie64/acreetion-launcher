@@ -17,8 +17,8 @@
 package com.android.quickstep.compose
 
 import android.content.Context
-import com.android.launcher3.compose.ComposeFacade
-import com.android.launcher3.compose.core.BaseComposeFacade
+import org.acreetionos.launcher.compose.ComposeFacade
+import org.acreetionos.launcher.compose.core.BaseComposeFacade
 import com.android.quickstep.compose.core.QuickstepComposeFeatures
 
 object QuickstepComposeFacade : BaseComposeFacade, QuickstepComposeFeatures {

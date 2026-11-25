@@ -17,10 +17,10 @@
 package com.android.quickstep.util
 
 import androidx.test.uiautomator.By
-import com.android.launcher3.tapl.LauncherInstrumentation
-import com.android.launcher3.tapl.Overview
-import com.android.launcher3.tapl.OverviewTask
-import com.android.launcher3.ui.AbstractLauncherUiTest
+import org.acreetionos.launcher.tapl.LauncherInstrumentation
+import org.acreetionos.launcher.tapl.Overview
+import org.acreetionos.launcher.tapl.OverviewTask
+import org.acreetionos.launcher.ui.AbstractLauncherUiTest
 
 object SplitScreenTestUtils {
 

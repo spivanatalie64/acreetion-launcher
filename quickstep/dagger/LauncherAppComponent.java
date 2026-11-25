@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dagger;
+package org.acreetionos.launcher.dagger;
 
 
 import com.android.quickstep.dagger.QuickStepModule;

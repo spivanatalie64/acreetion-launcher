@@ -16,8 +16,8 @@
 
 package com.android.quickstep;
 
-import static com.android.launcher3.util.rule.TestStabilityRule.LOCAL;
-import static com.android.launcher3.util.rule.TestStabilityRule.PLATFORM_POSTSUBMIT;
+import static org.acreetionos.launcher.util.rule.TestStabilityRule.LOCAL;
+import static org.acreetionos.launcher.util.rule.TestStabilityRule.PLATFORM_POSTSUBMIT;
 import static com.android.quickstep.TaskbarModeSwitchRule.Mode.TRANSIENT;
 
 import static org.junit.Assert.assertEquals;
@@ -36,21 +36,21 @@ import androidx.test.runner.AndroidJUnit4;
 import androidx.test.uiautomator.By;
 import androidx.test.uiautomator.Until;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.tapl.BaseOverview;
-import com.android.launcher3.tapl.LaunchedAppState;
-import com.android.launcher3.tapl.LauncherInstrumentation.NavigationModel;
-import com.android.launcher3.tapl.Overview;
-import com.android.launcher3.tapl.OverviewActions;
-import com.android.launcher3.tapl.OverviewTask;
-import com.android.launcher3.tapl.SelectModeButtons;
-import com.android.launcher3.tapl.Workspace;
-import com.android.launcher3.ui.PortraitLandscapeRunner.PortraitLandscape;
-import com.android.launcher3.util.TestUtil;
-import com.android.launcher3.util.Wait;
-import com.android.launcher3.util.rule.ScreenRecordRule.ScreenRecord;
-import com.android.launcher3.util.rule.TestStabilityRule;
+import org.acreetionos.launcher.Launcher;
+import org.acreetionos.launcher.LauncherState;
+import org.acreetionos.launcher.tapl.BaseOverview;
+import org.acreetionos.launcher.tapl.LaunchedAppState;
+import org.acreetionos.launcher.tapl.LauncherInstrumentation.NavigationModel;
+import org.acreetionos.launcher.tapl.Overview;
+import org.acreetionos.launcher.tapl.OverviewActions;
+import org.acreetionos.launcher.tapl.OverviewTask;
+import org.acreetionos.launcher.tapl.SelectModeButtons;
+import org.acreetionos.launcher.tapl.Workspace;
+import org.acreetionos.launcher.ui.PortraitLandscapeRunner.PortraitLandscape;
+import org.acreetionos.launcher.util.TestUtil;
+import org.acreetionos.launcher.util.Wait;
+import org.acreetionos.launcher.util.rule.ScreenRecordRule.ScreenRecord;
+import org.acreetionos.launcher.util.rule.TestStabilityRule;
 import com.android.quickstep.NavigationModeSwitchRule.NavigationModeSwitch;
 import com.android.quickstep.TaskbarModeSwitchRule.TaskbarModeSwitch;
 import com.android.quickstep.views.RecentsView;

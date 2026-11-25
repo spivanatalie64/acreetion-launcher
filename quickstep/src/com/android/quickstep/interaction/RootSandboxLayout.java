@@ -29,8 +29,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentManager;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
 
 /** Root layout that TutorialFragment uses to intercept motion events. */
 public class RootSandboxLayout extends RelativeLayout {

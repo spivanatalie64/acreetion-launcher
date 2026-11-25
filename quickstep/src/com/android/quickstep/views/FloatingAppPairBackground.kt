@@ -26,8 +26,8 @@ import android.graphics.drawable.Drawable
 import android.os.Build
 import android.view.animation.Interpolator
 import com.android.app.animation.Interpolators
-import com.android.launcher3.R
-import com.android.launcher3.Utilities
+import org.acreetionos.launcher.R
+import org.acreetionos.launcher.Utilities
 import com.android.quickstep.util.AnimUtils
 import com.android.systemui.shared.system.QuickStepContract
 

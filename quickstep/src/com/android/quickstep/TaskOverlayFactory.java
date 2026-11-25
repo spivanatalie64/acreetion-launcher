@@ -16,7 +16,7 @@
 
 package com.android.quickstep;
 
-import static com.android.launcher3.Flags.enableRefactorTaskThumbnail;
+import static org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail;
 import static com.android.quickstep.views.OverviewActionsView.DISABLED_NO_THUMBNAIL;
 import static com.android.quickstep.views.OverviewActionsView.DISABLED_ROTATED;
 
@@ -34,14 +34,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.android.launcher3.BaseActivity;
-import com.android.launcher3.R;
-import com.android.launcher3.model.data.ItemInfo;
-import com.android.launcher3.model.data.WorkspaceItemInfo;
-import com.android.launcher3.popup.SystemShortcut;
-import com.android.launcher3.util.ResourceBasedOverride;
-import com.android.launcher3.views.ActivityContext;
-import com.android.launcher3.views.Snackbar;
+import org.acreetionos.launcher.BaseActivity;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.model.data.ItemInfo;
+import org.acreetionos.launcher.model.data.WorkspaceItemInfo;
+import org.acreetionos.launcher.popup.SystemShortcut;
+import org.acreetionos.launcher.util.ResourceBasedOverride;
+import org.acreetionos.launcher.views.ActivityContext;
+import org.acreetionos.launcher.views.Snackbar;
 import com.android.quickstep.task.util.TaskOverlayHelper;
 import com.android.quickstep.util.RecentsOrientedState;
 import com.android.quickstep.views.DesktopTaskView;

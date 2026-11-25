@@ -31,14 +31,14 @@ import android.widget.LinearLayout;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Flags;
-import com.android.launcher3.Insettable;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.AnimatedFloat;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.MultiValueAlpha;
-import com.android.launcher3.util.NavigationMode;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.Flags;
+import org.acreetionos.launcher.Insettable;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.anim.AnimatedFloat;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.MultiValueAlpha;
+import org.acreetionos.launcher.util.NavigationMode;
 import com.android.quickstep.TaskOverlayFactory.OverlayUICallbacks;
 import com.android.quickstep.util.LayoutUtils;
 

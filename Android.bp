@@ -418,12 +418,28 @@ android_library {
     },
 }
 
-// Extra privileged permission whitelist for Launcher3 app.
+// Privileged permission whitelist for the Acreetion Launcher app
+// (renamed from the stock com.android.launcher3 whitelist).
 prebuilt_etc {
-    name: "privapp_whitelist_com.android.launcher3-extra",
+    name: "privapp_whitelist_org.acreetionos.launcher",
     system_ext_specific: true,
     sub_dir: "permissions",
-    src: "com.android.launcher3-extra.xml",
+    src: "org.acreetionos.launcher.xml",
+    filename_from_src: true,
+}
+
+// Acreetion suite signing certificate (shared with the other Acreetion apps).
+android_app_certificate {
+    name: "acreetion_certificate",
+    certificate: "certs/acreetion",
+}
+
+// Extra privileged permission whitelist for Launcher3 app.
+prebuilt_etc {
+    name: "privapp_whitelist_org.acreetionos.launcher-extra",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "org.acreetionos.launcher-extra.xml",
     filename_from_src: true,
 }
 
@@ -463,12 +479,12 @@ android_app {
         "QuickSearchBox",
     ],
     required: [
-        "privapp_whitelist_com.android.launcher3",
-        "privapp_whitelist_com.android.launcher3-extra",
+        "privapp_whitelist_org.acreetionos.launcher",
+        "privapp_whitelist_org.acreetionos.launcher-extra",
     ],
 
     jacoco: {
-        include_filter: ["com.android.launcher3.**"],
+        include_filter: ["org.acreetionos.launcher.**"],
     },
     additional_manifests: [
         "AndroidManifest-common.xml",
@@ -574,7 +590,8 @@ android_library {
 
 // Build rule for Quickstep app.
 android_app {
-    name: "TrebuchetQuickStep",
+    name: "AcreetionLauncher",
+    certificate: ":acreetion_certificate",
     static_libs: ["Launcher3QuickStepLib"],
     optimize: {
         proguard_flags_files: [":launcher-proguard-rules"],
@@ -596,8 +613,8 @@ android_app {
         "QuickSearchBox",
     ],
     required: [
-        "privapp_whitelist_com.android.launcher3",
-        "privapp_whitelist_com.android.launcher3-extra",
+        "privapp_whitelist_org.acreetionos.launcher",
+        "privapp_whitelist_org.acreetionos.launcher-extra",
         "launcher.quickstep.protolog.pb",
     ],
 
@@ -610,15 +627,15 @@ android_app {
 
     manifest: "quickstep/AndroidManifest.xml",
     jacoco: {
-        include_filter: ["com.android.launcher3.*"],
+        include_filter: ["org.acreetionos.launcher.*"],
     },
 
 }
 
 phony {
-    name: "Launcher3QuickStep",
+    name: "AcreetionLauncherQuickStep",
     required: [
-        "TrebuchetQuickStep",
+        "AcreetionLauncher",
     ],
 }
 
@@ -652,8 +669,8 @@ android_app {
         "QuickSearchBox",
     ],
     required: [
-        "privapp_whitelist_com.android.launcher3",
-        "privapp_whitelist_com.android.launcher3-extra",
+        "privapp_whitelist_org.acreetionos.launcher",
+        "privapp_whitelist_org.acreetionos.launcher-extra",
     ],
 
     additional_manifests: [
@@ -664,7 +681,7 @@ android_app {
 
     manifest: "quickstep/AndroidManifest.xml",
     jacoco: {
-        include_filter: ["com.android.launcher3.*"],
+        include_filter: ["org.acreetionos.launcher.*"],
     },
 }
 
@@ -694,8 +711,8 @@ android_app {
         "QuickSearchBox",
     ],
     required: [
-        "privapp_whitelist_com.android.launcher3",
-        "privapp_whitelist_com.android.launcher3-extra",
+        "privapp_whitelist_org.acreetionos.launcher",
+        "privapp_whitelist_org.acreetionos.launcher-extra",
     ],
 
     additional_manifests: [
@@ -706,6 +723,6 @@ android_app {
 
     manifest: "quickstep/AndroidManifest.xml",
     jacoco: {
-        include_filter: ["com.android.launcher3.*"],
+        include_filter: ["org.acreetionos.launcher.*"],
     },
 }

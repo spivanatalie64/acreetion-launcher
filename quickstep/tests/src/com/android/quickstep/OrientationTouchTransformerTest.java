@@ -19,7 +19,7 @@ package com.android.quickstep;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
 
-import static com.android.launcher3.util.NavigationMode.NO_BUTTON;
+import static org.acreetionos.launcher.util.NavigationMode.NO_BUTTON;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -42,12 +42,12 @@ import android.view.Surface;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 
-import com.android.launcher3.testing.shared.ResourceUtils;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.RotationUtils;
-import com.android.launcher3.util.WindowBounds;
-import com.android.launcher3.util.window.CachedDisplayInfo;
-import com.android.launcher3.util.window.WindowManagerProxy;
+import org.acreetionos.launcher.testing.shared.ResourceUtils;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.RotationUtils;
+import org.acreetionos.launcher.util.WindowBounds;
+import org.acreetionos.launcher.util.window.CachedDisplayInfo;
+import org.acreetionos.launcher.util.window.WindowManagerProxy;
 
 import org.junit.Before;
 import org.junit.Test;

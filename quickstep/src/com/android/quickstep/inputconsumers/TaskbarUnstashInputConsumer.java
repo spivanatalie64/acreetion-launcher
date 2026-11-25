@@ -18,10 +18,10 @@ package com.android.quickstep.inputconsumers;
 import static android.view.MotionEvent.ACTION_MOVE;
 import static android.view.MotionEvent.INVALID_POINTER_ID;
 
-import static com.android.launcher3.Flags.enableCursorHoverStates;
-import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
-import static com.android.launcher3.MotionEventsUtils.isTrackpadMotionEvent;
-import static com.android.launcher3.taskbar.TaskbarAutohideSuspendController.FLAG_AUTOHIDE_SUSPEND_TOUCHING;
+import static org.acreetionos.launcher.Flags.enableCursorHoverStates;
+import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
+import static org.acreetionos.launcher.MotionEventsUtils.isTrackpadMotionEvent;
+import static org.acreetionos.launcher.taskbar.TaskbarAutohideSuspendController.FLAG_AUTOHIDE_SUSPEND_TOUCHING;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -36,13 +36,13 @@ import android.view.ViewConfiguration;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.R;
-import com.android.launcher3.taskbar.TaskbarActivityContext;
-import com.android.launcher3.taskbar.TaskbarThresholdUtils;
-import com.android.launcher3.taskbar.TaskbarTranslationController.TransitionCallback;
-import com.android.launcher3.touch.OverScroll;
-import com.android.launcher3.util.DisplayController;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.taskbar.TaskbarActivityContext;
+import org.acreetionos.launcher.taskbar.TaskbarThresholdUtils;
+import org.acreetionos.launcher.taskbar.TaskbarTranslationController.TransitionCallback;
+import org.acreetionos.launcher.touch.OverScroll;
+import org.acreetionos.launcher.util.DisplayController;
 import com.android.quickstep.GestureState;
 import com.android.quickstep.InputConsumer;
 import com.android.quickstep.OverviewCommandHelper;

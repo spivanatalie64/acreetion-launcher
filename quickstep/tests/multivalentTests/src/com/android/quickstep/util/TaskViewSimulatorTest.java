@@ -33,16 +33,16 @@ import android.view.Surface;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.DisplayController.Info;
-import com.android.launcher3.util.LauncherModelHelper;
-import com.android.launcher3.util.NavigationMode;
-import com.android.launcher3.util.RotationUtils;
-import com.android.launcher3.util.WindowBounds;
-import com.android.launcher3.util.window.CachedDisplayInfo;
-import com.android.launcher3.util.window.WindowManagerProxy;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.InvariantDeviceProfile;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.DisplayController.Info;
+import org.acreetionos.launcher.util.LauncherModelHelper;
+import org.acreetionos.launcher.util.NavigationMode;
+import org.acreetionos.launcher.util.RotationUtils;
+import org.acreetionos.launcher.util.WindowBounds;
+import org.acreetionos.launcher.util.window.CachedDisplayInfo;
+import org.acreetionos.launcher.util.window.WindowManagerProxy;
 import com.android.quickstep.FallbackActivityInterface;
 import com.android.quickstep.util.SurfaceTransaction.MockProperties;
 

@@ -25,8 +25,8 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.statehandlers.DesktopVisibilityController;
-import com.android.launcher3.taskbar.TaskbarManager;
+import org.acreetionos.launcher.statehandlers.DesktopVisibilityController;
+import org.acreetionos.launcher.taskbar.TaskbarManager;
 import com.android.quickstep.OverviewCommandHelper;
 import com.android.quickstep.TouchInteractionService;
 import com.android.quickstep.TouchInteractionService.TISBinder;

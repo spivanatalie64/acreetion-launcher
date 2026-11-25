@@ -16,7 +16,7 @@
 
 package com.android.quickstep;
 
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
 
 import android.annotation.NonNull;
 import android.annotation.UserIdInt;
@@ -30,10 +30,10 @@ import android.view.RemoteAnimationTarget;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.pm.UserCache;
-import com.android.launcher3.util.ApplicationInfoWrapper;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.TraceHelper;
+import org.acreetionos.launcher.pm.UserCache;
+import org.acreetionos.launcher.util.ApplicationInfoWrapper;
+import org.acreetionos.launcher.util.ComponentKey;
+import org.acreetionos.launcher.util.TraceHelper;
 import com.android.systemui.shared.recents.model.Task;
 import com.android.systemui.shared.system.ActivityManagerWrapper;
 

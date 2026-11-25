@@ -23,14 +23,14 @@ import android.content.Context
 import android.util.Log
 import androidx.annotation.VisibleForTesting
 import com.android.internal.app.AssistUtils
-import com.android.launcher3.logging.StatsLogManager
-import com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_ASSISTANT_FAILED_SERVICE_ERROR
-import com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_OVER_KEYGUARD
-import com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_OVER_NOTIFICATION_SHADE
-import com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_SPLITSCREEN
-import com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_FAILED_NOT_AVAILABLE
-import com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_FAILED_SETTING_DISABLED
-import com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_SUCCESSFUL_HOME
+import org.acreetionos.launcher.logging.StatsLogManager
+import org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_ASSISTANT_FAILED_SERVICE_ERROR
+import org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_OVER_KEYGUARD
+import org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_OVER_NOTIFICATION_SHADE
+import org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_SPLITSCREEN
+import org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_FAILED_NOT_AVAILABLE
+import org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_FAILED_SETTING_DISABLED
+import org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_SUCCESSFUL_HOME
 import com.android.quickstep.BaseContainerInterface
 import com.android.quickstep.DeviceConfigWrapper
 import com.android.quickstep.OverviewComponentObserver
@@ -64,7 +64,7 @@ internal constructor(
 
     /** @return Array of AssistUtils.INVOCATION_TYPE_* that we want to handle instead of SysUI. */
     fun getSysUiAssistOverrideInvocationTypes(): IntArray {
-        val overrideInvocationTypes = com.android.launcher3.util.IntArray()
+        val overrideInvocationTypes = org.acreetionos.launcher.util.IntArray()
         if (context.packageManager.hasSystemFeature(FEATURE_CONTEXTUAL_SEARCH)) {
             overrideInvocationTypes.add(AssistUtils.INVOCATION_TYPE_HOME_BUTTON_LONG_PRESS)
         }

@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.taskbar.KeyboardQuickSwitchView
+<org.acreetionos.launcher.taskbar.KeyboardQuickSwitchView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -89,4 +89,4 @@
 
     </HorizontalScrollView>
 
-</com.android.launcher3.taskbar.KeyboardQuickSwitchView>
+</org.acreetionos.launcher.taskbar.KeyboardQuickSwitchView>

@@ -4,11 +4,11 @@ import android.content.Context
 import android.testing.AndroidTestingRunner
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.filters.SmallTest
-import com.android.launcher3.util.DisplayController.CHANGE_DENSITY
-import com.android.launcher3.util.DisplayController.CHANGE_NAVIGATION_MODE
-import com.android.launcher3.util.DisplayController.CHANGE_ROTATION
-import com.android.launcher3.util.DisplayController.Info
-import com.android.launcher3.util.NavigationMode
+import org.acreetionos.launcher.util.DisplayController.CHANGE_DENSITY
+import org.acreetionos.launcher.util.DisplayController.CHANGE_NAVIGATION_MODE
+import org.acreetionos.launcher.util.DisplayController.CHANGE_ROTATION
+import org.acreetionos.launcher.util.DisplayController.Info
+import org.acreetionos.launcher.util.NavigationMode
 import com.android.quickstep.util.GestureExclusionManager
 import com.android.systemui.shared.system.QuickStepContract.SYSUI_STATE_ALLOW_GESTURE_IGNORING_BAR_VISIBILITY
 import com.android.systemui.shared.system.QuickStepContract.SYSUI_STATE_DEVICE_DREAMING

@@ -19,9 +19,9 @@ import static android.app.contextualsearch.ContextualSearchManager.ACTION_LAUNCH
 import static android.app.contextualsearch.ContextualSearchManager.ENTRYPOINT_SYSTEM_ACTION;
 import static android.app.contextualsearch.ContextualSearchManager.FEATURE_CONTEXTUAL_SEARCH;
 
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_SUCCESSFUL_SYSTEM_ACTION;
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
-import static com.android.launcher3.util.MainThreadInitializedObject.forOverride;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_SUCCESSFUL_SYSTEM_ACTION;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.MainThreadInitializedObject.forOverride;
 import static com.android.quickstep.util.SystemActionConstants.SYSTEM_ACTION_ID_SEARCH_SCREEN;
 
 import android.app.PendingIntent;
@@ -43,14 +43,14 @@ import android.view.accessibility.AccessibilityManager;
 import androidx.annotation.CallSuper;
 import androidx.annotation.VisibleForTesting;
 
-import com.android.launcher3.R;
-import com.android.launcher3.logging.StatsLogManager;
-import com.android.launcher3.util.EventLogArray;
-import com.android.launcher3.util.MainThreadInitializedObject;
-import com.android.launcher3.util.ResourceBasedOverride;
-import com.android.launcher3.util.SafeCloseable;
-import com.android.launcher3.util.SettingsCache;
-import com.android.launcher3.util.SimpleBroadcastReceiver;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.logging.StatsLogManager;
+import org.acreetionos.launcher.util.EventLogArray;
+import org.acreetionos.launcher.util.MainThreadInitializedObject;
+import org.acreetionos.launcher.util.ResourceBasedOverride;
+import org.acreetionos.launcher.util.SafeCloseable;
+import org.acreetionos.launcher.util.SettingsCache;
+import org.acreetionos.launcher.util.SimpleBroadcastReceiver;
 import com.android.quickstep.DeviceConfigWrapper;
 import com.android.quickstep.SystemUiProxy;
 import com.android.quickstep.TopTaskTracker;

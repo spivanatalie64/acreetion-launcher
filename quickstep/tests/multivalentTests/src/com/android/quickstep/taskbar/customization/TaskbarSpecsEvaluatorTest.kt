@@ -16,11 +16,11 @@
 
 package com.android.quickstep.taskbar.customization
 
-import com.android.launcher3.taskbar.TaskbarActivityContext
-import com.android.launcher3.taskbar.customization.TaskbarFeatureEvaluator
-import com.android.launcher3.taskbar.customization.TaskbarIconSpecs
-import com.android.launcher3.taskbar.customization.TaskbarSpecsEvaluator
-import com.android.launcher3.util.LauncherMultivalentJUnit
+import org.acreetionos.launcher.taskbar.TaskbarActivityContext
+import org.acreetionos.launcher.taskbar.customization.TaskbarFeatureEvaluator
+import org.acreetionos.launcher.taskbar.customization.TaskbarIconSpecs
+import org.acreetionos.launcher.taskbar.customization.TaskbarSpecsEvaluator
+import org.acreetionos.launcher.util.LauncherMultivalentJUnit
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 import org.junit.runner.RunWith

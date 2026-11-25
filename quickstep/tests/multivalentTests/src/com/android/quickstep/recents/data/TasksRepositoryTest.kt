@@ -21,7 +21,7 @@ import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.android.launcher3.util.TestDispatcherProvider
+import org.acreetionos.launcher.util.TestDispatcherProvider
 import com.android.quickstep.util.DesktopTask
 import com.android.quickstep.util.GroupTask
 import com.android.systemui.shared.recents.model.Task

@@ -22,7 +22,7 @@ import android.testing.AndroidTestingRunner
 import android.view.Display.DEFAULT_DISPLAY
 import android.view.IWindowManager
 import androidx.test.filters.SmallTest
-import com.android.launcher3.util.Executors
+import org.acreetionos.launcher.util.Executors
 import com.android.quickstep.util.GestureExclusionManager.ExclusionListener
 import org.junit.Before
 import org.junit.Test

@@ -15,7 +15,7 @@
  */
 package com.android.quickstep.util;
 
-import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
+import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
 
 import android.app.WallpaperManager;
 import android.os.IBinder;
@@ -24,11 +24,11 @@ import android.util.Log;
 import android.view.AttachedSurfaceControl;
 import android.view.SurfaceControl;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.MultiPropertyFactory;
-import com.android.launcher3.util.MultiPropertyFactory.MultiProperty;
+import org.acreetionos.launcher.Launcher;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.util.MultiPropertyFactory;
+import org.acreetionos.launcher.util.MultiPropertyFactory.MultiProperty;
 import com.android.systemui.shared.system.BlurUtils;
 
 /**

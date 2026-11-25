@@ -17,7 +17,7 @@ package com.android.quickstep.views;
 
 import static com.android.app.animation.Interpolators.LINEAR;
 import static com.android.app.animation.Interpolators.clampToProgress;
-import static com.android.launcher3.AbstractFloatingView.TYPE_TASK_MENU;
+import static org.acreetionos.launcher.AbstractFloatingView.TYPE_TASK_MENU;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -35,14 +35,14 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.InsettableFrameLayout;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.PendingAnimation;
-import com.android.launcher3.taskbar.TaskbarActivityContext;
-import com.android.launcher3.util.SplitConfigurationOptions;
-import com.android.launcher3.views.BaseDragLayer;
+import org.acreetionos.launcher.AbstractFloatingView;
+import org.acreetionos.launcher.InsettableFrameLayout;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.anim.PendingAnimation;
+import org.acreetionos.launcher.taskbar.TaskbarActivityContext;
+import org.acreetionos.launcher.util.SplitConfigurationOptions;
+import org.acreetionos.launcher.views.BaseDragLayer;
 import com.android.quickstep.orientation.RecentsPagedOrientationHandler;
 import com.android.quickstep.util.AnimUtils;
 import com.android.quickstep.util.MultiValueUpdateListener;

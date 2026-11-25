@@ -20,12 +20,12 @@ import static android.app.contextualsearch.ContextualSearchManager.FEATURE_CONTE
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
 
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_ASSISTANT_FAILED_SERVICE_ERROR;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_OVER_KEYGUARD;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_OVER_NOTIFICATION_SHADE;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_SPLITSCREEN;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_FAILED_NOT_AVAILABLE;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_FAILED_SETTING_DISABLED;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_ASSISTANT_FAILED_SERVICE_ERROR;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_OVER_KEYGUARD;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_OVER_NOTIFICATION_SHADE;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_ATTEMPTED_SPLITSCREEN;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_FAILED_NOT_AVAILABLE;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LAUNCH_OMNI_FAILED_SETTING_DISABLED;
 import static com.android.quickstep.util.ContextualSearchInvoker.KEYGUARD_SHOWING_SYSUI_FLAGS;
 import static com.android.quickstep.util.ContextualSearchInvoker.SHADE_EXPANDED_SYSUI_FLAGS;
 
@@ -47,7 +47,7 @@ import android.content.pm.PackageManager;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 
-import com.android.launcher3.logging.StatsLogManager;
+import org.acreetionos.launcher.logging.StatsLogManager;
 import com.android.quickstep.BaseContainerInterface;
 import com.android.quickstep.DeviceConfigWrapper;
 import com.android.quickstep.SystemUiProxy;

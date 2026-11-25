@@ -19,6 +19,6 @@
         android:shortcutId="single_shortcut_themed"
         android:icon="@drawable/test_theme_icon"
         android:shortcutShortLabel="@string/shortcut1">
-        <intent android:action="com.android.launcher3.intent.action.test_shortcut_single"/>
+        <intent android:action="org.acreetionos.launcher.intent.action.test_shortcut_single"/>
     </shortcut>
 </shortcuts>

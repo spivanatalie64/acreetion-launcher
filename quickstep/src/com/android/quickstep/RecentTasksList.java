@@ -18,7 +18,7 @@ package com.android.quickstep;
 
 import static android.content.Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS;
 
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
 import static com.android.quickstep.util.SplitScreenUtils.convertShellSplitBoundsToLauncher;
 import static com.android.wm.shell.shared.GroupedTaskInfo.TYPE_FREEFORM;
 
@@ -34,8 +34,8 @@ import android.util.SparseBooleanArray;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import com.android.launcher3.util.LooperExecutor;
-import com.android.launcher3.util.SplitConfigurationOptions;
+import org.acreetionos.launcher.util.LooperExecutor;
+import org.acreetionos.launcher.util.SplitConfigurationOptions;
 import com.android.quickstep.util.DesktopTask;
 import com.android.quickstep.util.GroupTask;
 import com.android.systemui.shared.recents.model.Task;

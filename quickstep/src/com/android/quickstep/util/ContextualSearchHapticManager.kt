@@ -20,10 +20,10 @@ import android.content.Context
 import android.os.VibrationEffect
 import android.os.VibrationEffect.Composition
 import android.os.Vibrator
-import com.android.launcher3.dagger.ApplicationContext
-import com.android.launcher3.util.MainThreadInitializedObject
-import com.android.launcher3.util.SafeCloseable
-import com.android.launcher3.util.VibratorWrapper
+import org.acreetionos.launcher.dagger.ApplicationContext
+import org.acreetionos.launcher.util.MainThreadInitializedObject
+import org.acreetionos.launcher.util.SafeCloseable
+import org.acreetionos.launcher.util.VibratorWrapper
 import com.android.quickstep.DeviceConfigWrapper.Companion.get
 import kotlin.math.pow
 

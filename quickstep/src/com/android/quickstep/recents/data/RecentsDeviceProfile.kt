@@ -17,7 +17,7 @@
 package com.android.quickstep.recents.data
 
 /**
- * Container to hold [com.android.launcher3.DeviceProfile] related to Recents.
+ * Container to hold [org.acreetionos.launcher.DeviceProfile] related to Recents.
  *
  * @property isLargeScreen whether the current device posture has a large screen
  */

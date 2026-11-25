@@ -16,9 +16,9 @@
 package com.android.quickstep.inputconsumers;
 
 import static com.android.app.animation.Interpolators.scrollInterpolatorForVelocity;
-import static com.android.launcher3.touch.BaseSwipeDetector.calculateDuration;
-import static com.android.launcher3.touch.SingleAxisSwipeDetector.DIRECTION_POSITIVE;
-import static com.android.launcher3.touch.SingleAxisSwipeDetector.VERTICAL;
+import static org.acreetionos.launcher.touch.BaseSwipeDetector.calculateDuration;
+import static org.acreetionos.launcher.touch.SingleAxisSwipeDetector.DIRECTION_POSITIVE;
+import static org.acreetionos.launcher.touch.SingleAxisSwipeDetector.VERTICAL;
 import static com.android.quickstep.MultiStateCallback.DEBUG_STATES;
 import static com.android.quickstep.OverviewComponentObserver.startHomeIntentSafely;
 import static com.android.quickstep.util.ActiveGestureLog.INTENT_EXTRA_LOG_TRACE_ID;
@@ -29,12 +29,12 @@ import android.content.Intent;
 import android.graphics.Point;
 import android.view.MotionEvent;
 
-import com.android.launcher3.anim.AnimatedFloat;
-import com.android.launcher3.anim.AnimatorListeners;
-import com.android.launcher3.testing.TestLogging;
-import com.android.launcher3.testing.shared.TestProtocol;
-import com.android.launcher3.touch.SingleAxisSwipeDetector;
-import com.android.launcher3.util.DisplayController;
+import org.acreetionos.launcher.anim.AnimatedFloat;
+import org.acreetionos.launcher.anim.AnimatorListeners;
+import org.acreetionos.launcher.testing.TestLogging;
+import org.acreetionos.launcher.testing.shared.TestProtocol;
+import org.acreetionos.launcher.touch.SingleAxisSwipeDetector;
+import org.acreetionos.launcher.util.DisplayController;
 import com.android.quickstep.GestureState;
 import com.android.quickstep.InputConsumer;
 import com.android.quickstep.MultiStateCallback;

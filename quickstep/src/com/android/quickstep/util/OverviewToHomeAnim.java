@@ -15,8 +15,8 @@
  */
 package com.android.quickstep.util;
 
-import static com.android.launcher3.LauncherState.NORMAL;
-import static com.android.launcher3.LauncherState.OVERVIEW;
+import static org.acreetionos.launcher.LauncherState.NORMAL;
+import static org.acreetionos.launcher.LauncherState.OVERVIEW;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -24,11 +24,11 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.anim.AnimationSuccessListener;
-import com.android.launcher3.statemanager.StateManager;
-import com.android.launcher3.states.StateAnimationConfig;
+import org.acreetionos.launcher.Launcher;
+import org.acreetionos.launcher.LauncherState;
+import org.acreetionos.launcher.anim.AnimationSuccessListener;
+import org.acreetionos.launcher.statemanager.StateManager;
+import org.acreetionos.launcher.states.StateAnimationConfig;
 
 import java.util.function.BiConsumer;
 

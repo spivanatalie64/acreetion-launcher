@@ -21,8 +21,8 @@ import androidx.annotation.NonNull;
 import androidx.test.filters.LargeTest;
 import androidx.test.runner.AndroidJUnit4;
 
-import com.android.launcher3.tapl.KeyboardQuickSwitch;
-import com.android.launcher3.taskbar.KeyboardQuickSwitchController;
+import org.acreetionos.launcher.tapl.KeyboardQuickSwitch;
+import org.acreetionos.launcher.taskbar.KeyboardQuickSwitchController;
 
 import org.junit.Assume;
 import org.junit.Test;

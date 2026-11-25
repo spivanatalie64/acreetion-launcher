@@ -16,8 +16,8 @@
 
 package com.android.quickstep;
 
-import static com.android.launcher3.LauncherState.ALL_APPS;
-import static com.android.launcher3.LauncherState.NORMAL;
+import static org.acreetionos.launcher.LauncherState.ALL_APPS;
+import static org.acreetionos.launcher.LauncherState.NORMAL;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -28,12 +28,12 @@ import android.util.Log;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 
-import com.android.launcher3.allapps.PrivateProfileManager;
-import com.android.launcher3.tapl.HomeAllApps;
-import com.android.launcher3.tapl.LauncherInstrumentation;
-import com.android.launcher3.tapl.PrivateSpaceContainer;
-import com.android.launcher3.util.TestUtil;
-import com.android.launcher3.util.rule.ScreenRecordRule;
+import org.acreetionos.launcher.allapps.PrivateProfileManager;
+import org.acreetionos.launcher.tapl.HomeAllApps;
+import org.acreetionos.launcher.tapl.LauncherInstrumentation;
+import org.acreetionos.launcher.tapl.PrivateSpaceContainer;
+import org.acreetionos.launcher.util.TestUtil;
+import org.acreetionos.launcher.util.rule.ScreenRecordRule;
 
 import org.junit.After;
 import org.junit.Test;

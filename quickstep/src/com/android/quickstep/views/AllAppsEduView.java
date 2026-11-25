@@ -18,10 +18,10 @@ package com.android.quickstep.views;
 import static com.android.app.animation.Interpolators.FAST_OUT_SLOW_IN;
 import static com.android.app.animation.Interpolators.LINEAR;
 import static com.android.app.animation.Interpolators.OVERSHOOT_1_7;
-import static com.android.launcher3.LauncherState.ALL_APPS;
-import static com.android.launcher3.LauncherState.NORMAL;
-import static com.android.launcher3.Utilities.EDGE_NAV_BAR;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_ALL_APPS_EDU_SHOWN;
+import static org.acreetionos.launcher.LauncherState.ALL_APPS;
+import static org.acreetionos.launcher.LauncherState.NORMAL;
+import static org.acreetionos.launcher.Utilities.EDGE_NAV_BAR;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_ALL_APPS_EDU_SHOWN;
 import static com.android.quickstep.util.AnimUtils.clampToDuration;
 
 import android.animation.Animator;
@@ -39,15 +39,15 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.AnimatorPlaybackController;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.uioverrides.touchcontrollers.PortraitStatesTouchController;
-import com.android.launcher3.util.Themes;
+import org.acreetionos.launcher.AbstractFloatingView;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.Launcher;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.anim.AnimatorPlaybackController;
+import org.acreetionos.launcher.dragndrop.DragLayer;
+import org.acreetionos.launcher.uioverrides.touchcontrollers.PortraitStatesTouchController;
+import org.acreetionos.launcher.util.Themes;
 import com.android.quickstep.util.MultiValueUpdateListener;
 
 /**

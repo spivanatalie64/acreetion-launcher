@@ -19,14 +19,14 @@ import static android.app.WindowConfiguration.ACTIVITY_TYPE_UNDEFINED;
 import static android.app.WindowConfiguration.WINDOWING_MODE_PINNED;
 import static android.view.Display.DEFAULT_DISPLAY;
 
-import static com.android.launcher3.MotionEventsUtils.isTrackpadScroll;
-import static com.android.launcher3.util.DisplayController.CHANGE_ALL;
-import static com.android.launcher3.util.DisplayController.CHANGE_NAVIGATION_MODE;
-import static com.android.launcher3.util.DisplayController.CHANGE_ROTATION;
-import static com.android.launcher3.util.NavigationMode.NO_BUTTON;
-import static com.android.launcher3.util.NavigationMode.THREE_BUTTONS;
-import static com.android.launcher3.util.SettingsCache.ONE_HANDED_ENABLED;
-import static com.android.launcher3.util.SettingsCache.ONE_HANDED_SWIPE_BOTTOM_TO_NOTIFICATION_ENABLED;
+import static org.acreetionos.launcher.MotionEventsUtils.isTrackpadScroll;
+import static org.acreetionos.launcher.util.DisplayController.CHANGE_ALL;
+import static org.acreetionos.launcher.util.DisplayController.CHANGE_NAVIGATION_MODE;
+import static org.acreetionos.launcher.util.DisplayController.CHANGE_ROTATION;
+import static org.acreetionos.launcher.util.NavigationMode.NO_BUTTON;
+import static org.acreetionos.launcher.util.NavigationMode.THREE_BUTTONS;
+import static org.acreetionos.launcher.util.SettingsCache.ONE_HANDED_ENABLED;
+import static org.acreetionos.launcher.util.SettingsCache.ONE_HANDED_SWIPE_BOTTOM_TO_NOTIFICATION_ENABLED;
 import static com.android.systemui.shared.system.QuickStepContract.SYSUI_STATE_A11Y_BUTTON_CLICKABLE;
 import static com.android.systemui.shared.system.QuickStepContract.SYSUI_STATE_A11Y_BUTTON_LONG_CLICKABLE;
 import static com.android.systemui.shared.system.QuickStepContract.SYSUI_STATE_ALLOW_GESTURE_IGNORING_BAR_VISIBILITY;
@@ -64,11 +64,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.DisplayController.DisplayInfoChangeListener;
-import com.android.launcher3.util.DisplayController.Info;
-import com.android.launcher3.util.NavigationMode;
-import com.android.launcher3.util.SettingsCache;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.DisplayController.DisplayInfoChangeListener;
+import org.acreetionos.launcher.util.DisplayController.Info;
+import org.acreetionos.launcher.util.NavigationMode;
+import org.acreetionos.launcher.util.SettingsCache;
 import com.android.quickstep.TopTaskTracker.CachedTaskInfo;
 import com.android.quickstep.util.ActiveGestureLog;
 import com.android.quickstep.util.ContextualSearchStateManager;
@@ -635,7 +635,7 @@ public class RecentsAnimationDeviceState implements DisplayInfoChangeListener, E
     /**
      * Returns the squared touch slop for {@link InputConsumer}s to compare against before pilfering
      * pointers. Note that this is squared because it expects to be compared against
-     * {@link com.android.launcher3.Utilities#squaredHypot} (to avoid square root on each event).
+     * {@link org.acreetionos.launcher.Utilities#squaredHypot} (to avoid square root on each event).
      */
     public float getSquaredTouchSlop() {
         float touchSlop = getTouchSlop();

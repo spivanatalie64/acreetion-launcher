@@ -24,7 +24,7 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import com.android.launcher3.util.ActivityLifecycleCallbacksAdapter;
+import org.acreetionos.launcher.util.ActivityLifecycleCallbacksAdapter;
 import com.android.quickstep.RecentsModel;
 import com.android.systemui.shared.system.TaskStackChangeListener;
 import com.android.systemui.shared.system.TaskStackChangeListeners;

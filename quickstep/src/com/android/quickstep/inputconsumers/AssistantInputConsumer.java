@@ -26,7 +26,7 @@ import static android.view.MotionEvent.ACTION_UP;
 
 import static com.android.internal.app.AssistUtils.INVOCATION_TYPE_GESTURE;
 import static com.android.internal.app.AssistUtils.INVOCATION_TYPE_KEY;
-import static com.android.launcher3.Utilities.squaredHypot;
+import static org.acreetionos.launcher.Utilities.squaredHypot;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -43,7 +43,7 @@ import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
 import com.android.app.animation.Interpolators;
-import com.android.launcher3.R;
+import org.acreetionos.launcher.R;
 import com.android.quickstep.BaseContainerInterface;
 import com.android.quickstep.GestureState;
 import com.android.quickstep.InputConsumer;

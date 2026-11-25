@@ -29,19 +29,19 @@ import android.widget.FrameLayout
 import androidx.core.util.component1
 import androidx.core.util.component2
 import androidx.core.view.updateLayoutParams
-import com.android.launcher3.DeviceProfile
-import com.android.launcher3.Flags
-import com.android.launcher3.R
-import com.android.launcher3.Utilities
-import com.android.launcher3.logger.LauncherAtom
-import com.android.launcher3.touch.SingleAxisSwipeDetector
-import com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT
-import com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT
-import com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_UNDEFINED
-import com.android.launcher3.util.SplitConfigurationOptions.STAGE_TYPE_MAIN
-import com.android.launcher3.util.SplitConfigurationOptions.SplitBounds
-import com.android.launcher3.util.SplitConfigurationOptions.SplitPositionOption
-import com.android.launcher3.views.BaseDragLayer
+import org.acreetionos.launcher.DeviceProfile
+import org.acreetionos.launcher.Flags
+import org.acreetionos.launcher.R
+import org.acreetionos.launcher.Utilities
+import org.acreetionos.launcher.logger.LauncherAtom
+import org.acreetionos.launcher.touch.SingleAxisSwipeDetector
+import org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT
+import org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT
+import org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_UNDEFINED
+import org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_TYPE_MAIN
+import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitBounds
+import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitPositionOption
+import org.acreetionos.launcher.views.BaseDragLayer
 import com.android.quickstep.views.IconAppChipView
 
 class SeascapePagedViewHandler : LandscapePagedViewHandler() {

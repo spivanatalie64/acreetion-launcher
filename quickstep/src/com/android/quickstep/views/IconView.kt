@@ -24,10 +24,10 @@ import android.view.Gravity
 import android.view.View
 import android.widget.FrameLayout
 import androidx.core.view.updateLayoutParams
-import com.android.launcher3.DeviceProfile
-import com.android.launcher3.Utilities
-import com.android.launcher3.util.MultiValueAlpha
-import com.android.launcher3.views.ActivityContext
+import org.acreetionos.launcher.DeviceProfile
+import org.acreetionos.launcher.Utilities
+import org.acreetionos.launcher.util.MultiValueAlpha
+import org.acreetionos.launcher.views.ActivityContext
 import com.android.quickstep.util.RecentsOrientedState
 
 /**

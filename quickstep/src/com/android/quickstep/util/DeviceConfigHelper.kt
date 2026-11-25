@@ -24,8 +24,8 @@ import android.provider.DeviceConfig
 import android.provider.DeviceConfig.OnPropertiesChangedListener
 import android.provider.DeviceConfig.Properties
 import androidx.annotation.WorkerThread
-import com.android.launcher3.BuildConfig
-import com.android.launcher3.util.Executors
+import org.acreetionos.launcher.BuildConfig
+import org.acreetionos.launcher.util.Executors
 import java.util.concurrent.CopyOnWriteArrayList
 
 /** Utility class to manage a set of device configurations */

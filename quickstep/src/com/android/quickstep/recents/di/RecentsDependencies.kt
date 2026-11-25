@@ -19,8 +19,8 @@ package com.android.quickstep.recents.di
 import android.content.Context
 import android.util.Log
 import android.view.View
-import com.android.launcher3.util.coroutines.DispatcherProvider
-import com.android.launcher3.util.coroutines.ProductionDispatchers
+import org.acreetionos.launcher.util.coroutines.DispatcherProvider
+import org.acreetionos.launcher.util.coroutines.ProductionDispatchers
 import com.android.quickstep.RecentsModel
 import com.android.quickstep.recents.data.RecentTasksRepository
 import com.android.quickstep.recents.data.TaskVisualsChangedDelegate

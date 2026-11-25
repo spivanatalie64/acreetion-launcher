@@ -25,13 +25,13 @@ import android.view.ViewConfiguration;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.taskbar.TaskbarActivityContext;
-import com.android.launcher3.taskbar.bubbles.BubbleBarSwipeController;
-import com.android.launcher3.taskbar.bubbles.BubbleBarViewController;
-import com.android.launcher3.taskbar.bubbles.BubbleControllers;
-import com.android.launcher3.taskbar.bubbles.stashing.BubbleStashController;
-import com.android.launcher3.testing.TestLogging;
-import com.android.launcher3.testing.shared.TestProtocol;
+import org.acreetionos.launcher.taskbar.TaskbarActivityContext;
+import org.acreetionos.launcher.taskbar.bubbles.BubbleBarSwipeController;
+import org.acreetionos.launcher.taskbar.bubbles.BubbleBarViewController;
+import org.acreetionos.launcher.taskbar.bubbles.BubbleControllers;
+import org.acreetionos.launcher.taskbar.bubbles.stashing.BubbleStashController;
+import org.acreetionos.launcher.testing.TestLogging;
+import org.acreetionos.launcher.testing.shared.TestProtocol;
 import com.android.quickstep.InputConsumer;
 import com.android.systemui.shared.system.InputMonitorCompat;
 

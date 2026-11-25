@@ -20,8 +20,8 @@ import android.app.PendingIntent
 import android.content.IIntentSender
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR
-import com.android.launcher3.util.TestUtil
+import org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR
+import org.acreetionos.launcher.util.TestUtil
 import com.google.common.truth.Truth.assertThat
 import java.util.concurrent.Semaphore
 import java.util.concurrent.TimeUnit.SECONDS

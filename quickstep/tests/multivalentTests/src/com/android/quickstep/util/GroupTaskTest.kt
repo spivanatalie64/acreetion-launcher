@@ -19,8 +19,8 @@ package com.android.quickstep.util
 import android.content.ComponentName
 import android.content.Intent
 import android.graphics.Rect
-import com.android.launcher3.util.LauncherMultivalentJUnit
-import com.android.launcher3.util.SplitConfigurationOptions
+import org.acreetionos.launcher.util.LauncherMultivalentJUnit
+import org.acreetionos.launcher.util.SplitConfigurationOptions
 import com.android.quickstep.views.TaskViewType
 import com.android.systemui.shared.recents.model.Task
 import com.android.wm.shell.shared.split.SplitScreenConstants

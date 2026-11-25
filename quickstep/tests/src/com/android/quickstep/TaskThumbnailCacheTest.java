@@ -30,7 +30,7 @@ import android.content.res.Resources;
 
 import androidx.test.filters.SmallTest;
 
-import com.android.launcher3.R;
+import org.acreetionos.launcher.R;
 import com.android.quickstep.util.TaskKeyCache;
 
 import org.junit.Before;

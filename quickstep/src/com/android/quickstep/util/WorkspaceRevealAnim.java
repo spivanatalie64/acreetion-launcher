@@ -15,15 +15,15 @@
  */
 package com.android.quickstep.util;
 
-import static com.android.launcher3.LauncherAnimUtils.HOTSEAT_SCALE_PROPERTY_FACTORY;
-import static com.android.launcher3.LauncherAnimUtils.SCALE_INDEX_REVEAL_ANIM;
-import static com.android.launcher3.LauncherAnimUtils.WORKSPACE_SCALE_PROPERTY_FACTORY;
-import static com.android.launcher3.LauncherState.BACKGROUND_APP;
-import static com.android.launcher3.LauncherState.NORMAL;
-import static com.android.launcher3.anim.PropertySetter.NO_ANIM_PROPERTY_SETTER;
-import static com.android.launcher3.states.StateAnimationConfig.SKIP_DEPTH_CONTROLLER;
-import static com.android.launcher3.states.StateAnimationConfig.SKIP_OVERVIEW;
-import static com.android.launcher3.states.StateAnimationConfig.SKIP_SCRIM;
+import static org.acreetionos.launcher.LauncherAnimUtils.HOTSEAT_SCALE_PROPERTY_FACTORY;
+import static org.acreetionos.launcher.LauncherAnimUtils.SCALE_INDEX_REVEAL_ANIM;
+import static org.acreetionos.launcher.LauncherAnimUtils.WORKSPACE_SCALE_PROPERTY_FACTORY;
+import static org.acreetionos.launcher.LauncherState.BACKGROUND_APP;
+import static org.acreetionos.launcher.LauncherState.NORMAL;
+import static org.acreetionos.launcher.anim.PropertySetter.NO_ANIM_PROPERTY_SETTER;
+import static org.acreetionos.launcher.states.StateAnimationConfig.SKIP_DEPTH_CONTROLLER;
+import static org.acreetionos.launcher.states.StateAnimationConfig.SKIP_OVERVIEW;
+import static org.acreetionos.launcher.states.StateAnimationConfig.SKIP_SCRIM;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -34,15 +34,15 @@ import android.util.Log;
 import android.view.View;
 
 import com.android.app.animation.Interpolators;
-import com.android.launcher3.Hotseat;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.anim.PendingAnimation;
-import com.android.launcher3.statehandlers.DepthController;
-import com.android.launcher3.states.StateAnimationConfig;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
-import com.android.launcher3.util.DynamicResource;
+import org.acreetionos.launcher.Hotseat;
+import org.acreetionos.launcher.Launcher;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Workspace;
+import org.acreetionos.launcher.anim.PendingAnimation;
+import org.acreetionos.launcher.statehandlers.DepthController;
+import org.acreetionos.launcher.states.StateAnimationConfig;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.util.DynamicResource;
 import com.android.quickstep.views.RecentsView;
 import com.android.systemui.plugins.ResourceProvider;
 

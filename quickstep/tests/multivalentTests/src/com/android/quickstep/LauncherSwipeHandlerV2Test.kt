@@ -19,10 +19,10 @@ package com.android.quickstep
 import android.graphics.PointF
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
-import com.android.launcher3.R
-import com.android.launcher3.dagger.LauncherAppComponent
-import com.android.launcher3.dagger.LauncherAppSingleton
-import com.android.launcher3.util.LauncherModelHelper
+import org.acreetionos.launcher.R
+import org.acreetionos.launcher.dagger.LauncherAppComponent
+import org.acreetionos.launcher.dagger.LauncherAppSingleton
+import org.acreetionos.launcher.util.LauncherModelHelper
 import com.android.quickstep.dagger.QuickStepModule
 import com.android.systemui.contextualeducation.GestureType
 import com.android.systemui.shared.system.InputConsumerController

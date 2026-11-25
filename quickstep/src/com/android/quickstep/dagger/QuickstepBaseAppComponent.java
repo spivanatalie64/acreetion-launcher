@@ -16,9 +16,9 @@
 
 package com.android.quickstep.dagger;
 
-import com.android.launcher3.dagger.LauncherAppComponent;
-import com.android.launcher3.dagger.LauncherBaseAppComponent;
-import com.android.launcher3.model.WellbeingModel;
+import org.acreetionos.launcher.dagger.LauncherAppComponent;
+import org.acreetionos.launcher.dagger.LauncherBaseAppComponent;
+import org.acreetionos.launcher.model.WellbeingModel;
 import com.android.quickstep.OverviewComponentObserver;
 import com.android.quickstep.SystemUiProxy;
 import com.android.quickstep.util.AsyncClockEventDelegate;

@@ -20,9 +20,9 @@ import static android.app.WindowConfiguration.WINDOWING_MODE_FREEFORM;
 import static android.content.Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS;
 import static android.view.Surface.ROTATION_0;
 
-import static com.android.launcher3.Flags.enableRefactorTaskThumbnail;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_SYSTEM_SHORTCUT_FREE_FORM_TAP;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
+import static org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_SYSTEM_SHORTCUT_FREE_FORM_TAP;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
 
 import android.app.ActivityOptions;
 import android.graphics.Bitmap;
@@ -40,16 +40,16 @@ import android.window.SplashScreen;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Flags;
-import com.android.launcher3.R;
-import com.android.launcher3.logging.StatsLogManager.LauncherEvent;
-import com.android.launcher3.model.WellbeingModel;
-import com.android.launcher3.popup.SystemShortcut;
-import com.android.launcher3.popup.SystemShortcut.AppInfo;
-import com.android.launcher3.util.InstantAppResolver;
-import com.android.launcher3.util.SplitConfigurationOptions.SplitPositionOption;
-import com.android.launcher3.views.ActivityContext;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.Flags;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent;
+import org.acreetionos.launcher.model.WellbeingModel;
+import org.acreetionos.launcher.popup.SystemShortcut;
+import org.acreetionos.launcher.popup.SystemShortcut.AppInfo;
+import org.acreetionos.launcher.util.InstantAppResolver;
+import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitPositionOption;
+import org.acreetionos.launcher.views.ActivityContext;
 import com.android.quickstep.orientation.RecentsPagedOrientationHandler;
 import com.android.quickstep.util.RecentsOrientedState;
 import com.android.quickstep.views.GroupedTaskView;

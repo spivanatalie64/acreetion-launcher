@@ -16,9 +16,9 @@
 package com.android.quickstep.util
 
 import android.view.Surface
-import com.android.launcher3.util.DisplayController.Info
-import com.android.launcher3.util.NavigationMode
-import com.android.launcher3.util.NavigationMode.NO_BUTTON
+import org.acreetionos.launcher.util.DisplayController.Info
+import org.acreetionos.launcher.util.NavigationMode
+import org.acreetionos.launcher.util.NavigationMode.NO_BUTTON
 
 /** Utility class to check nav bar position. */
 data class NavBarPosition(

@@ -17,11 +17,11 @@ package com.android.quickstep;
 
 import static android.app.WindowConfiguration.ACTIVITY_TYPE_HOME;
 
-import static com.android.launcher3.Flags.enableHandleDelayedGestureCallbacks;
-import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
-import static com.android.launcher3.util.NavigationMode.NO_BUTTON;
+import static org.acreetionos.launcher.Flags.enableHandleDelayedGestureCallbacks;
+import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.NavigationMode.NO_BUTTON;
 import static com.android.quickstep.GestureState.GestureEndTarget.RECENTS;
 import static com.android.quickstep.GestureState.STATE_END_TARGET_ANIMATION_FINISHED;
 import static com.android.quickstep.GestureState.STATE_RECENTS_ANIMATION_INITIALIZED;
@@ -42,11 +42,11 @@ import androidx.annotation.Nullable;
 import androidx.annotation.UiThread;
 
 import com.android.internal.util.ArrayUtils;
-import com.android.launcher3.Flags;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.taskbar.TaskbarUIController;
-import com.android.launcher3.util.DisplayController;
+import org.acreetionos.launcher.Flags;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.config.FeatureFlags;
+import org.acreetionos.launcher.taskbar.TaskbarUIController;
+import org.acreetionos.launcher.util.DisplayController;
 import com.android.quickstep.fallback.window.RecentsWindowManager;
 import com.android.quickstep.util.ActiveGestureProtoLogProxy;
 import com.android.quickstep.util.SystemUiFlagUtils;

@@ -45,25 +45,25 @@ import androidx.annotation.VisibleForTesting
 import androidx.core.util.component1
 import androidx.core.util.component2
 import com.android.app.animation.Interpolators
-import com.android.launcher3.DeviceProfile
-import com.android.launcher3.Flags.enableOverviewIconMenu
-import com.android.launcher3.Flags.enableRefactorTaskThumbnail
-import com.android.launcher3.InsettableFrameLayout
-import com.android.launcher3.QuickstepTransitionManager
-import com.android.launcher3.R
-import com.android.launcher3.Utilities
-import com.android.launcher3.anim.PendingAnimation
-import com.android.launcher3.apppairs.AppPairIcon
-import com.android.launcher3.config.FeatureFlags
-import com.android.launcher3.logging.StatsLogManager.EventEnum
-import com.android.launcher3.model.data.WorkspaceItemInfo
-import com.android.launcher3.statehandlers.DepthController
-import com.android.launcher3.statemanager.StateManager
-import com.android.launcher3.taskbar.TaskbarActivityContext
-import com.android.launcher3.uioverrides.QuickstepLauncher
-import com.android.launcher3.util.MultiPropertyFactory.MULTI_PROPERTY_VALUE
-import com.android.launcher3.util.SplitConfigurationOptions.SplitSelectSource
-import com.android.launcher3.views.BaseDragLayer
+import org.acreetionos.launcher.DeviceProfile
+import org.acreetionos.launcher.Flags.enableOverviewIconMenu
+import org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail
+import org.acreetionos.launcher.InsettableFrameLayout
+import org.acreetionos.launcher.QuickstepTransitionManager
+import org.acreetionos.launcher.R
+import org.acreetionos.launcher.Utilities
+import org.acreetionos.launcher.anim.PendingAnimation
+import org.acreetionos.launcher.apppairs.AppPairIcon
+import org.acreetionos.launcher.config.FeatureFlags
+import org.acreetionos.launcher.logging.StatsLogManager.EventEnum
+import org.acreetionos.launcher.model.data.WorkspaceItemInfo
+import org.acreetionos.launcher.statehandlers.DepthController
+import org.acreetionos.launcher.statemanager.StateManager
+import org.acreetionos.launcher.taskbar.TaskbarActivityContext
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher
+import org.acreetionos.launcher.util.MultiPropertyFactory.MULTI_PROPERTY_VALUE
+import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitSelectSource
+import org.acreetionos.launcher.views.BaseDragLayer
 import com.android.quickstep.TaskViewUtils
 import com.android.quickstep.views.FloatingAppPairView
 import com.android.quickstep.views.FloatingTaskView
@@ -882,7 +882,7 @@ class SplitAnimationController(val splitSelectStateController: SplitSelectStateC
 
     private fun getIconLaunchValueAnimator(
         t: Transaction,
-        dp: com.android.launcher3.DeviceProfile,
+        dp: org.acreetionos.launcher.DeviceProfile,
         finishCallback: Runnable,
         launcher: QuickstepLauncher,
         floatingView: FloatingAppPairView,

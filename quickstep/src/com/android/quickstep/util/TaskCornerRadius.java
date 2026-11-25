@@ -20,8 +20,8 @@ import static com.android.systemui.shared.system.QuickStepContract.supportsRound
 import android.content.Context;
 import android.content.res.Resources;
 
-import com.android.launcher3.R;
-import com.android.launcher3.util.Themes;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.util.Themes;
 
 public class TaskCornerRadius {
 

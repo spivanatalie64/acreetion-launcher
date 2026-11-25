@@ -19,8 +19,8 @@ import static android.view.MotionEvent.ACTION_CANCEL;
 import static android.view.MotionEvent.ACTION_POINTER_DOWN;
 import static android.view.MotionEvent.ACTION_UP;
 
-import static com.android.launcher3.Utilities.squaredHypot;
-import static com.android.launcher3.util.VelocityUtils.PX_PER_MS;
+import static org.acreetionos.launcher.Utilities.squaredHypot;
+import static org.acreetionos.launcher.util.VelocityUtils.PX_PER_MS;
 import static com.android.quickstep.AbsSwipeUpHandler.MIN_PROGRESS_FOR_OVERVIEW;
 import static com.android.quickstep.MultiStateCallback.DEBUG_STATES;
 import static com.android.quickstep.OverviewComponentObserver.startHomeIntentSafely;
@@ -39,11 +39,11 @@ import android.view.RemoteAnimationTarget;
 import android.view.VelocityTracker;
 
 import com.android.app.animation.Interpolators;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.AnimatedFloat;
-import com.android.launcher3.testing.TestLogging;
-import com.android.launcher3.testing.shared.TestProtocol;
-import com.android.launcher3.util.DisplayController;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.anim.AnimatedFloat;
+import org.acreetionos.launcher.testing.TestLogging;
+import org.acreetionos.launcher.testing.shared.TestProtocol;
+import org.acreetionos.launcher.util.DisplayController;
 import com.android.quickstep.GestureState;
 import com.android.quickstep.InputConsumer;
 import com.android.quickstep.MultiStateCallback;

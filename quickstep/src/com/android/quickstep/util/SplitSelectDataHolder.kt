@@ -28,12 +28,12 @@ import android.content.pm.ShortcutInfo
 import android.os.UserHandle
 import android.util.Log
 import com.android.internal.annotations.VisibleForTesting
-import com.android.launcher3.logging.StatsLogManager.EventEnum
-import com.android.launcher3.model.data.ItemInfo
-import com.android.launcher3.shortcuts.ShortcutKey
-import com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_UNDEFINED
-import com.android.launcher3.util.SplitConfigurationOptions.StagePosition
-import com.android.launcher3.util.SplitConfigurationOptions.getOppositeStagePosition
+import org.acreetionos.launcher.logging.StatsLogManager.EventEnum
+import org.acreetionos.launcher.model.data.ItemInfo
+import org.acreetionos.launcher.shortcuts.ShortcutKey
+import org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_UNDEFINED
+import org.acreetionos.launcher.util.SplitConfigurationOptions.StagePosition
+import org.acreetionos.launcher.util.SplitConfigurationOptions.getOppositeStagePosition
 import com.android.quickstep.util.SplitSelectDataHolder.Companion.SplitLaunchType
 import java.io.PrintWriter
 

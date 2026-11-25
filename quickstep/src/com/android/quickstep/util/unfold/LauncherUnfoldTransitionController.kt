@@ -18,12 +18,12 @@ package com.android.quickstep.util.unfold
 import android.app.Activity
 import android.os.Trace
 import android.view.Surface
-import com.android.launcher3.Alarm
-import com.android.launcher3.DeviceProfile
-import com.android.launcher3.DeviceProfile.OnDeviceProfileChangeListener
-import com.android.launcher3.anim.PendingAnimation
-import com.android.launcher3.uioverrides.QuickstepLauncher
-import com.android.launcher3.util.ActivityLifecycleCallbacksAdapter
+import org.acreetionos.launcher.Alarm
+import org.acreetionos.launcher.DeviceProfile
+import org.acreetionos.launcher.DeviceProfile.OnDeviceProfileChangeListener
+import org.acreetionos.launcher.anim.PendingAnimation
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher
+import org.acreetionos.launcher.util.ActivityLifecycleCallbacksAdapter
 import com.android.systemui.unfold.UnfoldTransitionProgressProvider.TransitionProgressListener
 
 /** Controls animations that are happening during unfolding foldable devices */

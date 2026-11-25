@@ -16,7 +16,7 @@
 
 package com.android.quickstep.views;
 
-import static com.android.launcher3.Flags.enableGridOnlyOverview;
+import static org.acreetionos.launcher.Flags.enableGridOnlyOverview;
 import static com.android.quickstep.util.BorderAnimator.DEFAULT_BORDER_COLOR;
 
 import android.content.Context;
@@ -31,9 +31,9 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Flags;
-import com.android.launcher3.R;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.Flags;
+import org.acreetionos.launcher.R;
 import com.android.quickstep.orientation.RecentsPagedOrientationHandler;
 import com.android.quickstep.util.BorderAnimator;
 

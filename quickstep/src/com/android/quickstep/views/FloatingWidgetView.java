@@ -34,15 +34,15 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.views.FloatingView;
-import com.android.launcher3.views.ListenerView;
-import com.android.launcher3.widget.LauncherAppWidgetHostView;
-import com.android.launcher3.widget.RoundedCornerEnforcement;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.dragndrop.DragLayer;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.util.Themes;
+import org.acreetionos.launcher.views.FloatingView;
+import org.acreetionos.launcher.views.ListenerView;
+import org.acreetionos.launcher.widget.LauncherAppWidgetHostView;
+import org.acreetionos.launcher.widget.RoundedCornerEnforcement;
 
 /** A view that mimics an App Widget through a launch animation. */
 @TargetApi(Build.VERSION_CODES.S)

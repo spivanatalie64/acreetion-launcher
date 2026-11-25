@@ -20,7 +20,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.test.filters.SmallTest;
 
-import com.android.launcher3.util.LauncherMultivalentJUnit;
+import org.acreetionos.launcher.util.LauncherMultivalentJUnit;
 import com.android.quickstep.fallback.FallbackRecentsView;
 import com.android.quickstep.fallback.RecentsState;
 import com.android.quickstep.fallback.window.RecentsWindowManager;

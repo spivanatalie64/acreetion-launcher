@@ -17,7 +17,7 @@ package com.android.quickstep.util;
 
 import static com.android.app.animation.Interpolators.DECELERATE;
 import static com.android.app.animation.Interpolators.LINEAR;
-import static com.android.launcher3.Flags.enableGridOnlyOverview;
+import static org.acreetionos.launcher.Flags.enableGridOnlyOverview;
 import static com.android.quickstep.views.RecentsView.RECENTS_SCALE_PROPERTY;
 import static com.android.quickstep.views.RecentsView.TASK_SECONDARY_TRANSLATION;
 
@@ -31,11 +31,11 @@ import android.util.FloatProperty;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.anim.AnimatorPlaybackController;
-import com.android.launcher3.anim.PendingAnimation;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.Launcher;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.anim.AnimatorPlaybackController;
+import org.acreetionos.launcher.anim.PendingAnimation;
 import com.android.quickstep.orientation.RecentsPagedOrientationHandler;
 import com.android.quickstep.views.RecentsView;
 

@@ -18,7 +18,7 @@ package com.android.quickstep
 import android.content.Context
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
-import com.android.launcher3.FakeInvariantDeviceProfileTest
+import org.acreetionos.launcher.FakeInvariantDeviceProfileTest
 import com.android.quickstep.util.TaskCornerRadius
 import com.android.systemui.shared.system.QuickStepContract
 import com.google.common.truth.Truth.assertThat

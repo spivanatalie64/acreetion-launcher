@@ -22,14 +22,14 @@ import static org.mockito.Mockito.when;
 import androidx.annotation.NonNull;
 import androidx.test.filters.SmallTest;
 
-import com.android.launcher3.Hotseat;
-import com.android.launcher3.LauncherState;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.WorkspaceStateTransitionAnimation;
-import com.android.launcher3.statemanager.StateManager;
-import com.android.launcher3.statemanager.StateManager.AtomicAnimationFactory;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
-import com.android.launcher3.util.LauncherMultivalentJUnit;
+import org.acreetionos.launcher.Hotseat;
+import org.acreetionos.launcher.LauncherState;
+import org.acreetionos.launcher.Workspace;
+import org.acreetionos.launcher.WorkspaceStateTransitionAnimation;
+import org.acreetionos.launcher.statemanager.StateManager;
+import org.acreetionos.launcher.statemanager.StateManager.AtomicAnimationFactory;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.util.LauncherMultivalentJUnit;
 import com.android.quickstep.views.RecentsView;
 
 import org.junit.Before;

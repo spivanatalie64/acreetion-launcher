@@ -22,8 +22,8 @@ import android.os.RemoteException;
 import android.util.Log;
 import android.view.MotionEvent;
 
-import com.android.launcher3.testing.TestLogging;
-import com.android.launcher3.testing.shared.TestProtocol;
+import org.acreetionos.launcher.testing.TestLogging;
+import org.acreetionos.launcher.testing.shared.TestProtocol;
 import com.android.quickstep.InputConsumer;
 import com.android.quickstep.RecentsAnimationDeviceState;
 import com.android.quickstep.util.TriggerSwipeUpTouchTracker;

@@ -18,11 +18,11 @@ package com.android.quickstep
 import android.content.Context
 import android.view.MotionEvent
 import androidx.annotation.VisibleForTesting
-import com.android.launcher3.anim.AnimatedFloat
-import com.android.launcher3.statemanager.BaseState
-import com.android.launcher3.statemanager.StatefulContainer
-import com.android.launcher3.taskbar.TaskbarManager
-import com.android.launcher3.util.LockedUserState.Companion.get
+import org.acreetionos.launcher.anim.AnimatedFloat
+import org.acreetionos.launcher.statemanager.BaseState
+import org.acreetionos.launcher.statemanager.StatefulContainer
+import org.acreetionos.launcher.taskbar.TaskbarManager
+import org.acreetionos.launcher.util.LockedUserState.Companion.get
 import com.android.quickstep.inputconsumers.AccessibilityInputConsumer
 import com.android.quickstep.inputconsumers.AssistantInputConsumer
 import com.android.quickstep.inputconsumers.BubbleBarInputConsumer
@@ -482,7 +482,7 @@ object InputConsumerUtils {
                 !previousGestureState.isRecentsAnimationRunning)
         // If a task fragment within Launcher is resumed
         val launcherChildActivityResumed =
-            (com.android.launcher3.Flags.useActivityOverlay() &&
+            (org.acreetionos.launcher.Flags.useActivityOverlay() &&
                 runningTask != null &&
                 runningTask.isHomeTask &&
                 overviewComponentObserver.isHomeAndOverviewSame &&
@@ -736,7 +736,7 @@ object InputConsumerUtils {
     private fun ignoreThreeFingerTrackpadForNavHandleLongPress(
         gestureState: GestureState
     ): Boolean {
-        return (com.android.launcher3.Flags.ignoreThreeFingerTrackpadForNavHandleLongPress() &&
+        return (org.acreetionos.launcher.Flags.ignoreThreeFingerTrackpadForNavHandleLongPress() &&
             gestureState.isThreeFingerTrackpadGesture)
     }
 

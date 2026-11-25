@@ -18,7 +18,7 @@
         errorLine1="            resetColorResources();"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="packages/apps/Launcher3/src/com/android/launcher3/widget/LauncherAppWidgetHostView.java"
+            file="packages/apps/Launcher3/src/org/acreetionos/launcher/widget/LauncherAppWidgetHostView.java"
             line="117"
             column="13"/>
     </issue>
@@ -29,7 +29,7 @@
         errorLine1="            view.setColorResources(mWallpaperColorResources);"
         errorLine2="                 ~~~~~~~~~~~~~~~~~">
         <location
-            file="packages/apps/Launcher3/src/com/android/launcher3/graphics/LauncherPreviewRenderer.java"
+            file="packages/apps/Launcher3/src/org/acreetionos/launcher/graphics/LauncherPreviewRenderer.java"
             line="433"
             column="18"/>
     </issue>

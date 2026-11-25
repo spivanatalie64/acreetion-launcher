@@ -24,9 +24,9 @@ import android.util.Log;
 import android.graphics.ImageDecoder;
 import android.view.ThreadedRenderer;
 
-import com.android.launcher3.BuildConfig;
-import com.android.launcher3.MainProcessInitializer;
-import com.android.launcher3.R;
+import org.acreetionos.launcher.BuildConfig;
+import org.acreetionos.launcher.MainProcessInitializer;
+import org.acreetionos.launcher.R;
 import com.android.quickstep.util.QuickstepProtoLogGroup;
 import com.android.systemui.shared.system.InteractionJankMonitorWrapper;
 

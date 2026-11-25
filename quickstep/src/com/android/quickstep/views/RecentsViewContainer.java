@@ -27,12 +27,12 @@ import android.view.Window;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.BaseActivity;
-import com.android.launcher3.logger.LauncherAtom;
-import com.android.launcher3.statehandlers.DesktopVisibilityController;
-import com.android.launcher3.taskbar.TaskbarUIController;
-import com.android.launcher3.views.ActivityContext;
-import com.android.launcher3.views.ScrimView;
+import org.acreetionos.launcher.BaseActivity;
+import org.acreetionos.launcher.logger.LauncherAtom;
+import org.acreetionos.launcher.statehandlers.DesktopVisibilityController;
+import org.acreetionos.launcher.taskbar.TaskbarUIController;
+import org.acreetionos.launcher.views.ActivityContext;
+import org.acreetionos.launcher.views.ScrimView;
 
 /**
  * Interface to be implemented by the parent view of RecentsView
@@ -185,7 +185,7 @@ public interface RecentsViewContainer extends ActivityContext {
 
     /**
      * Overwrites any logged item in Launcher that doesn't have a container with the
-     * {@link com.android.launcher3.touch.PagedOrientationHandler} in use for Overview.
+     * {@link org.acreetionos.launcher.touch.PagedOrientationHandler} in use for Overview.
      *
      * @param itemInfoBuilder {@link LauncherAtom.ItemInfo.Builder}
      */

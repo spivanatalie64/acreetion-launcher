@@ -2,8 +2,8 @@ package com.android.quickstep.inputconsumers;
 
 import android.view.MotionEvent;
 
-import com.android.launcher3.testing.TestLogging;
-import com.android.launcher3.testing.shared.TestProtocol;
+import org.acreetionos.launcher.testing.TestLogging;
+import org.acreetionos.launcher.testing.shared.TestProtocol;
 import com.android.quickstep.InputConsumer;
 import com.android.quickstep.util.ActiveGestureProtoLogProxy;
 import com.android.systemui.shared.system.InputMonitorCompat;

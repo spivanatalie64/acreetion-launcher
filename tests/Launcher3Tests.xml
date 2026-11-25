@@ -59,12 +59,12 @@
     </target_preparer>
 
     <metrics_collector class="com.android.tradefed.device.metric.FilePullerLogCollector">
-        <option name="directory-keys" value="/data/user/0/com.android.launcher3/files" />
+        <option name="directory-keys" value="/data/user/0/org.acreetionos.launcher/files" />
         <option name="collect-on-run-ended-only" value="true" />
     </metrics_collector>
 
     <test class="com.android.tradefed.testtype.AndroidJUnitTest" >
-        <option name="package" value="com.android.launcher3.tests" />
+        <option name="package" value="org.acreetionos.launcher.tests" />
         <option name="runner" value="androidx.test.runner.AndroidJUnitRunner" />
         <option name="hidden-api-checks" value="false" />
     </test>

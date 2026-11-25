@@ -22,12 +22,12 @@ import static junit.framework.TestCase.assertEquals;
 import android.content.Context;
 import android.content.Intent;
 
-import com.android.launcher3.tapl.LauncherInstrumentation;
-import com.android.launcher3.tapl.Taskbar;
-import com.android.launcher3.ui.AbstractLauncherUiTest;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.LauncherLayoutBuilder;
-import com.android.launcher3.util.TestUtil;
+import org.acreetionos.launcher.tapl.LauncherInstrumentation;
+import org.acreetionos.launcher.tapl.Taskbar;
+import org.acreetionos.launcher.ui.AbstractLauncherUiTest;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.LauncherLayoutBuilder;
+import org.acreetionos.launcher.util.TestUtil;
 
 import org.junit.After;
 import org.junit.Assume;
@@ -52,7 +52,7 @@ public class AbstractTaplTestsTaskbar extends AbstractQuickStepTest {
 
         LauncherLayoutBuilder layoutBuilder = new LauncherLayoutBuilder().atHotseat(0).putApp(
                 "com.google.android.apps.nexuslauncher.tests",
-                "com.android.launcher3.testcomponent.BaseTestingActivity");
+                "org.acreetionos.launcher.testcomponent.BaseTestingActivity");
         mLauncherLayout = TestUtil.setLauncherDefaultLayout(mTargetContext, layoutBuilder);
         AbstractLauncherUiTest.initialize(this);
         startAppFast(CALCULATOR_APP_PACKAGE);

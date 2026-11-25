@@ -15,12 +15,12 @@
  */
 package com.android.quickstep.inputconsumers;
 
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_DEEP_PRESS_NAVBAR;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_DEEP_PRESS_STASHED_TASKBAR;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LONG_PRESS_NAVBAR;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_LONG_PRESS_STASHED_TASKBAR;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
-import static com.android.launcher3.util.LogConfig.NAV_HANDLE_LONG_PRESS;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_DEEP_PRESS_NAVBAR;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_DEEP_PRESS_STASHED_TASKBAR;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LONG_PRESS_NAVBAR;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_LONG_PRESS_STASHED_TASKBAR;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.util.LogConfig.NAV_HANDLE_LONG_PRESS;
 
 import android.content.Context;
 import android.util.Log;
@@ -29,9 +29,9 @@ import android.view.ViewConfiguration;
 
 import androidx.annotation.VisibleForTesting;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.logging.StatsLogManager;
-import com.android.launcher3.util.DisplayController;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.logging.StatsLogManager;
+import org.acreetionos.launcher.util.DisplayController;
 import com.android.quickstep.DeviceConfigWrapper;
 import com.android.quickstep.GestureState;
 import com.android.quickstep.InputConsumer;

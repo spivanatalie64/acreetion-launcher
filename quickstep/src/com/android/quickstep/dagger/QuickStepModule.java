@@ -15,11 +15,11 @@
  */
 package com.android.quickstep.dagger;
 
-import com.android.launcher3.contextualeducation.ContextualEduStatsManager;
-import com.android.launcher3.uioverrides.SystemApiWrapper;
-import com.android.launcher3.uioverrides.plugins.PluginManagerWrapperImpl;
-import com.android.launcher3.util.ApiWrapper;
-import com.android.launcher3.util.PluginManagerWrapper;
+import org.acreetionos.launcher.contextualeducation.ContextualEduStatsManager;
+import org.acreetionos.launcher.uioverrides.SystemApiWrapper;
+import org.acreetionos.launcher.uioverrides.plugins.PluginManagerWrapperImpl;
+import org.acreetionos.launcher.util.ApiWrapper;
+import org.acreetionos.launcher.util.PluginManagerWrapper;
 import com.android.quickstep.contextualeducation.SystemContextualEduStatsManager;
 
 import dagger.Binds;

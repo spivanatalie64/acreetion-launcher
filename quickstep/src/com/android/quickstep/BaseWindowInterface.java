@@ -18,7 +18,7 @@ package com.android.quickstep;
 import static com.android.app.animation.Interpolators.ACCELERATE_2;
 import static com.android.app.animation.Interpolators.INSTANT;
 import static com.android.app.animation.Interpolators.LINEAR;
-import static com.android.launcher3.MotionEventsUtils.isTrackpadMultiFingerSwipe;
+import static org.acreetionos.launcher.MotionEventsUtils.isTrackpadMultiFingerSwipe;
 import static com.android.quickstep.AbsSwipeUpHandler.RECENTS_ATTACH_DURATION;
 import static com.android.quickstep.util.RecentsAtomicAnimationFactory.INDEX_RECENTS_FADE_ANIM;
 import static com.android.quickstep.util.RecentsAtomicAnimationFactory.INDEX_RECENTS_TRANSLATE_X_ANIM;
@@ -35,12 +35,12 @@ import android.view.MotionEvent;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.anim.AnimatorPlaybackController;
-import com.android.launcher3.anim.PendingAnimation;
-import com.android.launcher3.statehandlers.DepthController;
-import com.android.launcher3.taskbar.TaskbarUIController;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.NavigationMode;
+import org.acreetionos.launcher.anim.AnimatorPlaybackController;
+import org.acreetionos.launcher.anim.PendingAnimation;
+import org.acreetionos.launcher.statehandlers.DepthController;
+import org.acreetionos.launcher.taskbar.TaskbarUIController;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.NavigationMode;
 import com.android.quickstep.fallback.RecentsState;
 import com.android.quickstep.fallback.window.RecentsWindowManager;
 import com.android.quickstep.util.AnimatorControllerWithResistance;

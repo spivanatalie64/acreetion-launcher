@@ -36,7 +36,7 @@ import android.view.MotionEvent;
 
 import androidx.test.filters.SmallTest;
 
-import com.android.launcher3.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
 import com.android.quickstep.util.BorderAnimator;
 import com.android.quickstep.views.TaskView;
 

@@ -19,7 +19,7 @@ package com.android.quickstep
 import android.os.RemoteException
 import android.util.Log
 import android.view.Display.DEFAULT_DISPLAY
-import com.android.launcher3.util.Executors
+import org.acreetionos.launcher.util.Executors
 import com.android.wm.shell.shared.IFocusTransitionListener.Stub
 import com.android.wm.shell.shared.IShellTransitions
 

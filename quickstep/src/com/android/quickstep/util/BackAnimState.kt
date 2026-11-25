@@ -18,9 +18,9 @@ package com.android.quickstep.util
 
 import android.animation.AnimatorSet
 import android.content.Context
-import com.android.launcher3.LauncherAnimationRunner.AnimationResult
-import com.android.launcher3.anim.AnimatorListeners.forEndCallback
-import com.android.launcher3.util.RunnableList
+import org.acreetionos.launcher.LauncherAnimationRunner.AnimationResult
+import org.acreetionos.launcher.anim.AnimatorListeners.forEndCallback
+import org.acreetionos.launcher.util.RunnableList
 
 /** Interface to represent animation for back to Launcher transition */
 interface BackAnimState {

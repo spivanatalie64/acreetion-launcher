@@ -24,8 +24,8 @@ import android.content.Context;
 
 import androidx.dynamicanimation.animation.DynamicAnimation;
 
-import com.android.launcher3.anim.SpringAnimationBuilder;
-import com.android.launcher3.statemanager.StateManager.AtomicAnimationFactory;
+import org.acreetionos.launcher.anim.SpringAnimationBuilder;
+import org.acreetionos.launcher.statemanager.StateManager.AtomicAnimationFactory;
 import com.android.quickstep.views.RecentsView;
 import com.android.quickstep.views.RecentsViewContainer;
 

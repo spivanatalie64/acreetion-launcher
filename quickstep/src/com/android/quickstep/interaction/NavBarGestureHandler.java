@@ -15,7 +15,7 @@
  */
 package com.android.quickstep.interaction;
 
-import static com.android.launcher3.util.VibratorWrapper.OVERVIEW_HAPTIC;
+import static org.acreetionos.launcher.util.VibratorWrapper.OVERVIEW_HAPTIC;
 import static com.android.quickstep.interaction.NavBarGestureHandler.NavBarGestureResult.HOME_GESTURE_COMPLETED;
 import static com.android.quickstep.interaction.NavBarGestureHandler.NavBarGestureResult.HOME_NOT_STARTED_TOO_FAR_FROM_EDGE;
 import static com.android.quickstep.interaction.NavBarGestureHandler.NavBarGestureResult.HOME_OR_OVERVIEW_CANCELLED;
@@ -33,10 +33,10 @@ import android.view.View.OnTouchListener;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.testing.shared.ResourceUtils;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.NavigationMode;
-import com.android.launcher3.util.VibratorWrapper;
+import org.acreetionos.launcher.testing.shared.ResourceUtils;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.NavigationMode;
+import org.acreetionos.launcher.util.VibratorWrapper;
 import com.android.quickstep.util.MotionPauseDetector;
 import com.android.quickstep.util.NavBarPosition;
 import com.android.quickstep.util.TriggerSwipeUpTouchTracker;

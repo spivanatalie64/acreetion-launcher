@@ -16,13 +16,13 @@
 
 package com.android.quickstep.util;
 
-import static com.android.launcher3.config.FeatureFlags.enableSplitContextually;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_KEYBOARD_SHORTCUT_SPLIT_LEFT_TOP;
-import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_KEYBOARD_SHORTCUT_SPLIT_RIGHT_BOTTOM;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
-import static com.android.launcher3.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT;
+import static org.acreetionos.launcher.config.FeatureFlags.enableSplitContextually;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_KEYBOARD_SHORTCUT_SPLIT_LEFT_TOP;
+import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_KEYBOARD_SHORTCUT_SPLIT_RIGHT_BOTTOM;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
+import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -33,10 +33,10 @@ import android.graphics.RectF;
 
 import androidx.annotation.BinderThread;
 
-import com.android.launcher3.R;
-import com.android.launcher3.anim.PendingAnimation;
-import com.android.launcher3.taskbar.LauncherTaskbarUIController;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.anim.PendingAnimation;
+import org.acreetionos.launcher.taskbar.LauncherTaskbarUIController;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
 import com.android.quickstep.OverviewComponentObserver;
 import com.android.quickstep.RecentsAnimationCallbacks;
 import com.android.quickstep.RecentsAnimationController;

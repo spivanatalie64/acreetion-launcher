@@ -15,9 +15,9 @@
  */
 package com.android.quickstep;
 
-import static com.android.launcher3.Flags.enableOverviewIconMenu;
-import static com.android.launcher3.util.DisplayController.CHANGE_DENSITY;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.Flags.enableOverviewIconMenu;
+import static org.acreetionos.launcher.util.DisplayController.CHANGE_DENSITY;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 
 import android.annotation.Nullable;
 import android.app.ActivityManager;
@@ -36,19 +36,19 @@ import android.util.SparseArray;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.icons.BaseIconFactory;
-import com.android.launcher3.icons.BaseIconFactory.IconOptions;
-import com.android.launcher3.icons.BitmapInfo;
-import com.android.launcher3.icons.IconProvider;
-import com.android.launcher3.pm.UserCache;
-import com.android.launcher3.util.CancellableTask;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.DisplayController.DisplayInfoChangeListener;
-import com.android.launcher3.util.DisplayController.Info;
-import com.android.launcher3.util.FlagOp;
-import com.android.launcher3.util.Preconditions;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.icons.BaseIconFactory;
+import org.acreetionos.launcher.icons.BaseIconFactory.IconOptions;
+import org.acreetionos.launcher.icons.BitmapInfo;
+import org.acreetionos.launcher.icons.IconProvider;
+import org.acreetionos.launcher.pm.UserCache;
+import org.acreetionos.launcher.util.CancellableTask;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.DisplayController.DisplayInfoChangeListener;
+import org.acreetionos.launcher.util.DisplayController.Info;
+import org.acreetionos.launcher.util.FlagOp;
+import org.acreetionos.launcher.util.Preconditions;
 import com.android.quickstep.task.thumbnail.data.TaskIconDataSource;
 import com.android.quickstep.util.TaskKeyLruCache;
 import com.android.quickstep.util.TaskVisualsChangeListener;

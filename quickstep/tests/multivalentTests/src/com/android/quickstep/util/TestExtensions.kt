@@ -16,8 +16,8 @@
 
 package com.android.quickstep.util
 
-import com.android.launcher3.BuildConfig
-import com.android.launcher3.util.SafeCloseable
+import org.acreetionos.launcher.BuildConfig
+import org.acreetionos.launcher.util.SafeCloseable
 import com.android.quickstep.DeviceConfigWrapper.Companion.configHelper
 import com.android.quickstep.util.DeviceConfigHelper.Companion.prefs
 import java.util.concurrent.CountDownLatch

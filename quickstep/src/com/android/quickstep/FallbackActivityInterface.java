@@ -15,7 +15,7 @@
  */
 package com.android.quickstep;
 
-import static com.android.launcher3.util.NavigationMode.NO_BUTTON;
+import static org.acreetionos.launcher.util.NavigationMode.NO_BUTTON;
 import static com.android.quickstep.fallback.RecentsState.BACKGROUND_APP;
 import static com.android.quickstep.fallback.RecentsState.DEFAULT;
 import static com.android.quickstep.fallback.RecentsState.HOME;
@@ -29,10 +29,10 @@ import android.view.RemoteAnimationTarget;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.statemanager.StateManager;
-import com.android.launcher3.taskbar.FallbackTaskbarUIController;
-import com.android.launcher3.util.DisplayController;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.statemanager.StateManager;
+import org.acreetionos.launcher.taskbar.FallbackTaskbarUIController;
+import org.acreetionos.launcher.util.DisplayController;
 import com.android.quickstep.GestureState.GestureEndTarget;
 import com.android.quickstep.fallback.RecentsState;
 import com.android.quickstep.orientation.RecentsPagedOrientationHandler;

@@ -16,7 +16,7 @@
 
 package com.android.quickstep.util;
 
-import static com.android.launcher3.util.Executors.MODEL_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.MODEL_EXECUTOR;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -34,18 +34,18 @@ import android.os.UserHandle;
 import android.view.View;
 
 import com.android.internal.jank.Cuj;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.PendingAnimation;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.icons.BitmapInfo;
-import com.android.launcher3.icons.IconCache;
-import com.android.launcher3.model.data.AppPairInfo;
-import com.android.launcher3.model.data.ItemInfo;
-import com.android.launcher3.model.data.PackageItemInfo;
-import com.android.launcher3.model.data.WorkspaceItemInfo;
-import com.android.launcher3.uioverrides.QuickstepLauncher;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.LauncherAppState;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.anim.PendingAnimation;
+import org.acreetionos.launcher.config.FeatureFlags;
+import org.acreetionos.launcher.icons.BitmapInfo;
+import org.acreetionos.launcher.icons.IconCache;
+import org.acreetionos.launcher.model.data.AppPairInfo;
+import org.acreetionos.launcher.model.data.ItemInfo;
+import org.acreetionos.launcher.model.data.PackageItemInfo;
+import org.acreetionos.launcher.model.data.WorkspaceItemInfo;
+import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
 import com.android.quickstep.views.FloatingTaskView;
 import com.android.quickstep.views.RecentsView;
 import com.android.systemui.shared.recents.model.Task;
@@ -122,9 +122,9 @@ public class SplitToWorkspaceController {
             intent = workspaceItemInfo.intent;
             user = workspaceItemInfo.user;
             bitmapInfo = workspaceItemInfo.bitmap;
-        } else if (tag instanceof com.android.launcher3.model.data.AppInfo) {
-            final com.android.launcher3.model.data.AppInfo appInfo =
-                    (com.android.launcher3.model.data.AppInfo) tag;
+        } else if (tag instanceof org.acreetionos.launcher.model.data.AppInfo) {
+            final org.acreetionos.launcher.model.data.AppInfo appInfo =
+                    (org.acreetionos.launcher.model.data.AppInfo) tag;
             intent = appInfo.intent;
             user = appInfo.user;
             bitmapInfo = appInfo.bitmap;

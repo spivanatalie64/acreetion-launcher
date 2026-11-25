@@ -20,7 +20,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.android.launcher3">
+    package="org.acreetionos.launcher">
     <uses-sdk android:targetSdkVersion="33" android:minSdkVersion="30"/>
     <!--
     Manifest entries specific to Launcher3. This is merged with AndroidManifest-common.xml.
@@ -28,7 +28,7 @@
     -->
 
     <application
-        android:backupAgent="com.android.launcher3.LauncherBackupAgent"
+        android:backupAgent="org.acreetionos.launcher.LauncherBackupAgent"
         android:fullBackupOnly="true"
         android:fullBackupContent="@xml/backupscheme"
         android:hardwareAccelerated="true"
@@ -47,7 +47,7 @@
         attributes and intent filters the same
         -->
         <activity
-            android:name="com.android.launcher3.Launcher"
+            android:name="org.acreetionos.launcher.Launcher"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
@@ -68,10 +68,10 @@
                 <category android:name="android.intent.category.LAUNCHER_APP" />
             </intent-filter>
             <meta-data
-                android:name="com.android.launcher3.grid.control"
+                android:name="org.acreetionos.launcher.grid.control"
                 android:value="${packageName}.grid_control" />
             <meta-data
-                android:name="com.android.launcher3.themedicon.option"
+                android:name="org.acreetionos.launcher.themedicon.option"
                 android:value="${packageName}.grid_control" />
         </activity>
 

@@ -28,7 +28,7 @@ import static org.mockito.Mockito.verify;
 import androidx.test.filters.SmallTest;
 import androidx.test.platform.app.InstrumentationRegistry;
 
-import com.android.launcher3.util.LauncherMultivalentJUnit;
+import org.acreetionos.launcher.util.LauncherMultivalentJUnit;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

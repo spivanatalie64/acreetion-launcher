@@ -25,10 +25,10 @@ import android.util.AttributeSet
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
-import com.android.launcher3.R
-import com.android.launcher3.Utilities
-import com.android.launcher3.statemanager.StatefulActivity
-import com.android.launcher3.views.BaseDragLayer
+import org.acreetionos.launcher.R
+import org.acreetionos.launcher.Utilities
+import org.acreetionos.launcher.statemanager.StatefulActivity
+import org.acreetionos.launcher.views.BaseDragLayer
 
 /**
  * A temporary View that is created for the app pair launch animation and destroyed at the end.

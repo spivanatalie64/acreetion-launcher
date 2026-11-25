@@ -21,8 +21,8 @@ import static android.content.Intent.ACTION_PACKAGE_CHANGED;
 import static android.content.Intent.ACTION_PACKAGE_REMOVED;
 import static android.view.Display.DEFAULT_DISPLAY;
 
-import static com.android.launcher3.config.FeatureFlags.SEPARATE_RECENTS_ACTIVITY;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.config.FeatureFlags.SEPARATE_RECENTS_ACTIVITY;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 import static com.android.systemui.shared.system.PackageManagerWrapper.ACTION_PREFERRED_ACTIVITY_CHANGED;
 
 import android.content.ActivityNotFoundException;
@@ -40,14 +40,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.UiThread;
 
-import com.android.launcher3.Flags;
-import com.android.launcher3.R;
-import com.android.launcher3.dagger.ApplicationContext;
-import com.android.launcher3.dagger.LauncherAppComponent;
-import com.android.launcher3.dagger.LauncherAppSingleton;
-import com.android.launcher3.util.DaggerSingletonObject;
-import com.android.launcher3.util.DaggerSingletonTracker;
-import com.android.launcher3.util.SimpleBroadcastReceiver;
+import org.acreetionos.launcher.Flags;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.dagger.ApplicationContext;
+import org.acreetionos.launcher.dagger.LauncherAppComponent;
+import org.acreetionos.launcher.dagger.LauncherAppSingleton;
+import org.acreetionos.launcher.util.DaggerSingletonObject;
+import org.acreetionos.launcher.util.DaggerSingletonTracker;
+import org.acreetionos.launcher.util.SimpleBroadcastReceiver;
 import com.android.quickstep.util.ActiveGestureProtoLogProxy;
 import com.android.systemui.shared.system.PackageManagerWrapper;
 

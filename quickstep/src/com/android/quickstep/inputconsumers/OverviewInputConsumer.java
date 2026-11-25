@@ -26,12 +26,12 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.statemanager.BaseState;
-import com.android.launcher3.statemanager.StatefulContainer;
-import com.android.launcher3.testing.TestLogging;
-import com.android.launcher3.testing.shared.TestProtocol;
-import com.android.launcher3.views.BaseDragLayer;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.statemanager.BaseState;
+import org.acreetionos.launcher.statemanager.StatefulContainer;
+import org.acreetionos.launcher.testing.TestLogging;
+import org.acreetionos.launcher.testing.shared.TestProtocol;
+import org.acreetionos.launcher.views.BaseDragLayer;
 import com.android.quickstep.BaseContainerInterface;
 import com.android.quickstep.GestureState;
 import com.android.quickstep.InputConsumer;

@@ -32,7 +32,7 @@
 
     </RelativeLayout>
 
-    <com.android.launcher3.views.ClipIconView
+    <org.acreetionos.launcher.views.ClipIconView
         android:id="@+id/gesture_tutorial_fake_icon_view"
         android:layout_width="20dp"
         android:layout_height="20dp"

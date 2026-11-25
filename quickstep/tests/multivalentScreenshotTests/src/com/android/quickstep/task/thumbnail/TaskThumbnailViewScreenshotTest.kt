@@ -18,7 +18,7 @@ package com.android.quickstep.task.thumbnail
 import android.content.Context
 import android.graphics.Color
 import android.view.LayoutInflater
-import com.android.launcher3.R
+import org.acreetionos.launcher.R
 import com.android.quickstep.recents.di.RecentsDependencies
 import com.android.quickstep.task.viewmodel.TaskThumbnailViewModel
 import com.google.android.apps.nexuslauncher.imagecomparison.goldenpathmanager.ViewScreenshotGoldenPathManager

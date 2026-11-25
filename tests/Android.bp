@@ -47,8 +47,8 @@ filegroup {
 filegroup {
     name: "launcher-non-quickstep-tests-src",
     srcs: [
-        "src/com/android/launcher3/nonquickstep/**/*.java",
-        "src/com/android/launcher3/nonquickstep/**/*.kt",
+        "src/org/acreetionos/launcher/nonquickstep/**/*.java",
+        "src/org/acreetionos/launcher/nonquickstep/**/*.kt",
     ],
 }
 
@@ -57,13 +57,13 @@ filegroup {
     name: "launcher-oop-tests-src",
     srcs: [
         ":launcher-testing-helpers",
-        "src/com/android/launcher3/allapps/TaplOpenCloseAllAppsTest.java",
-        "src/com/android/launcher3/allapps/TaplAllAppsIconsWorkingTest.java",
-        "src/com/android/launcher3/appiconmenu/TaplAppIconMenuTest.java",
-        "src/com/android/launcher3/dragging/TaplDragTest.java",
-        "src/com/android/launcher3/dragging/TaplUninstallRemoveTest.java",
-        "src/com/android/launcher3/ui/TaplTestsLauncher3Test.java",
-        "src/com/android/launcher3/ui/workspace/TaplWorkspaceTest.java",
+        "src/org/acreetionos/launcher/allapps/TaplOpenCloseAllAppsTest.java",
+        "src/org/acreetionos/launcher/allapps/TaplAllAppsIconsWorkingTest.java",
+        "src/org/acreetionos/launcher/appiconmenu/TaplAppIconMenuTest.java",
+        "src/org/acreetionos/launcher/dragging/TaplDragTest.java",
+        "src/org/acreetionos/launcher/dragging/TaplUninstallRemoveTest.java",
+        "src/org/acreetionos/launcher/ui/TaplTestsLauncher3Test.java",
+        "src/org/acreetionos/launcher/ui/workspace/TaplWorkspaceTest.java",
     ],
 }
 
@@ -155,8 +155,8 @@ android_test {
 android_library {
     name: "launcher-testing-shared",
     srcs: [
-        "multivalentTests/shared/com/android/launcher3/testing/shared/**/*.java",
-        "multivalentTests/shared/com/android/launcher3/testing/shared/**/*.kt",
+        "multivalentTests/shared/org/acreetionos/launcher/testing/shared/**/*.java",
+        "multivalentTests/shared/org/acreetionos/launcher/testing/shared/**/*.kt",
     ],
     resource_dirs: [],
     manifest: "multivalentTests/shared/AndroidManifest.xml",
@@ -171,10 +171,10 @@ filegroup {
         "src/**/*.kt",
         "multivalentTests/src/**/*.java",
         "multivalentTests/src/**/*.kt",
-        "src/com/android/launcher3/ui/AbstractLauncherUiTest.java",
-        "src/com/android/launcher3/ui/BaseLauncherTaplTest.java",
-        "tapl/com/android/launcher3/tapl/*.java",
-        "tapl/com/android/launcher3/tapl/*.kt",
+        "src/org/acreetionos/launcher/ui/AbstractLauncherUiTest.java",
+        "src/org/acreetionos/launcher/ui/BaseLauncherTaplTest.java",
+        "tapl/org/acreetionos/launcher/tapl/*.java",
+        "tapl/org/acreetionos/launcher/tapl/*.kt",
     ],
     exclude_srcs: [
         // Test classes
@@ -202,10 +202,10 @@ android_robolectric_test {
         ":launcher-testing-helpers-robo",
     ],
     exclude_srcs: [
-        //"src/com/android/launcher3/util/CellContentDimensionsTest.kt", // Failing - b/316553889
+        //"src/org/acreetionos/launcher/util/CellContentDimensionsTest.kt", // Failing - b/316553889
 
         // requires modification to work with inline mock maker
-        "src/com/android/launcher3/util/rule/StaticMockitoRule.java",
+        "src/org/acreetionos/launcher/util/rule/StaticMockitoRule.java",
     ],
     java_resource_dirs: ["config"],
     static_libs: [

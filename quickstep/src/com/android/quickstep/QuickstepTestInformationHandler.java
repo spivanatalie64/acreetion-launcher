@@ -1,7 +1,7 @@
 package com.android.quickstep;
 
-import static com.android.launcher3.taskbar.TaskbarThresholdUtils.getFromNavThreshold;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.taskbar.TaskbarThresholdUtils.getFromNavThreshold;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -10,10 +10,10 @@ import android.view.WindowInsets;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.taskbar.TaskbarActivityContext;
-import com.android.launcher3.testing.TestInformationHandler;
-import com.android.launcher3.testing.shared.TestProtocol;
-import com.android.launcher3.util.DisplayController;
+import org.acreetionos.launcher.taskbar.TaskbarActivityContext;
+import org.acreetionos.launcher.testing.TestInformationHandler;
+import org.acreetionos.launcher.testing.shared.TestProtocol;
+import org.acreetionos.launcher.util.DisplayController;
 import com.android.quickstep.util.GroupTask;
 import com.android.quickstep.util.LayoutUtils;
 import com.android.quickstep.util.TISBindHelper;

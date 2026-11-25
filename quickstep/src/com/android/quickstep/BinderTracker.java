@@ -29,8 +29,8 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.util.SafeCloseable;
-import com.android.launcher3.util.TraceHelper;
+import org.acreetionos.launcher.util.SafeCloseable;
+import org.acreetionos.launcher.util.TraceHelper;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

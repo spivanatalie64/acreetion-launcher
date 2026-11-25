@@ -19,7 +19,7 @@ package com.android.quickstep.recents.data
 import com.android.quickstep.views.RecentsViewContainer
 
 /**
- * Repository for shrink down version of [com.android.launcher3.DeviceProfile] that only contains
+ * Repository for shrink down version of [org.acreetionos.launcher.DeviceProfile] that only contains
  * data related to Recents.
  */
 class RecentsDeviceProfileRepositoryImpl(private val container: RecentsViewContainer) :

@@ -12,7 +12,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.views.IconButtonView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.acreetionos.launcher.views.IconButtonView xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/BaseIcon.Workspace.Taskbar"
     android:layout_width="@dimen/taskbar_icon_min_touch_size"
     android:layout_height="@dimen/taskbar_icon_min_touch_size"

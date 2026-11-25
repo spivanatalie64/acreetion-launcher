@@ -22,9 +22,9 @@ import static android.view.Surface.ROTATION_180;
 import static android.view.Surface.ROTATION_270;
 import static android.view.Surface.ROTATION_90;
 
-import static com.android.launcher3.LauncherPrefs.ALLOW_ROTATION;
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
-import static com.android.launcher3.util.SettingsCache.ROTATION_SETTING_URI;
+import static org.acreetionos.launcher.LauncherPrefs.ALLOW_ROTATION;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.SettingsCache.ROTATION_SETTING_URI;
 import static com.android.quickstep.BaseActivityInterface.getTaskDimension;
 
 import static java.lang.annotation.RetentionPolicy.SOURCE;
@@ -42,14 +42,14 @@ import android.view.Surface;
 import androidx.annotation.IntDef;
 import androidx.annotation.NonNull;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherPrefChangeListener;
-import com.android.launcher3.LauncherPrefs;
-import com.android.launcher3.testing.shared.TestProtocol;
-import com.android.launcher3.touch.PagedOrientationHandler;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.SettingsCache;
+import org.acreetionos.launcher.DeviceProfile;
+import org.acreetionos.launcher.InvariantDeviceProfile;
+import org.acreetionos.launcher.LauncherPrefChangeListener;
+import org.acreetionos.launcher.LauncherPrefs;
+import org.acreetionos.launcher.testing.shared.TestProtocol;
+import org.acreetionos.launcher.touch.PagedOrientationHandler;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.SettingsCache;
 import com.android.quickstep.BaseContainerInterface;
 import com.android.quickstep.SystemUiProxy;
 import com.android.quickstep.TaskAnimationManager;

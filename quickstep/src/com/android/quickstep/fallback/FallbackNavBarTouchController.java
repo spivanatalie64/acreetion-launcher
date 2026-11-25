@@ -20,10 +20,10 @@ import android.view.MotionEvent;
 
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.NavigationMode;
-import com.android.launcher3.util.TouchController;
+import org.acreetionos.launcher.Utilities;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.NavigationMode;
+import org.acreetionos.launcher.util.TouchController;
 import com.android.quickstep.util.NavBarPosition;
 import com.android.quickstep.util.TriggerSwipeUpTouchTracker;
 import com.android.quickstep.views.RecentsViewContainer;

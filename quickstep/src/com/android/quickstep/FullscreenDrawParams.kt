@@ -17,11 +17,11 @@
 package com.android.quickstep
 
 import android.content.Context
-import com.android.launcher3.R
-import com.android.launcher3.Utilities
-import com.android.launcher3.util.DisplayController
-import com.android.launcher3.util.SafeCloseable
-import com.android.launcher3.views.ActivityContext
+import org.acreetionos.launcher.R
+import org.acreetionos.launcher.Utilities
+import org.acreetionos.launcher.util.DisplayController
+import org.acreetionos.launcher.util.SafeCloseable
+import org.acreetionos.launcher.views.ActivityContext
 import com.android.quickstep.util.TaskCornerRadius
 import com.android.systemui.shared.system.QuickStepContract
 

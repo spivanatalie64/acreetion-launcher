@@ -27,10 +27,10 @@ import android.view.WindowManager;
 import android.view.WindowMetrics;
 
 import com.android.internal.policy.SystemBarUtils;
-import com.android.launcher3.statehandlers.DesktopVisibilityController;
-import com.android.launcher3.util.WindowBounds;
-import com.android.launcher3.util.window.CachedDisplayInfo;
-import com.android.launcher3.util.window.WindowManagerProxy;
+import org.acreetionos.launcher.statehandlers.DesktopVisibilityController;
+import org.acreetionos.launcher.util.WindowBounds;
+import org.acreetionos.launcher.util.window.CachedDisplayInfo;
+import org.acreetionos.launcher.util.window.WindowManagerProxy;
 import com.android.quickstep.SystemUiProxy;
 import com.android.wm.shell.shared.desktopmode.DesktopModeStatus;
 

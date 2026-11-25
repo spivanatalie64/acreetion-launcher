@@ -51,10 +51,10 @@ import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import com.android.launcher3.BaseActivity;
-import com.android.launcher3.LauncherPrefs;
-import com.android.launcher3.R;
-import com.android.launcher3.views.ArrowTipView;
+import org.acreetionos.launcher.BaseActivity;
+import org.acreetionos.launcher.LauncherPrefs;
+import org.acreetionos.launcher.R;
+import org.acreetionos.launcher.views.ArrowTipView;
 import com.android.quickstep.util.AssistContentRequester;
 import com.android.quickstep.util.RecentsOrientedState;
 import com.android.quickstep.views.GoOverviewActionsView;

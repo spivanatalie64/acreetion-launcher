@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.desktop
+package org.acreetionos.launcher.desktop
 
 import android.app.WindowConfiguration.ACTIVITY_TYPE_STANDARD
 import android.app.WindowConfiguration.WINDOWING_MODE_FREEFORM

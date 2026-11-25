@@ -19,7 +19,7 @@ package com.android.quickstep;
 import static android.content.Intent.EXTRA_STREAM;
 import static android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION;
 
-import static com.android.launcher3.util.Executors.UI_HELPER_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
 import static com.android.quickstep.util.ImageActionUtils.persistBitmapAndStartActivity;
 
 import android.app.prediction.AppTarget;
@@ -35,7 +35,7 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.annotation.UiThread;
 
-import com.android.launcher3.BuildConfig;
+import org.acreetionos.launcher.BuildConfig;
 import com.android.quickstep.util.ImageActionUtils;
 import com.android.systemui.shared.recents.model.Task;
 

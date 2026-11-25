@@ -6,9 +6,9 @@ import android.app.backup.BackupRestoreEventLogger.BackupRestoreDataType
 import android.app.backup.BackupRestoreEventLogger.BackupRestoreError
 import android.content.Context
 import androidx.annotation.VisibleForTesting
-import com.android.launcher3.Flags.enableLauncherBrMetricsFixed
-import com.android.launcher3.LauncherSettings.Favorites
-import com.android.launcher3.backuprestore.LauncherRestoreEventLogger
+import org.acreetionos.launcher.Flags.enableLauncherBrMetricsFixed
+import org.acreetionos.launcher.LauncherSettings.Favorites
+import org.acreetionos.launcher.backuprestore.LauncherRestoreEventLogger
 
 /**
  * Concrete implementation for wrapper to log Restore event metrics for both success and failure to

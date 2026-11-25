@@ -15,8 +15,8 @@
  */
 package com.android.quickstep;
 
-import static com.android.launcher3.Utilities.postAsyncCallback;
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.Utilities.postAsyncCallback;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 
 import android.os.Looper;
 import android.util.Log;
@@ -25,7 +25,7 @@ import android.util.SparseArray;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.config.FeatureFlags;
+import org.acreetionos.launcher.config.FeatureFlags;
 import com.android.quickstep.util.ActiveGestureErrorDetector;
 import com.android.quickstep.util.ActiveGestureLog;
 import com.android.quickstep.util.ActiveGestureProtoLogProxy;

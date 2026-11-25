@@ -17,7 +17,7 @@ package com.android.quickstep.util
 
 import android.util.Pair
 import com.android.internal.logging.InstanceIdSequence
-import com.android.launcher3.logging.InstanceId
+import org.acreetionos.launcher.logging.InstanceId
 
 object LogUtils {
     @JvmStatic

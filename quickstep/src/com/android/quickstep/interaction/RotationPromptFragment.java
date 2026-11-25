@@ -23,7 +23,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.launcher3.R;
+import org.acreetionos.launcher.R;
 
 /** Displays the prompt requesting that the user rotates their device. */
 public class RotationPromptFragment extends GestureSandboxFragment {

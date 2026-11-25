@@ -24,7 +24,7 @@ import static android.view.MotionEvent.ACTION_UP;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
 
-import static com.android.launcher3.util.Executors.MAIN_EXECUTOR;
+import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 import static com.android.quickstep.DeviceConfigWrapper.DEFAULT_LPNH_TIMEOUT_MS;
 
 import static com.google.common.truth.Truth.assertThat;
@@ -45,8 +45,8 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 import androidx.test.platform.app.InstrumentationRegistry;
 
-import com.android.launcher3.util.DisplayController;
-import com.android.launcher3.util.MainThreadInitializedObject.SandboxContext;
+import org.acreetionos.launcher.util.DisplayController;
+import org.acreetionos.launcher.util.MainThreadInitializedObject.SandboxContext;
 import com.android.quickstep.DeviceConfigWrapper;
 import com.android.quickstep.GestureState;
 import com.android.quickstep.InputConsumer;
