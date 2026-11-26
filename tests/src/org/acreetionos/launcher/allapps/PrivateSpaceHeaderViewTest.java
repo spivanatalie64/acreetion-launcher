@@ -60,7 +60,7 @@ import org.acreetionos.launcher.logging.StatsLogManager;
 import org.acreetionos.launcher.model.data.AppInfo;
 import org.acreetionos.launcher.pm.UserCache;
 import org.acreetionos.launcher.util.ActivityContextWrapper;
-import org.acreetionos.launcher.util.UserIconInfo;
+import com.android.launcher3.util.UserIconInfo;
 
 import org.junit.Before;
 import org.junit.Test;

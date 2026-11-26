@@ -229,7 +229,7 @@ import org.acreetionos.launcher.touch.ItemLongClickListener;
 import org.acreetionos.launcher.util.ActivityResultInfo;
 import org.acreetionos.launcher.util.BackPressHandler;
 import org.acreetionos.launcher.util.CannedAnimationCoordinator;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.ContextTracker;
 import org.acreetionos.launcher.util.IntArray;
 import org.acreetionos.launcher.util.IntSet;

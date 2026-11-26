@@ -121,7 +121,7 @@ import org.acreetionos.launcher.taskbar.TaskbarThresholdUtils;
 import org.acreetionos.launcher.taskbar.TaskbarUIController;
 import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
 import org.acreetionos.launcher.util.DisplayController;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.TraceHelper;
 import org.acreetionos.launcher.util.VibratorWrapper;
 import org.acreetionos.launcher.util.WindowBounds;

@@ -139,7 +139,7 @@ import org.acreetionos.launcher.touch.ItemClickHandler.ItemClickProxy;
 import org.acreetionos.launcher.util.ActivityOptionsWrapper;
 import org.acreetionos.launcher.util.ApiWrapper;
 import org.acreetionos.launcher.util.ApplicationInfoWrapper;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.DisplayController;
 import org.acreetionos.launcher.util.Executors;
 import org.acreetionos.launcher.util.NavigationMode;

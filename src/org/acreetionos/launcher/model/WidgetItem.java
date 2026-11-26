@@ -5,10 +5,10 @@ import android.content.pm.ActivityInfo;
 
 import org.acreetionos.launcher.InvariantDeviceProfile;
 import org.acreetionos.launcher.Utilities;
-import org.acreetionos.launcher.icons.BitmapInfo;
+import com.android.launcher3.icons.BitmapInfo;
 import org.acreetionos.launcher.icons.IconCache;
 import org.acreetionos.launcher.pm.ShortcutConfigActivityInfo;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.widget.LauncherAppWidgetProviderInfo;
 
 /**

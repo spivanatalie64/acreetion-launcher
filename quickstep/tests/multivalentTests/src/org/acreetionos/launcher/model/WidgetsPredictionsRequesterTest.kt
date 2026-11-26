@@ -35,7 +35,7 @@ import org.acreetionos.launcher.model.WidgetPredictionsRequester.buildBundleForP
 import org.acreetionos.launcher.model.WidgetPredictionsRequester.filterPredictions
 import org.acreetionos.launcher.model.WidgetPredictionsRequester.notOnUiSurfaceFilter
 import org.acreetionos.launcher.util.ActivityContextWrapper
-import org.acreetionos.launcher.util.ComponentKey
+import com.android.launcher3.util.ComponentKey
 import org.acreetionos.launcher.util.WidgetUtils.createAppWidgetProviderInfo
 import org.acreetionos.launcher.widget.LauncherAppWidgetProviderInfo
 import com.google.common.truth.Truth.assertThat

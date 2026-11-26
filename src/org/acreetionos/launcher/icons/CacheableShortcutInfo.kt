@@ -16,6 +16,9 @@
 
 package org.acreetionos.launcher.icons
 
+import com.android.launcher3.icons.BitmapInfo
+import com.android.launcher3.icons.IconProvider
+
 import android.content.ComponentName
 import android.content.Context
 import android.content.pm.LauncherActivityInfo
@@ -26,9 +29,9 @@ import android.os.UserHandle
 import android.util.Log
 import org.acreetionos.launcher.BuildConfig
 import org.acreetionos.launcher.LauncherAppState
-import org.acreetionos.launcher.icons.BaseIconFactory.IconOptions
-import org.acreetionos.launcher.icons.cache.BaseIconCache
-import org.acreetionos.launcher.icons.cache.CachingLogic
+import com.android.launcher3.icons.BaseIconFactory.IconOptions
+import com.android.launcher3.icons.cache.BaseIconCache
+import com.android.launcher3.icons.cache.CachingLogic
 import org.acreetionos.launcher.shortcuts.ShortcutKey
 import org.acreetionos.launcher.util.ApplicationInfoWrapper
 import org.acreetionos.launcher.util.PackageUserKey

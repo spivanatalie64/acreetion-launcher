@@ -31,7 +31,7 @@ import org.acreetionos.launcher.settings.SettingsActivity
 import org.acreetionos.launcher.states.RotationHelper
 import org.acreetionos.launcher.util.DisplayController
 import org.acreetionos.launcher.util.MainThreadInitializedObject
-import org.acreetionos.launcher.util.SafeCloseable
+import com.android.launcher3.util.SafeCloseable
 import org.acreetionos.launcher.util.Themes
 
 /**

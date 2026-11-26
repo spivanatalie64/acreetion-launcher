@@ -36,7 +36,7 @@ import org.acreetionos.launcher.DeviceProfile;
 import org.acreetionos.launcher.LauncherAppState;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.icons.IconCache.ItemInfoUpdateReceiver;
-import org.acreetionos.launcher.icons.PlaceHolderIconDrawable;
+import com.android.launcher3.icons.PlaceHolderIconDrawable;
 import org.acreetionos.launcher.model.data.ItemInfoWithIcon;
 import org.acreetionos.launcher.model.data.PackageItemInfo;
 import org.acreetionos.launcher.util.CancellableTask;

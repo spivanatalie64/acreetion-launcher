@@ -17,8 +17,8 @@ import org.acreetionos.launcher.LauncherAppState
 import org.acreetionos.launcher.LauncherModel
 import org.acreetionos.launcher.LauncherModel.LoaderTransaction
 import org.acreetionos.launcher.icons.IconCache
-import org.acreetionos.launcher.icons.cache.CachingLogic
-import org.acreetionos.launcher.icons.cache.IconCacheUpdateHandler
+import com.android.launcher3.icons.cache.CachingLogic
+import com.android.launcher3.icons.cache.IconCacheUpdateHandler
 import org.acreetionos.launcher.pm.UserCache
 import org.acreetionos.launcher.provider.RestoreDbTask
 import org.acreetionos.launcher.ui.TestViewHelpers
@@ -26,7 +26,7 @@ import org.acreetionos.launcher.util.Executors.MODEL_EXECUTOR
 import org.acreetionos.launcher.util.LauncherModelHelper.SandboxModelContext
 import org.acreetionos.launcher.util.LooperIdleLock
 import org.acreetionos.launcher.util.TestUtil
-import org.acreetionos.launcher.util.UserIconInfo
+import com.android.launcher3.util.UserIconInfo
 import com.google.common.truth.Truth
 import java.util.concurrent.CountDownLatch
 import java.util.function.Predicate

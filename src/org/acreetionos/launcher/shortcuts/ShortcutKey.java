@@ -7,7 +7,7 @@ import android.content.pm.ShortcutInfo;
 import android.os.UserHandle;
 
 import org.acreetionos.launcher.model.data.ItemInfo;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 
 /**
  * A key that uniquely identifies a shortcut using its package, id, and user handle.

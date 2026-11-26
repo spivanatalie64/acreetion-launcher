@@ -26,7 +26,7 @@ import org.acreetionos.launcher.model.BgDataModel.FixedContainerItems;
 import org.acreetionos.launcher.model.data.AppInfo;
 import org.acreetionos.launcher.model.data.ItemInfo;
 import org.acreetionos.launcher.model.data.WorkspaceItemInfo;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.IntArray;
 import org.acreetionos.launcher.util.IntSet;
 import org.acreetionos.launcher.util.ItemInfoMatcher;

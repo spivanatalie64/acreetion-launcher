@@ -33,7 +33,7 @@ import androidx.annotation.UiThread;
 
 import org.acreetionos.launcher.config.FeatureFlags;
 import org.acreetionos.launcher.util.IntSet;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.widget.LauncherAppWidgetHostView;
 import org.acreetionos.launcher.widget.LauncherAppWidgetProviderInfo;
 import org.acreetionos.launcher.widget.LauncherWidgetHolder;

@@ -25,7 +25,7 @@ import android.widget.FrameLayout
 import androidx.annotation.OpenForTesting
 import org.acreetionos.launcher.DeviceProfile
 import org.acreetionos.launcher.DeviceProfile.OnDeviceProfileChangeListener
-import org.acreetionos.launcher.icons.BitmapInfo
+import com.android.launcher3.icons.BitmapInfo
 import org.acreetionos.launcher.model.data.AppPairInfo
 import org.acreetionos.launcher.util.Themes
 import org.acreetionos.launcher.views.ActivityContext

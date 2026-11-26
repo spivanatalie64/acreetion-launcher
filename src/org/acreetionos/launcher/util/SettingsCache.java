@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher.util;
 
+import com.android.launcher3.util.SafeCloseable;
+
 import static android.provider.Settings.System.ACCELEROMETER_ROTATION;
 
 import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;

@@ -18,7 +18,7 @@ package org.acreetionos.launcher.widget.picker.model.data
 
 import org.acreetionos.launcher.model.WidgetItem
 import org.acreetionos.launcher.model.data.ItemInfo
-import org.acreetionos.launcher.util.ComponentKey
+import com.android.launcher3.util.ComponentKey
 import org.acreetionos.launcher.util.PackageUserKey
 import org.acreetionos.launcher.widget.PendingAddWidgetInfo
 import org.acreetionos.launcher.widget.model.WidgetsListBaseEntry

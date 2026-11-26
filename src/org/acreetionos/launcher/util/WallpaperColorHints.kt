@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher.util
 
+import com.android.launcher3.util.SafeCloseable
+
 import android.app.WallpaperColors
 import android.app.WallpaperManager
 import android.app.WallpaperManager.FLAG_SYSTEM

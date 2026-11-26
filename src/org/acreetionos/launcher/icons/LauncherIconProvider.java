@@ -15,6 +15,8 @@
  */
 package org.acreetionos.launcher.icons;
 
+import com.android.launcher3.icons.IconProvider;
+
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.res.Resources;

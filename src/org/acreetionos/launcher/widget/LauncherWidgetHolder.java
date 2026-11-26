@@ -49,7 +49,7 @@ import org.acreetionos.launcher.testing.TestLogging;
 import org.acreetionos.launcher.testing.shared.TestProtocol;
 import org.acreetionos.launcher.util.LooperExecutor;
 import org.acreetionos.launcher.util.ResourceBasedOverride;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.widget.custom.CustomWidgetManager;
 
 import java.util.ArrayList;

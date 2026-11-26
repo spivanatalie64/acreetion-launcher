@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher.util;
 
+import com.android.launcher3.util.UserIconInfo;
+
 import static org.acreetionos.launcher.LauncherConstants.ActivityCodes.REQUEST_HOME_ROLE;
 
 import android.app.ActivityOptions;

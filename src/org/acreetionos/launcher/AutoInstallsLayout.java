@@ -19,8 +19,8 @@ package org.acreetionos.launcher;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.ITEM_TYPE_APPLICATION;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.TABLE_NAME;
 import static org.acreetionos.launcher.provider.LauncherDbUtils.itemIdMatch;
-import static org.acreetionos.launcher.util.UserIconInfo.TYPE_CLONED;
-import static org.acreetionos.launcher.util.UserIconInfo.TYPE_WORK;
+import static com.android.launcher3.util.UserIconInfo.TYPE_CLONED;
+import static com.android.launcher3.util.UserIconInfo.TYPE_WORK;
 
 import android.content.ComponentName;
 import android.content.ContentValues;
@@ -59,7 +59,7 @@ import org.acreetionos.launcher.util.ApiWrapper;
 import org.acreetionos.launcher.util.IntArray;
 import org.acreetionos.launcher.util.Partner;
 import org.acreetionos.launcher.util.Thunk;
-import org.acreetionos.launcher.util.UserIconInfo;
+import com.android.launcher3.util.UserIconInfo;
 import org.acreetionos.launcher.widget.LauncherWidgetHolder;
 
 import org.xmlpull.v1.XmlPullParser;

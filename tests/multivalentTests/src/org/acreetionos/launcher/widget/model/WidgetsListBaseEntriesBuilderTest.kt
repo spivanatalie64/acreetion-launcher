@@ -27,7 +27,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.acreetionos.launcher.InvariantDeviceProfile
 import org.acreetionos.launcher.LauncherAppState
 import org.acreetionos.launcher.icons.IconCache
-import org.acreetionos.launcher.icons.cache.CachedObject
+import com.android.launcher3.icons.cache.CachedObject
 import org.acreetionos.launcher.model.WidgetItem
 import org.acreetionos.launcher.model.data.PackageItemInfo
 import org.acreetionos.launcher.util.ActivityContextWrapper

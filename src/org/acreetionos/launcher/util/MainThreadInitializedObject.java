@@ -15,6 +15,8 @@
  */
 package org.acreetionos.launcher.util;
 
+import com.android.launcher3.util.SafeCloseable;
+
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 
 import android.content.Context;

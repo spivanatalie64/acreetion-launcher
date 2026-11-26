@@ -40,10 +40,10 @@ import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.dragndrop.DragOptions;
 import org.acreetionos.launcher.dragndrop.DraggableView;
 import org.acreetionos.launcher.graphics.DragPreviewProvider;
-import org.acreetionos.launcher.icons.BaseIconFactory;
-import org.acreetionos.launcher.icons.FastBitmapDrawable;
+import com.android.launcher3.icons.BaseIconFactory;
+import com.android.launcher3.icons.FastBitmapDrawable;
 import org.acreetionos.launcher.icons.LauncherIcons;
-import org.acreetionos.launcher.icons.RoundDrawableWrapper;
+import com.android.launcher3.icons.RoundDrawableWrapper;
 
 /**
  * Extension of {@link DragPreviewProvider} with logic specific to pending widgets/shortcuts

@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher.icons;
 
+import com.android.launcher3.icons.BaseIconFactory;
+
 import android.content.Context;
 import android.os.UserHandle;
 
@@ -23,12 +25,12 @@ import androidx.annotation.NonNull;
 
 import org.acreetionos.launcher.InvariantDeviceProfile;
 import org.acreetionos.launcher.graphics.IconShape;
-import org.acreetionos.launcher.icons.mono.MonoIconThemeController;
+import com.android.launcher3.icons.mono.MonoIconThemeController;
 import org.acreetionos.launcher.pm.UserCache;
 import org.acreetionos.launcher.util.MainThreadInitializedObject;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.Themes;
-import org.acreetionos.launcher.util.UserIconInfo;
+import com.android.launcher3.util.UserIconInfo;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 

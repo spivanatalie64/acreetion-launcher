@@ -36,7 +36,7 @@ import org.acreetionos.launcher.dagger.ApplicationContext;
 import org.acreetionos.launcher.dagger.LauncherAppSingleton;
 import org.acreetionos.launcher.util.DaggerSingletonObject;
 import org.acreetionos.launcher.util.DaggerSingletonTracker;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.SettingsCache;
 import org.acreetionos.launcher.util.SettingsCache.OnChangeListener;
 import org.acreetionos.launcher.util.SimpleBroadcastReceiver;

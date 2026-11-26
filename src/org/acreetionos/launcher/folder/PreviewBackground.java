@@ -19,7 +19,7 @@ package org.acreetionos.launcher.folder;
 import static com.android.app.animation.Interpolators.ACCELERATE_DECELERATE;
 import static com.android.app.animation.Interpolators.EMPHASIZED_DECELERATE;
 import static org.acreetionos.launcher.folder.ClippedFolderIconLayoutRule.ICON_OVERLAP_FACTOR;
-import static org.acreetionos.launcher.icons.GraphicsUtils.setColorAlphaBound;
+import static com.android.launcher3.icons.GraphicsUtils.setColorAlphaBound;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

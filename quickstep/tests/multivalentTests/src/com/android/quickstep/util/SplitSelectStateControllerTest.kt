@@ -31,7 +31,7 @@ import org.acreetionos.launcher.model.data.ItemInfo
 import org.acreetionos.launcher.statehandlers.DepthController
 import org.acreetionos.launcher.statemanager.StateManager
 import org.acreetionos.launcher.statemanager.StatefulActivity
-import org.acreetionos.launcher.util.ComponentKey
+import com.android.launcher3.util.ComponentKey
 import org.acreetionos.launcher.util.SplitConfigurationOptions
 import com.android.quickstep.RecentsModel
 import com.android.quickstep.SystemUiProxy

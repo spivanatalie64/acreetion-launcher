@@ -48,7 +48,7 @@ import org.acreetionos.launcher.logging.StatsLogManager;
 import org.acreetionos.launcher.util.EventLogArray;
 import org.acreetionos.launcher.util.MainThreadInitializedObject;
 import org.acreetionos.launcher.util.ResourceBasedOverride;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.SettingsCache;
 import org.acreetionos.launcher.util.SimpleBroadcastReceiver;
 import com.android.quickstep.DeviceConfigWrapper;

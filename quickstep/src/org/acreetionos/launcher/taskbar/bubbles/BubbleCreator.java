@@ -21,7 +21,7 @@ import static android.content.pm.LauncherApps.ShortcutQuery.FLAG_MATCH_CACHED;
 import static android.content.pm.LauncherApps.ShortcutQuery.FLAG_MATCH_DYNAMIC;
 import static android.content.pm.LauncherApps.ShortcutQuery.FLAG_MATCH_PINNED_BY_ANY_LAUNCHER;
 
-import static org.acreetionos.launcher.icons.FastBitmapDrawable.WHITE_SCRIM_ALPHA;
+import static com.android.launcher3.icons.FastBitmapDrawable.WHITE_SCRIM_ALPHA;
 import static com.android.wm.shell.shared.bubbles.FlyoutDrawableLoader.loadFlyoutDrawable;
 
 import android.annotation.Nullable;
@@ -46,8 +46,8 @@ import android.view.ViewGroup;
 
 import com.android.internal.graphics.ColorUtils;
 import org.acreetionos.launcher.R;
-import org.acreetionos.launcher.icons.BitmapInfo;
-import org.acreetionos.launcher.icons.BubbleIconFactory;
+import com.android.launcher3.icons.BitmapInfo;
+import com.android.launcher3.icons.BubbleIconFactory;
 import org.acreetionos.launcher.shortcuts.ShortcutRequest;
 import org.acreetionos.launcher.taskbar.bubbles.flyout.BubbleBarFlyoutMessage;
 import com.android.wm.shell.shared.bubbles.BubbleInfo;

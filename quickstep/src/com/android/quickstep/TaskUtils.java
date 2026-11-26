@@ -32,7 +32,7 @@ import androidx.annotation.Nullable;
 
 import org.acreetionos.launcher.pm.UserCache;
 import org.acreetionos.launcher.util.ApplicationInfoWrapper;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.TraceHelper;
 import com.android.systemui.shared.recents.model.Task;
 import com.android.systemui.shared.system.ActivityManagerWrapper;

@@ -27,8 +27,8 @@ import android.util.DisplayMetrics
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import com.android.launcher3.Flags
-import org.acreetionos.launcher.icons.BaseIconFactory
-import org.acreetionos.launcher.icons.BitmapInfo
+import com.android.launcher3.icons.BaseIconFactory
+import com.android.launcher3.icons.BitmapInfo
 import org.acreetionos.launcher.util.LauncherMultivalentJUnit.Companion.isRunningInRobolectric
 import org.junit.Assert.assertNotNull
 import org.junit.Assert.assertNull

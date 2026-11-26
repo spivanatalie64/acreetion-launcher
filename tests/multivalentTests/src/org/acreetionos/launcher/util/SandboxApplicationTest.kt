@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher.util
 
+import com.android.launcher3.util.SafeCloseable
+
 import android.content.Context
 import android.hardware.display.DisplayManager
 import android.view.Display

@@ -37,7 +37,7 @@ import org.acreetionos.launcher.pm.UserCache;
 import org.acreetionos.launcher.util.ApiWrapper;
 import org.acreetionos.launcher.util.ApplicationInfoWrapper;
 import org.acreetionos.launcher.util.PackageManagerHelper;
-import org.acreetionos.launcher.util.UserIconInfo;
+import com.android.launcher3.util.UserIconInfo;
 
 import java.util.Comparator;
 

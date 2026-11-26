@@ -47,7 +47,7 @@ import org.acreetionos.launcher.proxy.ProxyActivityStarter
 import org.acreetionos.launcher.util.ApiWrapper
 import org.acreetionos.launcher.util.Executors
 import org.acreetionos.launcher.util.StartActivityParams
-import org.acreetionos.launcher.util.UserIconInfo
+import com.android.launcher3.util.UserIconInfo
 import com.android.quickstep.util.FadeOutRemoteTransition
 import javax.inject.Inject
 

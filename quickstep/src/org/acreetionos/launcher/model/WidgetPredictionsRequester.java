@@ -39,7 +39,7 @@ import androidx.annotation.VisibleForTesting;
 import androidx.annotation.WorkerThread;
 
 import org.acreetionos.launcher.model.data.ItemInfo;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.widget.PendingAddWidgetInfo;
 import org.acreetionos.launcher.widget.picker.WidgetRecommendationCategoryProvider;
 

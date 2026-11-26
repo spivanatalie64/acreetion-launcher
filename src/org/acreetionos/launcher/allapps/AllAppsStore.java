@@ -31,7 +31,7 @@ import org.acreetionos.launcher.BubbleTextView;
 import org.acreetionos.launcher.model.data.AppInfo;
 import org.acreetionos.launcher.model.data.ItemInfo;
 import org.acreetionos.launcher.recyclerview.AllAppsRecyclerViewPool;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.PackageUserKey;
 import org.acreetionos.launcher.views.ActivityContext;
 

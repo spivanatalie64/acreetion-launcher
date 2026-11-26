@@ -48,7 +48,7 @@ import androidx.core.os.BuildCompat;
 
 import org.acreetionos.launcher.graphics.IconShape;
 import org.acreetionos.launcher.icons.IconCache;
-import org.acreetionos.launcher.icons.IconProvider;
+import com.android.launcher3.icons.IconProvider;
 import org.acreetionos.launcher.icons.LauncherIconProvider;
 import org.acreetionos.launcher.icons.LauncherIcons;
 import org.acreetionos.launcher.lineage.trust.HiddenAppsFilter;
@@ -64,7 +64,7 @@ import org.acreetionos.launcher.util.MainThreadInitializedObject;
 import org.acreetionos.launcher.util.PackageManagerHelper;
 import org.acreetionos.launcher.util.Preconditions;
 import org.acreetionos.launcher.util.RunnableList;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.SettingsCache;
 import org.acreetionos.launcher.util.SimpleBroadcastReceiver;
 import org.acreetionos.launcher.util.Themes;

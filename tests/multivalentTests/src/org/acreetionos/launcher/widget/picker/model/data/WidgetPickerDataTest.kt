@@ -28,7 +28,7 @@ import org.acreetionos.launcher.InvariantDeviceProfile
 import org.acreetionos.launcher.LauncherAppState
 import org.acreetionos.launcher.LauncherSettings.Favorites.CONTAINER_WIDGETS_PREDICTION
 import org.acreetionos.launcher.icons.IconCache
-import org.acreetionos.launcher.icons.cache.CachedObject
+import com.android.launcher3.icons.cache.CachedObject
 import org.acreetionos.launcher.model.WidgetItem
 import org.acreetionos.launcher.model.data.ItemInfo
 import org.acreetionos.launcher.model.data.PackageItemInfo

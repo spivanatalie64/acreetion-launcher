@@ -27,7 +27,7 @@ import org.acreetionos.launcher.pm.UserCache
 import org.acreetionos.launcher.util.MainThreadInitializedObject.SandboxContext
 import org.acreetionos.launcher.util.SplitConfigurationOptions
 import org.acreetionos.launcher.util.TransformingTouchDelegate
-import org.acreetionos.launcher.util.UserIconInfo
+import com.android.launcher3.util.UserIconInfo
 import com.android.quickstep.TaskOverlayFactory
 import com.android.quickstep.TaskOverlayFactory.TaskOverlay
 import com.android.quickstep.recents.di.RecentsDependencies

@@ -30,7 +30,7 @@ import org.acreetionos.launcher.model.data.WorkspaceItemInfo;
 import org.acreetionos.launcher.shortcuts.ShortcutKey;
 import org.acreetionos.launcher.shortcuts.ShortcutRequest;
 import org.acreetionos.launcher.shortcuts.ShortcutRequest.QueryResult;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.ItemInfoMatcher;
 
 import java.util.ArrayList;

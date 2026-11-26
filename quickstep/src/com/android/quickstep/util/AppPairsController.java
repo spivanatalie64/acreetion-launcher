@@ -58,7 +58,7 @@ import org.acreetionos.launcher.model.data.ItemInfoWithIcon;
 import org.acreetionos.launcher.model.data.WorkspaceItemInfo;
 import org.acreetionos.launcher.taskbar.TaskbarActivityContext;
 import org.acreetionos.launcher.uioverrides.QuickstepLauncher;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.PackageManagerHelper;
 import org.acreetionos.launcher.util.SplitConfigurationOptions.StagePosition;
 import org.acreetionos.launcher.views.ActivityContext;

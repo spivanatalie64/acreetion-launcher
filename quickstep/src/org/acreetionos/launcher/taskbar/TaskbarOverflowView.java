@@ -41,7 +41,7 @@ import com.android.app.animation.Interpolators;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Reorderable;
 import org.acreetionos.launcher.Utilities;
-import org.acreetionos.launcher.icons.IconNormalizer;
+import com.android.launcher3.icons.IconNormalizer;
 import org.acreetionos.launcher.util.MultiTranslateDelegate;
 import org.acreetionos.launcher.util.Themes;
 import com.android.systemui.shared.recents.model.Task;

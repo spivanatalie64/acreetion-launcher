@@ -53,7 +53,7 @@ import org.acreetionos.launcher.util.DaggerSingletonObject;
 import org.acreetionos.launcher.util.DaggerSingletonTracker;
 import org.acreetionos.launcher.util.Executors;
 import org.acreetionos.launcher.util.Preconditions;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.SimpleBroadcastReceiver;
 import org.acreetionos.launcher.views.ActivityContext;
 import com.android.quickstep.dagger.QuickstepBaseAppComponent;

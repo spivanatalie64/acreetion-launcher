@@ -16,12 +16,14 @@
 
 package org.acreetionos.launcher.icons.mono
 
+import com.android.launcher3.icons.mono.ThemedIconDrawable
+
 import android.graphics.Bitmap
 import android.platform.uiautomatorhelpers.DeviceHelpers.context
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
-import org.acreetionos.launcher.icons.BitmapInfo
-import org.acreetionos.launcher.icons.mono.MonoIconThemeControllerTest.Companion.ensureBitmapSerializationSupported
+import com.android.launcher3.icons.BitmapInfo
+import com.android.launcher3.icons.mono.MonoIconThemeControllerTest.Companion.ensureBitmapSerializationSupported
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import org.junit.runner.RunWith

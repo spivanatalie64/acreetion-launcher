@@ -15,7 +15,7 @@
  */
 package org.acreetionos.launcher.graphics;
 
-import static org.acreetionos.launcher.icons.IconNormalizer.ICON_VISIBLE_AREA_FACTOR;
+import static com.android.launcher3.icons.IconNormalizer.ICON_VISIBLE_AREA_FACTOR;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -44,8 +44,8 @@ import org.acreetionos.launcher.anim.RoundedRectRevealOutlineProvider;
 import org.acreetionos.launcher.dagger.ApplicationContext;
 import org.acreetionos.launcher.dagger.LauncherAppSingleton;
 import org.acreetionos.launcher.dagger.LauncherBaseAppComponent;
-import org.acreetionos.launcher.icons.GraphicsUtils;
-import org.acreetionos.launcher.icons.IconNormalizer;
+import com.android.launcher3.icons.GraphicsUtils;
+import com.android.launcher3.icons.IconNormalizer;
 import org.acreetionos.launcher.util.DaggerSingletonObject;
 import org.acreetionos.launcher.views.ClipPathView;
 

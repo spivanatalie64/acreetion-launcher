@@ -24,7 +24,7 @@ import static com.android.launcher3.Flags.taskbarRecentsLayoutTransition;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.ITEM_TYPE_APP_PAIR;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.ITEM_TYPE_FOLDER;
 import static org.acreetionos.launcher.config.FeatureFlags.enableTaskbarPinning;
-import static org.acreetionos.launcher.icons.IconNormalizer.ICON_VISIBLE_AREA_FACTOR;
+import static com.android.launcher3.icons.IconNormalizer.ICON_VISIBLE_AREA_FACTOR;
 
 import static java.util.function.Predicate.not;
 

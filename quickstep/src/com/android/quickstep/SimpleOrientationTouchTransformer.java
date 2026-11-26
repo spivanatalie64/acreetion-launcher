@@ -24,7 +24,7 @@ import android.view.MotionEvent;
 
 import org.acreetionos.launcher.util.DisplayController;
 import org.acreetionos.launcher.util.MainThreadInitializedObject;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 
 public class SimpleOrientationTouchTransformer implements
         DisplayController.DisplayInfoChangeListener, SafeCloseable {

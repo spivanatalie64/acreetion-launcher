@@ -35,7 +35,7 @@ import android.widget.ImageView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import org.acreetionos.launcher.R;
-import org.acreetionos.launcher.icons.DotRenderer;
+import com.android.launcher3.icons.DotRenderer;
 import com.android.wm.shell.shared.animation.Interpolators;
 import com.android.wm.shell.shared.bubbles.BubbleBarLocation;
 import com.android.wm.shell.shared.bubbles.BubbleInfo;

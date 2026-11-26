@@ -31,9 +31,9 @@ import androidx.annotation.Nullable;
 import org.acreetionos.launcher.BubbleTextView;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.dragndrop.DraggableView;
-import org.acreetionos.launcher.icons.BitmapRenderer;
-import org.acreetionos.launcher.icons.FastBitmapDrawable;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.icons.BitmapRenderer;
+import com.android.launcher3.icons.FastBitmapDrawable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.views.ActivityContext;
 import org.acreetionos.launcher.widget.LauncherAppWidgetHostView;
 

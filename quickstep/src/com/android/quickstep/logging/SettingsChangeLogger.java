@@ -52,7 +52,7 @@ import org.acreetionos.launcher.util.DisplayController;
 import org.acreetionos.launcher.util.DisplayController.Info;
 import org.acreetionos.launcher.util.MainThreadInitializedObject;
 import org.acreetionos.launcher.util.NavigationMode;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.SettingsCache;
 
 import org.xmlpull.v1.XmlPullParser;

@@ -48,7 +48,7 @@ import org.acreetionos.launcher.logging.StatsLogManager;
 import org.acreetionos.launcher.pm.UserCache;
 import org.acreetionos.launcher.util.ActivityContextWrapper;
 import org.acreetionos.launcher.util.ApiWrapper;
-import org.acreetionos.launcher.util.UserIconInfo;
+import com.android.launcher3.util.UserIconInfo;
 import org.acreetionos.launcher.util.rule.TestStabilityRule;
 
 import org.junit.Before;

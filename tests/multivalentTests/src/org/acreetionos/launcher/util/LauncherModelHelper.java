@@ -15,6 +15,8 @@
  */
 package org.acreetionos.launcher.util;
 
+import com.android.launcher3.util.SafeCloseable;
+
 import static android.content.pm.PackageInstaller.SessionParams.MODE_FULL_INSTALL;
 
 import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;

@@ -16,7 +16,7 @@
 
 package org.acreetionos.launcher.views;
 
-import static org.acreetionos.launcher.icons.GraphicsUtils.setColorAlphaBound;
+import static com.android.launcher3.icons.GraphicsUtils.setColorAlphaBound;
 
 import android.content.Context;
 import android.graphics.Canvas;

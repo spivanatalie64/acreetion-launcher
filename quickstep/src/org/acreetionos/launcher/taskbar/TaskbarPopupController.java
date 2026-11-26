@@ -47,7 +47,7 @@ import org.acreetionos.launcher.popup.PopupDataProvider;
 import org.acreetionos.launcher.popup.SystemShortcut;
 import org.acreetionos.launcher.shortcuts.DeepShortcutView;
 import org.acreetionos.launcher.splitscreen.SplitShortcut;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.LauncherBindableItemsContainer;
 import org.acreetionos.launcher.util.PackageUserKey;
 import org.acreetionos.launcher.util.ShortcutUtil;

@@ -35,7 +35,7 @@ import androidx.annotation.ColorInt;
 import org.acreetionos.launcher.LauncherPrefs;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;
-import org.acreetionos.launcher.icons.GraphicsUtils;
+import com.android.launcher3.icons.GraphicsUtils;
 import org.acreetionos.launcher.views.ActivityContext;
 
 /**

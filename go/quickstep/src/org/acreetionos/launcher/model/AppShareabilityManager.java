@@ -35,7 +35,7 @@ import androidx.room.Room;
 import com.android.internal.annotations.VisibleForTesting;
 import org.acreetionos.launcher.model.AppShareabilityDatabase.ShareabilityDao;
 import org.acreetionos.launcher.util.MainThreadInitializedObject;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 
 import java.lang.annotation.Retention;
 import java.util.ArrayList;

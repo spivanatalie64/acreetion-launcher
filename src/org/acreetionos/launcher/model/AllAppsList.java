@@ -41,9 +41,9 @@ import org.acreetionos.launcher.pm.PackageInstallInfo;
 import org.acreetionos.launcher.pm.UserCache;
 import org.acreetionos.launcher.util.ApiWrapper;
 import org.acreetionos.launcher.util.ApplicationInfoWrapper;
-import org.acreetionos.launcher.util.FlagOp;
+import com.android.launcher3.util.FlagOp;
 import org.acreetionos.launcher.util.PackageManagerHelper;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 
 import java.util.ArrayList;
 import java.util.Arrays;

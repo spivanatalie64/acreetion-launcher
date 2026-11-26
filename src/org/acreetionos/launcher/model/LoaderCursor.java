@@ -58,7 +58,7 @@ import org.acreetionos.launcher.util.GridOccupancy;
 import org.acreetionos.launcher.util.IntArray;
 import org.acreetionos.launcher.util.IntSparseArrayMap;
 import org.acreetionos.launcher.util.PackageManagerHelper;
-import org.acreetionos.launcher.util.UserIconInfo;
+import com.android.launcher3.util.UserIconInfo;
 
 import java.net.URISyntaxException;
 import java.security.InvalidParameterException;

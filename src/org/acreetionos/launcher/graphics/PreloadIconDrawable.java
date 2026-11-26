@@ -39,8 +39,8 @@ import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.anim.AnimatedFloat;
 import org.acreetionos.launcher.anim.AnimatorListeners;
-import org.acreetionos.launcher.icons.FastBitmapDrawable;
-import org.acreetionos.launcher.icons.GraphicsUtils;
+import com.android.launcher3.icons.FastBitmapDrawable;
+import com.android.launcher3.icons.GraphicsUtils;
 import org.acreetionos.launcher.model.data.ItemInfoWithIcon;
 import org.acreetionos.launcher.util.Themes;
 

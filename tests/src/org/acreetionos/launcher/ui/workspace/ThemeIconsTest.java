@@ -37,7 +37,7 @@ import org.acreetionos.launcher.Launcher;
 import org.acreetionos.launcher.LauncherState;
 import org.acreetionos.launcher.allapps.AllAppsRecyclerView;
 import org.acreetionos.launcher.celllayout.FavoriteItemsTransaction;
-import org.acreetionos.launcher.icons.mono.ThemedIconDrawable;
+import com.android.launcher3.icons.mono.ThemedIconDrawable;
 import org.acreetionos.launcher.popup.ArrowPopup;
 import org.acreetionos.launcher.util.BaseLauncherActivityTest;
 import org.acreetionos.launcher.util.Executors;

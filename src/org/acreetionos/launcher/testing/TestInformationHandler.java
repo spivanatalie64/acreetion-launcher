@@ -54,7 +54,7 @@ import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.ShortcutAndWidgetContainer;
 import org.acreetionos.launcher.Workspace;
 import org.acreetionos.launcher.dragndrop.DragLayer;
-import org.acreetionos.launcher.icons.ClockDrawableWrapper;
+import com.android.launcher3.icons.ClockDrawableWrapper;
 import org.acreetionos.launcher.testing.shared.HotseatCellCenterRequest;
 import org.acreetionos.launcher.testing.shared.TestProtocol;
 import org.acreetionos.launcher.testing.shared.WorkspaceCellCenterRequest;

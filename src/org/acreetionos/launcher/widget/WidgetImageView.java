@@ -24,7 +24,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import org.acreetionos.launcher.icons.RoundDrawableWrapper;
+import com.android.launcher3.icons.RoundDrawableWrapper;
 
 /**
  * View that draws a bitmap horizontally centered. If the image width is greater than the view

@@ -127,7 +127,7 @@ import org.acreetionos.launcher.anim.AnimationSuccessListener;
 import org.acreetionos.launcher.anim.AnimatorListeners;
 import org.acreetionos.launcher.compat.AccessibilityManagerCompat;
 import org.acreetionos.launcher.dragndrop.DragLayer;
-import org.acreetionos.launcher.icons.FastBitmapDrawable;
+import com.android.launcher3.icons.FastBitmapDrawable;
 import org.acreetionos.launcher.model.data.ItemInfo;
 import org.acreetionos.launcher.shortcuts.DeepShortcutView;
 import org.acreetionos.launcher.statehandlers.DepthController;

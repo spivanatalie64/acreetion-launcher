@@ -34,7 +34,7 @@ import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.model.BgDataModel.FixedContainerItems;
 import org.acreetionos.launcher.model.QuickstepModelDelegate.PredictorState;
 import org.acreetionos.launcher.model.data.ItemInfo;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.widget.PendingAddWidgetInfo;
 import org.acreetionos.launcher.widget.picker.WidgetRecommendationCategoryProvider;
 

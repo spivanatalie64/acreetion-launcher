@@ -51,9 +51,9 @@ import org.acreetionos.launcher.util.LauncherLayoutBuilder
 import org.acreetionos.launcher.util.LauncherModelHelper
 import org.acreetionos.launcher.util.LauncherModelHelper.SandboxModelContext
 import org.acreetionos.launcher.util.TestUtil
-import org.acreetionos.launcher.util.UserIconInfo
-import org.acreetionos.launcher.util.UserIconInfo.TYPE_MAIN
-import org.acreetionos.launcher.util.UserIconInfo.TYPE_WORK
+import com.android.launcher3.util.UserIconInfo
+import com.android.launcher3.util.UserIconInfo.TYPE_MAIN
+import com.android.launcher3.util.UserIconInfo.TYPE_WORK
 import org.acreetionos.launcher.widget.LauncherWidgetHolder
 import com.google.common.truth.Truth.assertThat
 import dagger.BindsInstance

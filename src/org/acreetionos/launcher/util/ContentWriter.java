@@ -24,8 +24,8 @@ import android.os.UserHandle;
 import org.acreetionos.launcher.LauncherAppState;
 import org.acreetionos.launcher.LauncherSettings;
 import org.acreetionos.launcher.LauncherSettings.Favorites;
-import org.acreetionos.launcher.icons.BitmapInfo;
-import org.acreetionos.launcher.icons.GraphicsUtils;
+import com.android.launcher3.icons.BitmapInfo;
+import com.android.launcher3.icons.GraphicsUtils;
 import org.acreetionos.launcher.model.ModelDbController;
 import org.acreetionos.launcher.pm.UserCache;
 

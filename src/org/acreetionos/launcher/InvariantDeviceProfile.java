@@ -55,7 +55,7 @@ import androidx.annotation.XmlRes;
 import androidx.core.content.res.ResourcesCompat;
 
 import org.acreetionos.launcher.config.FeatureFlags;
-import org.acreetionos.launcher.icons.DotRenderer;
+import com.android.launcher3.icons.DotRenderer;
 import org.acreetionos.launcher.logging.FileLog;
 import org.acreetionos.launcher.model.DeviceGridState;
 import org.acreetionos.launcher.provider.RestoreDbTask;
@@ -65,7 +65,7 @@ import org.acreetionos.launcher.util.DisplayController.Info;
 import org.acreetionos.launcher.util.MainThreadInitializedObject;
 import org.acreetionos.launcher.util.Partner;
 import org.acreetionos.launcher.util.ResourceHelper;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.WindowBounds;
 import org.acreetionos.launcher.util.window.CachedDisplayInfo;
 import org.acreetionos.launcher.util.window.WindowManagerProxy;

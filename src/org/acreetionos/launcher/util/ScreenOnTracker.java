@@ -15,6 +15,8 @@
  */
 package org.acreetionos.launcher.util;
 
+import com.android.launcher3.util.SafeCloseable;
+
 import static android.content.Intent.ACTION_SCREEN_OFF;
 import static android.content.Intent.ACTION_SCREEN_ON;
 import static android.content.Intent.ACTION_USER_PRESENT;

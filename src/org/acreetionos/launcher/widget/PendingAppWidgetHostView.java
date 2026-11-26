@@ -21,7 +21,7 @@ import static android.graphics.Paint.DITHER_FLAG;
 import static android.graphics.Paint.FILTER_BITMAP_FLAG;
 
 import static org.acreetionos.launcher.graphics.PreloadIconDrawable.newPendingIcon;
-import static org.acreetionos.launcher.icons.FastBitmapDrawable.getDisabledColorFilter;
+import static com.android.launcher3.icons.FastBitmapDrawable.getDisabledColorFilter;
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 
 import android.appwidget.AppWidgetProviderInfo;
@@ -55,12 +55,12 @@ import org.acreetionos.launcher.DeviceProfile;
 import org.acreetionos.launcher.Launcher;
 import org.acreetionos.launcher.LauncherAppState;
 import org.acreetionos.launcher.R;
-import org.acreetionos.launcher.icons.FastBitmapDrawable;
+import com.android.launcher3.icons.FastBitmapDrawable;
 import org.acreetionos.launcher.icons.IconCache.ItemInfoUpdateReceiver;
 import org.acreetionos.launcher.model.data.ItemInfoWithIcon;
 import org.acreetionos.launcher.model.data.LauncherAppWidgetInfo;
 import org.acreetionos.launcher.model.data.PackageItemInfo;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.Themes;
 
 import java.util.List;

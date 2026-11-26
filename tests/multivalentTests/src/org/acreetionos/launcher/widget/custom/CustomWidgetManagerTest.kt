@@ -26,7 +26,7 @@ import androidx.test.platform.app.InstrumentationRegistry.getInstrumentation
 import org.acreetionos.launcher.util.DaggerSingletonTracker
 import org.acreetionos.launcher.util.LauncherModelHelper.SandboxModelContext
 import org.acreetionos.launcher.util.PluginManagerWrapper
-import org.acreetionos.launcher.util.SafeCloseable
+import com.android.launcher3.util.SafeCloseable
 import org.acreetionos.launcher.util.WidgetUtils
 import org.acreetionos.launcher.widget.LauncherAppWidgetHostView
 import org.acreetionos.launcher.widget.LauncherAppWidgetProviderInfo

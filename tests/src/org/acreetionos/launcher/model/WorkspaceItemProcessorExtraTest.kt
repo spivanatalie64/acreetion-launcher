@@ -43,10 +43,10 @@ import org.acreetionos.launcher.model.data.LauncherAppWidgetInfo.FLAG_UI_NOT_REA
 import org.acreetionos.launcher.model.data.WorkspaceItemInfo
 import org.acreetionos.launcher.pm.UserCache
 import org.acreetionos.launcher.shortcuts.ShortcutKey
-import org.acreetionos.launcher.util.ComponentKey
+import com.android.launcher3.util.ComponentKey
 import org.acreetionos.launcher.util.PackageManagerHelper
 import org.acreetionos.launcher.util.PackageUserKey
-import org.acreetionos.launcher.util.UserIconInfo
+import com.android.launcher3.util.UserIconInfo
 import org.acreetionos.launcher.widget.WidgetInflater
 import com.google.common.truth.Truth.assertThat
 import org.junit.Before

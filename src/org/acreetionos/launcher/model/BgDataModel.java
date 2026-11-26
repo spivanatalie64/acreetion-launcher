@@ -54,7 +54,7 @@ import org.acreetionos.launcher.pm.UserCache;
 import org.acreetionos.launcher.shortcuts.ShortcutKey;
 import org.acreetionos.launcher.shortcuts.ShortcutRequest;
 import org.acreetionos.launcher.shortcuts.ShortcutRequest.QueryResult;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.IntArray;
 import org.acreetionos.launcher.util.IntSet;
 import org.acreetionos.launcher.util.IntSparseArrayMap;

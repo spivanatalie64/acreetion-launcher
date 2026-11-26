@@ -63,10 +63,10 @@ import org.acreetionos.launcher.logger.LauncherAtom.WallpapersContainer;
 import org.acreetionos.launcher.logger.LauncherAtomExtensions.ExtendedContainers;
 import org.acreetionos.launcher.model.ModelWriter;
 import org.acreetionos.launcher.pm.UserCache;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.ContentWriter;
 import org.acreetionos.launcher.util.SettingsCache;
-import org.acreetionos.launcher.util.UserIconInfo;
+import com.android.launcher3.util.UserIconInfo;
 import com.android.systemui.shared.system.SysUiStatsLog;
 
 import java.util.ArrayList;

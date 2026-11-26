@@ -31,7 +31,7 @@ import org.acreetionos.launcher.dagger.LauncherAppComponent;
 import org.acreetionos.launcher.dagger.LauncherAppSingleton;
 import org.acreetionos.launcher.util.DaggerSingletonObject;
 import org.acreetionos.launcher.util.DaggerSingletonTracker;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 
 import javax.inject.Inject;
 

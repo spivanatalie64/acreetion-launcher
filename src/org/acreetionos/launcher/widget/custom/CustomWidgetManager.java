@@ -40,7 +40,7 @@ import org.acreetionos.launcher.dagger.LauncherBaseAppComponent;
 import org.acreetionos.launcher.util.DaggerSingletonObject;
 import org.acreetionos.launcher.util.DaggerSingletonTracker;
 import org.acreetionos.launcher.util.PluginManagerWrapper;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.widget.LauncherAppWidgetHostView;
 import org.acreetionos.launcher.widget.LauncherAppWidgetProviderInfo;
 import com.android.systemui.plugins.CustomWidgetPlugin;

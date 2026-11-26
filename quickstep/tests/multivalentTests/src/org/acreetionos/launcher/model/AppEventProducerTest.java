@@ -39,7 +39,7 @@ import org.acreetionos.launcher.logger.LauncherAtom;
 import org.acreetionos.launcher.model.data.AppInfo;
 import org.acreetionos.launcher.pm.UserCache;
 import org.acreetionos.launcher.util.MainThreadInitializedObject.SandboxContext;
-import org.acreetionos.launcher.util.UserIconInfo;
+import com.android.launcher3.util.UserIconInfo;
 import com.android.systemui.shared.system.SysUiStatsLog;
 
 import org.junit.After;

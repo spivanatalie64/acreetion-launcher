@@ -20,7 +20,7 @@ import static android.view.View.MeasureSpec.EXACTLY;
 import static android.view.View.MeasureSpec.makeMeasureSpec;
 
 import static org.acreetionos.launcher.LauncherAnimUtils.VIEW_ALPHA;
-import static org.acreetionos.launcher.icons.FastBitmapDrawable.getDisabledColorFilter;
+import static com.android.launcher3.icons.FastBitmapDrawable.getDisabledColorFilter;
 import static org.acreetionos.launcher.util.Executors.MODEL_EXECUTOR;
 
 import android.animation.Animator;
@@ -60,7 +60,7 @@ import androidx.dynamicanimation.animation.SpringForce;
 import com.android.app.animation.Interpolators;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;
-import org.acreetionos.launcher.icons.FastBitmapDrawable;
+import com.android.launcher3.icons.FastBitmapDrawable;
 import org.acreetionos.launcher.icons.LauncherIcons;
 import org.acreetionos.launcher.model.data.ItemInfo;
 import org.acreetionos.launcher.util.RunnableList;

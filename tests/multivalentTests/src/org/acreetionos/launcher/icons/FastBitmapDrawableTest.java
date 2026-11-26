@@ -15,11 +15,11 @@
  */
 package org.acreetionos.launcher.icons;
 
-import static org.acreetionos.launcher.icons.FastBitmapDrawable.CLICK_FEEDBACK_DURATION;
-import static org.acreetionos.launcher.icons.FastBitmapDrawable.HOVERED_SCALE;
-import static org.acreetionos.launcher.icons.FastBitmapDrawable.HOVER_FEEDBACK_DURATION;
-import static org.acreetionos.launcher.icons.FastBitmapDrawable.PRESSED_SCALE;
-import static org.acreetionos.launcher.icons.FastBitmapDrawable.SCALE;
+import static com.android.launcher3.icons.FastBitmapDrawable.CLICK_FEEDBACK_DURATION;
+import static com.android.launcher3.icons.FastBitmapDrawable.HOVERED_SCALE;
+import static com.android.launcher3.icons.FastBitmapDrawable.HOVER_FEEDBACK_DURATION;
+import static com.android.launcher3.icons.FastBitmapDrawable.PRESSED_SCALE;
+import static com.android.launcher3.icons.FastBitmapDrawable.SCALE;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

@@ -22,7 +22,7 @@ import static org.acreetionos.launcher.folder.ClippedFolderIconLayoutRule.EXIT_I
 import static org.acreetionos.launcher.folder.ClippedFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW;
 import static org.acreetionos.launcher.folder.FolderIcon.DROP_IN_ANIMATION_DURATION;
 import static org.acreetionos.launcher.graphics.PreloadIconDrawable.newPendingIcon;
-import static org.acreetionos.launcher.icons.BitmapInfo.FLAG_THEMED;
+import static com.android.launcher3.icons.BitmapInfo.FLAG_THEMED;
 import static org.acreetionos.launcher.model.data.ItemInfoWithIcon.FLAG_SHOW_DOWNLOAD_PROGRESS_MASK;
 
 import android.animation.Animator;

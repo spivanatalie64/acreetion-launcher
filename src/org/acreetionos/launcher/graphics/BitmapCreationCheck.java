@@ -30,7 +30,7 @@ import android.view.View.OnAttachStateChangeListener;
 import android.view.ViewTreeObserver.OnDrawListener;
 
 import org.acreetionos.launcher.Utilities;
-import org.acreetionos.launcher.icons.GraphicsUtils;
+import com.android.launcher3.icons.GraphicsUtils;
 
 /**
  * Utility class to check bitmap creation during draw pass.

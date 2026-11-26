@@ -15,6 +15,8 @@
  */
 package org.acreetionos.launcher.util;
 
+import com.android.launcher3.util.SafeCloseable;
+
 import android.annotation.SuppressLint;
 import android.os.Trace;
 

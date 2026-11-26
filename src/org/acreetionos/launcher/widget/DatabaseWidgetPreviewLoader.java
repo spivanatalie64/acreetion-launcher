@@ -44,7 +44,7 @@ import com.android.launcher3.Flags;
 import org.acreetionos.launcher.LauncherAppState;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;
-import org.acreetionos.launcher.icons.BitmapRenderer;
+import com.android.launcher3.icons.BitmapRenderer;
 import org.acreetionos.launcher.icons.LauncherIcons;
 import org.acreetionos.launcher.model.WidgetItem;
 import org.acreetionos.launcher.pm.ShortcutConfigActivityInfo;

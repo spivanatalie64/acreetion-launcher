@@ -35,8 +35,8 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 
 import org.acreetionos.launcher.BubbleTextView;
-import org.acreetionos.launcher.icons.BaseIconFactory;
-import org.acreetionos.launcher.icons.FastBitmapDrawable;
+import com.android.launcher3.icons.BaseIconFactory;
+import com.android.launcher3.icons.FastBitmapDrawable;
 import org.acreetionos.launcher.icons.LauncherIcons;
 import org.acreetionos.launcher.util.MultiTranslateDelegate;
 

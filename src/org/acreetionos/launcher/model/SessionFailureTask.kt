@@ -20,7 +20,7 @@ import android.content.ComponentName
 import android.os.UserHandle
 import android.text.TextUtils
 import org.acreetionos.launcher.LauncherModel.ModelUpdateTask
-import org.acreetionos.launcher.icons.cache.BaseIconCache
+import com.android.launcher3.icons.cache.BaseIconCache
 import org.acreetionos.launcher.model.data.WorkspaceItemInfo
 import org.acreetionos.launcher.util.ApplicationInfoWrapper
 import org.acreetionos.launcher.util.ItemInfoMatcher

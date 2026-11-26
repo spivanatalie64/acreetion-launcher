@@ -56,9 +56,9 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 
 import org.acreetionos.launcher.InvariantDeviceProfile;
-import org.acreetionos.launcher.icons.cache.CachingLogic;
-import org.acreetionos.launcher.icons.cache.IconCacheUpdateHandler;
-import org.acreetionos.launcher.icons.cache.LauncherActivityCachingLogic;
+import com.android.launcher3.icons.cache.CachingLogic;
+import com.android.launcher3.icons.cache.IconCacheUpdateHandler;
+import com.android.launcher3.icons.cache.LauncherActivityCachingLogic;
 import org.acreetionos.launcher.model.data.AppInfo;
 import org.acreetionos.launcher.model.data.ItemInfoWithIcon;
 import org.acreetionos.launcher.model.data.PackageItemInfo;
@@ -66,7 +66,7 @@ import org.acreetionos.launcher.model.data.WorkspaceItemInfo;
 import org.acreetionos.launcher.settings.SettingsActivity;
 import org.acreetionos.launcher.shortcuts.ShortcutKey;
 import org.acreetionos.launcher.util.ApplicationInfoWrapper;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.PackageUserKey;
 
 import com.google.common.truth.Truth;

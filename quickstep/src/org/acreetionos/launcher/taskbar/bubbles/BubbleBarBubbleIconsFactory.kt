@@ -18,7 +18,7 @@ package org.acreetionos.launcher.taskbar.bubbles
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
-import org.acreetionos.launcher.icons.BaseIconFactory
+import com.android.launcher3.icons.BaseIconFactory
 
 /** Bubble icons factory for the bubble bar. */
 class BubbleBarBubbleIconsFactory(context: Context, bubbleSize: Int) :

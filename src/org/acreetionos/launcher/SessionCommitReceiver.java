@@ -97,7 +97,7 @@ public class SessionCommitReceiver extends BroadcastReceiver {
     /**
      * Returns whether adding Installed App Icons to home screen is allowed or not.
      * Not allowed when:
-     * - User belongs to {@link org.acreetionos.launcher.util.UserIconInfo.TYPE_PRIVATE} or
+     * - User belongs to {@link com.android.launcher3.util.UserIconInfo.TYPE_PRIVATE} or
      * - Home Settings preference to add App Icons on Home Screen is set as disabled
      */
     public static boolean isEnabled(Context context, UserHandle user) {

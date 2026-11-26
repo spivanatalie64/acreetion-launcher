@@ -20,7 +20,7 @@ import android.graphics.Rect;
 
 import androidx.annotation.NonNull;
 
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 
 /**
  * Interface defining methods required for drawing and previewing DragViews, drag previews, and

@@ -62,7 +62,7 @@ import org.acreetionos.launcher.model.data.AppInfo;
 import org.acreetionos.launcher.model.data.ItemInfoWithIcon;
 import org.acreetionos.launcher.search.StringMatcherUtility;
 import org.acreetionos.launcher.util.ActivityContextWrapper;
-import org.acreetionos.launcher.util.FlagOp;
+import com.android.launcher3.util.FlagOp;
 import org.acreetionos.launcher.util.IntArray;
 import org.acreetionos.launcher.views.BaseDragLayer;
 

@@ -24,9 +24,9 @@ import androidx.annotation.Nullable;
 
 import com.android.launcher3.Flags;
 import org.acreetionos.launcher.Utilities;
-import org.acreetionos.launcher.icons.BitmapInfo;
-import org.acreetionos.launcher.icons.BitmapInfo.DrawableCreationFlags;
-import org.acreetionos.launcher.icons.FastBitmapDrawable;
+import com.android.launcher3.icons.BitmapInfo;
+import com.android.launcher3.icons.BitmapInfo.DrawableCreationFlags;
+import com.android.launcher3.icons.FastBitmapDrawable;
 import org.acreetionos.launcher.logging.FileLog;
 import org.acreetionos.launcher.pm.PackageInstallInfo;
 import org.acreetionos.launcher.util.ApiWrapper;

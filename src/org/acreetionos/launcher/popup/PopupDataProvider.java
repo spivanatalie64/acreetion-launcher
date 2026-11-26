@@ -27,7 +27,7 @@ import org.acreetionos.launcher.dot.DotInfo;
 import org.acreetionos.launcher.model.data.ItemInfo;
 import org.acreetionos.launcher.notification.NotificationKeyData;
 import org.acreetionos.launcher.notification.NotificationListener;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.PackageUserKey;
 import org.acreetionos.launcher.util.ShortcutUtil;
 

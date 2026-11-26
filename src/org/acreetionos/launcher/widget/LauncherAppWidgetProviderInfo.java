@@ -16,8 +16,8 @@ import androidx.annotation.Nullable;
 import org.acreetionos.launcher.DeviceProfile;
 import org.acreetionos.launcher.InvariantDeviceProfile;
 import org.acreetionos.launcher.LauncherAppState;
-import org.acreetionos.launcher.icons.cache.BaseIconCache;
-import org.acreetionos.launcher.icons.cache.CachedObject;
+import com.android.launcher3.icons.cache.BaseIconCache;
+import com.android.launcher3.icons.cache.CachedObject;
 import org.acreetionos.launcher.model.data.LauncherAppWidgetInfo;
 
 /**

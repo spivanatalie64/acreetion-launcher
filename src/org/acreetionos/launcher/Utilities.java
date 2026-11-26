@@ -18,7 +18,7 @@ package org.acreetionos.launcher;
 
 import static org.acreetionos.launcher.BuildConfig.WIDGET_ON_FIRST_SCREEN;
 import static com.android.launcher3.Flags.enableSmartspaceAsAWidget;
-import static org.acreetionos.launcher.icons.BitmapInfo.FLAG_THEMED;
+import static com.android.launcher3.icons.BitmapInfo.FLAG_THEMED;
 import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
 import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT;
 import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_TYPE_MAIN;
@@ -76,7 +76,7 @@ import androidx.core.graphics.ColorUtils;
 
 import org.acreetionos.launcher.dragndrop.FolderAdaptiveIcon;
 import org.acreetionos.launcher.graphics.TintedDrawableSpan;
-import org.acreetionos.launcher.icons.BitmapInfo;
+import com.android.launcher3.icons.BitmapInfo;
 import org.acreetionos.launcher.icons.CacheableShortcutInfo;
 import org.acreetionos.launcher.icons.LauncherIcons;
 import org.acreetionos.launcher.model.data.ItemInfo;
@@ -86,7 +86,7 @@ import org.acreetionos.launcher.pm.UserCache;
 import org.acreetionos.launcher.shortcuts.ShortcutKey;
 import org.acreetionos.launcher.shortcuts.ShortcutRequest;
 import org.acreetionos.launcher.testing.shared.ResourceUtils;
-import org.acreetionos.launcher.util.FlagOp;
+import com.android.launcher3.util.FlagOp;
 import org.acreetionos.launcher.util.IntArray;
 import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitPositionOption;
 import org.acreetionos.launcher.util.Themes;

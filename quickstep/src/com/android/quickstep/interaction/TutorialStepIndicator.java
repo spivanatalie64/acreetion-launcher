@@ -24,7 +24,7 @@ import android.widget.LinearLayout;
 
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;
-import org.acreetionos.launcher.icons.GraphicsUtils;
+import com.android.launcher3.icons.GraphicsUtils;
 
 /** Indicator displaying the current progress through the gesture navigation tutorial. */
 public class TutorialStepIndicator extends LinearLayout {

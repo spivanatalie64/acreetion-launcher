@@ -16,8 +16,8 @@
 package org.acreetionos.launcher.uioverrides;
 
 import static com.android.app.animation.Interpolators.ACCELERATE_DECELERATE;
-import static org.acreetionos.launcher.icons.BitmapInfo.FLAG_THEMED;
-import static org.acreetionos.launcher.icons.FastBitmapDrawable.getDisabledColorFilter;
+import static com.android.launcher3.icons.BitmapInfo.FLAG_THEMED;
+import static com.android.launcher3.icons.FastBitmapDrawable.getDisabledColorFilter;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -53,14 +53,14 @@ import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.anim.AnimatorListeners;
 import org.acreetionos.launcher.celllayout.CellLayoutLayoutParams;
 import org.acreetionos.launcher.celllayout.DelegatedCellDrawing;
-import org.acreetionos.launcher.icons.BitmapInfo;
-import org.acreetionos.launcher.icons.GraphicsUtils;
-import org.acreetionos.launcher.icons.IconNormalizer;
+import com.android.launcher3.icons.BitmapInfo;
+import com.android.launcher3.icons.GraphicsUtils;
+import com.android.launcher3.icons.IconNormalizer;
 import org.acreetionos.launcher.icons.LauncherIcons;
 import org.acreetionos.launcher.model.data.ItemInfoWithIcon;
 import org.acreetionos.launcher.model.data.WorkspaceItemInfo;
 import org.acreetionos.launcher.touch.ItemLongClickListener;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.views.ActivityContext;
 import org.acreetionos.launcher.views.DoubleShadowBubbleTextView;
 

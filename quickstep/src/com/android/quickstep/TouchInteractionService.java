@@ -87,7 +87,7 @@ import org.acreetionos.launcher.util.DisplayController;
 import org.acreetionos.launcher.util.LockedUserState;
 import org.acreetionos.launcher.util.NavigationMode;
 import org.acreetionos.launcher.util.PluginManagerWrapper;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.ScreenOnTracker;
 import org.acreetionos.launcher.util.TraceHelper;
 import com.android.quickstep.OverviewCommandHelper.CommandType;

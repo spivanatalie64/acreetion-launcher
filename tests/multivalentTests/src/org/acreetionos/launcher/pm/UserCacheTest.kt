@@ -23,7 +23,7 @@ import androidx.test.platform.app.InstrumentationRegistry
 import org.acreetionos.launcher.util.Executors.MODEL_EXECUTOR
 import org.acreetionos.launcher.util.LauncherModelHelper
 import org.acreetionos.launcher.util.TestUtil
-import org.acreetionos.launcher.util.UserIconInfo
+import com.android.launcher3.util.UserIconInfo
 import com.google.common.truth.Truth.assertThat
 import org.junit.After
 import org.junit.Before

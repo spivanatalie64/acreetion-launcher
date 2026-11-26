@@ -27,7 +27,7 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 
 import org.acreetionos.launcher.Utilities;
-import org.acreetionos.launcher.icons.FastBitmapDrawable;
+import com.android.launcher3.icons.FastBitmapDrawable;
 
 /**
  * A composed Drawable consisting of the two app pair icons and the background behind them (looks

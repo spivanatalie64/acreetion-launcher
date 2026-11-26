@@ -20,7 +20,7 @@ import org.acreetionos.launcher.model.data.ItemInfo
 import org.acreetionos.launcher.model.data.LauncherAppWidgetInfo
 import org.acreetionos.launcher.model.data.WorkspaceItemInfo
 import org.acreetionos.launcher.popup.PopupContainerWithArrow
-import org.acreetionos.launcher.util.ComponentKey
+import com.android.launcher3.util.ComponentKey
 import org.acreetionos.launcher.util.IntArray as LIntArray
 import org.acreetionos.launcher.util.IntSet as LIntSet
 import org.acreetionos.launcher.util.PackageUserKey

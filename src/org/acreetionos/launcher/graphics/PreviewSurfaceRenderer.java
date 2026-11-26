@@ -62,7 +62,7 @@ import org.acreetionos.launcher.model.GridSizeMigrationDBController;
 import org.acreetionos.launcher.model.LoaderTask;
 import org.acreetionos.launcher.model.ModelDbController;
 import org.acreetionos.launcher.provider.LauncherDbUtils;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.RunnableList;
 import org.acreetionos.launcher.util.Themes;
 import org.acreetionos.launcher.widget.LocalColorExtractor;

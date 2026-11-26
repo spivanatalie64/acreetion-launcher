@@ -35,7 +35,7 @@ import androidx.annotation.Nullable;
 
 import com.android.internal.jank.Cuj;
 import org.acreetionos.launcher.anim.AnimationSuccessListener;
-import org.acreetionos.launcher.icons.IconProvider;
+import com.android.launcher3.icons.IconProvider;
 import com.android.quickstep.TaskAnimationManager;
 import com.android.systemui.shared.pip.PipSurfaceTransactionHelper;
 import com.android.systemui.shared.system.InteractionJankMonitorWrapper;

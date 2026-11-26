@@ -20,7 +20,7 @@ import android.content.Context;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.RemoteViews;
 
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 
 import java.util.Collections;
 import java.util.Set;

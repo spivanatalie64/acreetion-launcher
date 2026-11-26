@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher.icons
 
+import com.android.launcher3.icons.IconProvider
+
 import android.content.ComponentName
 import android.content.pm.ApplicationInfo
 import android.database.MatrixCursor
@@ -23,11 +25,11 @@ import android.os.Handler
 import android.os.Process.myUserHandle
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
-import org.acreetionos.launcher.icons.cache.BaseIconCache
-import org.acreetionos.launcher.icons.cache.BaseIconCache.IconDB
-import org.acreetionos.launcher.icons.cache.CachedObject
-import org.acreetionos.launcher.icons.cache.CachedObjectCachingLogic
-import org.acreetionos.launcher.icons.cache.IconCacheUpdateHandler
+import com.android.launcher3.icons.cache.BaseIconCache
+import com.android.launcher3.icons.cache.BaseIconCache.IconDB
+import com.android.launcher3.icons.cache.CachedObject
+import com.android.launcher3.icons.cache.CachedObjectCachingLogic
+import com.android.launcher3.icons.cache.IconCacheUpdateHandler
 import org.acreetionos.launcher.util.RoboApiWrapper
 import com.google.common.truth.Truth.assertThat
 import java.util.concurrent.FutureTask

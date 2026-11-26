@@ -39,7 +39,7 @@ import androidx.annotation.UiThread;
 
 import org.acreetionos.launcher.folder.FolderIcon;
 import org.acreetionos.launcher.folder.PreviewBackground;
-import org.acreetionos.launcher.icons.BitmapRenderer;
+import com.android.launcher3.icons.BitmapRenderer;
 import org.acreetionos.launcher.util.Preconditions;
 import org.acreetionos.launcher.views.ActivityContext;
 

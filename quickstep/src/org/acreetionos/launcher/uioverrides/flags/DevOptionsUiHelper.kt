@@ -80,7 +80,7 @@ import org.acreetionos.launcher.util.OnboardingPrefs.TASKBAR_EDU_TOOLTIP_STEP
 import org.acreetionos.launcher.util.OnboardingPrefs.TASKBAR_SEARCH_EDU_SEEN
 import org.acreetionos.launcher.util.PluginManagerWrapper
 import org.acreetionos.launcher.util.StartActivityParams
-import org.acreetionos.launcher.util.UserIconInfo
+import com.android.launcher3.util.UserIconInfo
 import com.android.quickstep.util.DeviceConfigHelper
 import com.android.quickstep.util.DeviceConfigHelper.Companion.NAMESPACE_LAUNCHER
 import com.android.quickstep.util.DeviceConfigHelper.DebugInfo

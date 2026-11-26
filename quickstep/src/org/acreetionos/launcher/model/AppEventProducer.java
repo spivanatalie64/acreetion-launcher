@@ -72,7 +72,7 @@ import org.acreetionos.launcher.logger.LauncherAtom.WorkspaceContainer;
 import org.acreetionos.launcher.logging.StatsLogManager.EventEnum;
 import org.acreetionos.launcher.pm.UserCache;
 import org.acreetionos.launcher.shortcuts.ShortcutRequest;
-import org.acreetionos.launcher.util.UserIconInfo;
+import com.android.launcher3.util.UserIconInfo;
 import com.android.quickstep.logging.StatsLogCompatManager.StatsLogConsumer;
 import com.android.systemui.shared.system.SysUiStatsLog;
 

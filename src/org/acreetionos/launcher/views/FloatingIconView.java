@@ -54,7 +54,7 @@ import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.dragndrop.DragLayer;
 import org.acreetionos.launcher.folder.FolderIcon;
 import org.acreetionos.launcher.graphics.PreloadIconDrawable;
-import org.acreetionos.launcher.icons.FastBitmapDrawable;
+import com.android.launcher3.icons.FastBitmapDrawable;
 import org.acreetionos.launcher.icons.LauncherIcons;
 import org.acreetionos.launcher.model.data.ItemInfo;
 import org.acreetionos.launcher.model.data.ItemInfoWithIcon;

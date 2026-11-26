@@ -27,9 +27,9 @@ import androidx.test.platform.app.InstrumentationRegistry.getInstrumentation
 import org.acreetionos.launcher.LauncherPrefs.Companion.THEMED_ICONS
 import org.acreetionos.launcher.LauncherPrefs.Companion.get
 import org.acreetionos.launcher.graphics.PreloadIconDrawable
-import org.acreetionos.launcher.icons.FastBitmapDrawable
-import org.acreetionos.launcher.icons.UserBadgeDrawable
-import org.acreetionos.launcher.icons.mono.MonoThemedBitmap
+import com.android.launcher3.icons.FastBitmapDrawable
+import com.android.launcher3.icons.UserBadgeDrawable
+import com.android.launcher3.icons.mono.MonoThemedBitmap
 import org.acreetionos.launcher.model.data.FolderInfo
 import org.acreetionos.launcher.model.data.ItemInfo
 import org.acreetionos.launcher.model.data.ItemInfoWithIcon.FLAG_ARCHIVED
@@ -37,11 +37,11 @@ import org.acreetionos.launcher.model.data.ItemInfoWithIcon.FLAG_INSTALL_SESSION
 import org.acreetionos.launcher.model.data.WorkspaceItemInfo
 import org.acreetionos.launcher.util.ActivityContextWrapper
 import org.acreetionos.launcher.util.Executors
-import org.acreetionos.launcher.util.FlagOp
+import com.android.launcher3.util.FlagOp
 import org.acreetionos.launcher.util.LauncherLayoutBuilder
 import org.acreetionos.launcher.util.LauncherModelHelper
 import org.acreetionos.launcher.util.TestUtil
-import org.acreetionos.launcher.util.UserIconInfo
+import com.android.launcher3.util.UserIconInfo
 import com.google.common.truth.Truth.assertThat
 import org.junit.After
 import org.junit.Before

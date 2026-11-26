@@ -16,6 +16,10 @@
 
 package org.acreetionos.launcher.icons;
 
+import com.android.launcher3.icons.BaseIconFactory;
+import com.android.launcher3.icons.BitmapInfo;
+import com.android.launcher3.icons.IconProvider;
+
 import static org.acreetionos.launcher.LauncherSettings.Favorites.ITEM_TYPE_DEEP_SHORTCUT;
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 import static org.acreetionos.launcher.util.Executors.MODEL_EXECUTOR;
@@ -50,10 +54,10 @@ import androidx.core.util.Pair;
 import com.android.launcher3.Flags;
 import org.acreetionos.launcher.InvariantDeviceProfile;
 import org.acreetionos.launcher.Utilities;
-import org.acreetionos.launcher.icons.cache.BaseIconCache;
-import org.acreetionos.launcher.icons.cache.CachedObject;
-import org.acreetionos.launcher.icons.cache.CachedObjectCachingLogic;
-import org.acreetionos.launcher.icons.cache.LauncherActivityCachingLogic;
+import com.android.launcher3.icons.cache.BaseIconCache;
+import com.android.launcher3.icons.cache.CachedObject;
+import com.android.launcher3.icons.cache.CachedObjectCachingLogic;
+import com.android.launcher3.icons.cache.LauncherActivityCachingLogic;
 import org.acreetionos.launcher.logging.FileLog;
 import org.acreetionos.launcher.model.data.AppInfo;
 import org.acreetionos.launcher.model.data.IconRequestInfo;
@@ -63,7 +67,7 @@ import org.acreetionos.launcher.model.data.WorkspaceItemInfo;
 import org.acreetionos.launcher.pm.InstallSessionHelper;
 import org.acreetionos.launcher.pm.UserCache;
 import org.acreetionos.launcher.util.CancellableTask;
-import org.acreetionos.launcher.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 import org.acreetionos.launcher.util.InstantAppResolver;
 import org.acreetionos.launcher.util.PackageUserKey;
 import org.acreetionos.launcher.widget.WidgetSections;

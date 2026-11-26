@@ -15,7 +15,7 @@
  */
 package org.acreetionos.launcher.settings;
 
-import static org.acreetionos.launcher.icons.GraphicsUtils.setColorAlphaBound;
+import static com.android.launcher3.icons.GraphicsUtils.setColorAlphaBound;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

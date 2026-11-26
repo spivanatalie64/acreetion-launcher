@@ -39,7 +39,7 @@ import org.acreetionos.launcher.Launcher;
 import org.acreetionos.launcher.LauncherAppState;
 import org.acreetionos.launcher.LauncherSettings;
 import org.acreetionos.launcher.R;
-import org.acreetionos.launcher.icons.cache.BaseIconCache;
+import com.android.launcher3.icons.cache.BaseIconCache;
 import org.acreetionos.launcher.model.data.WorkspaceItemInfo;
 import org.acreetionos.launcher.pm.PinRequestHelper;
 import org.acreetionos.launcher.pm.ShortcutConfigActivityInfo;

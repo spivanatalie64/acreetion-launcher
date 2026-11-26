@@ -37,11 +37,11 @@ import android.os.UserHandle;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import org.acreetionos.launcher.icons.IconProvider;
-import org.acreetionos.launcher.icons.IconProvider.IconChangeListener;
+import com.android.launcher3.icons.IconProvider;
+import com.android.launcher3.icons.IconProvider.IconChangeListener;
 import org.acreetionos.launcher.util.Executors.SimpleThreadFactory;
 import org.acreetionos.launcher.util.MainThreadInitializedObject;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import com.android.quickstep.recents.data.RecentTasksDataSource;
 import com.android.quickstep.recents.data.TaskVisualsChangeNotifier;
 import com.android.quickstep.util.DesktopTask;

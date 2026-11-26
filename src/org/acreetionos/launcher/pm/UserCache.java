@@ -32,14 +32,14 @@ import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.annotation.WorkerThread;
 
-import org.acreetionos.launcher.icons.BitmapInfo;
-import org.acreetionos.launcher.icons.UserBadgeDrawable;
+import com.android.launcher3.icons.BitmapInfo;
+import com.android.launcher3.icons.UserBadgeDrawable;
 import org.acreetionos.launcher.util.ApiWrapper;
-import org.acreetionos.launcher.util.FlagOp;
+import com.android.launcher3.util.FlagOp;
 import org.acreetionos.launcher.util.MainThreadInitializedObject;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.SimpleBroadcastReceiver;
-import org.acreetionos.launcher.util.UserIconInfo;
+import com.android.launcher3.util.UserIconInfo;
 
 import java.util.ArrayList;
 import java.util.Collections;

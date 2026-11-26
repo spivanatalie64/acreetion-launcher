@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher.util;
 
+import com.android.launcher3.util.SafeCloseable;
+
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 
 import org.acreetionos.launcher.dagger.LauncherAppSingleton;

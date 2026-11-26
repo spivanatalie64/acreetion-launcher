@@ -37,7 +37,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 
 import org.acreetionos.launcher.LauncherAppState;
-import org.acreetionos.launcher.icons.BitmapInfo;
+import com.android.launcher3.icons.BitmapInfo;
 import org.acreetionos.launcher.model.data.FolderInfo;
 import org.acreetionos.launcher.model.data.WorkspaceItemInfo;
 import org.acreetionos.launcher.util.IntSet;

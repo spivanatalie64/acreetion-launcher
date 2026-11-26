@@ -24,8 +24,8 @@ import android.view.View;
 
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.graphics.DragPreviewProvider;
-import org.acreetionos.launcher.icons.BitmapRenderer;
-import org.acreetionos.launcher.icons.FastBitmapDrawable;
+import com.android.launcher3.icons.BitmapRenderer;
+import com.android.launcher3.icons.FastBitmapDrawable;
 import org.acreetionos.launcher.views.ActivityContext;
 
 /**

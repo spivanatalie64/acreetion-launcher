@@ -67,7 +67,7 @@ import org.acreetionos.launcher.dragndrop.BaseItemDragListener;
 import org.acreetionos.launcher.dragndrop.DragLayer;
 import org.acreetionos.launcher.dragndrop.DragView;
 import org.acreetionos.launcher.dragndrop.DraggableView;
-import org.acreetionos.launcher.icons.DotRenderer;
+import com.android.launcher3.icons.DotRenderer;
 import org.acreetionos.launcher.logger.LauncherAtom.FromState;
 import org.acreetionos.launcher.logger.LauncherAtom.ToState;
 import org.acreetionos.launcher.logging.InstanceId;

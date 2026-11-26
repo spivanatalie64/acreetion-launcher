@@ -39,7 +39,7 @@ import androidx.test.filters.SmallTest;
 
 import com.android.launcher3.Flags;
 import org.acreetionos.launcher.R;
-import org.acreetionos.launcher.icons.IconProvider;
+import com.android.launcher3.icons.IconProvider;
 import com.android.quickstep.util.GroupTask;
 import com.android.systemui.shared.recents.model.Task;
 import com.android.systemui.shared.system.TaskStackChangeListeners;

@@ -70,7 +70,7 @@ import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.anim.AnimatedPropertySetter;
 import org.acreetionos.launcher.anim.PropertySetter;
-import org.acreetionos.launcher.icons.BitmapInfo;
+import com.android.launcher3.icons.BitmapInfo;
 import org.acreetionos.launcher.icons.LauncherIcons;
 import org.acreetionos.launcher.logging.StatsLogManager;
 import org.acreetionos.launcher.model.data.AppInfo;

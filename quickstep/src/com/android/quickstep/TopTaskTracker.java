@@ -38,7 +38,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.UiThread;
 
 import org.acreetionos.launcher.util.MainThreadInitializedObject;
-import org.acreetionos.launcher.util.SafeCloseable;
+import com.android.launcher3.util.SafeCloseable;
 import org.acreetionos.launcher.util.SplitConfigurationOptions;
 import org.acreetionos.launcher.util.SplitConfigurationOptions.SplitStageInfo;
 import org.acreetionos.launcher.util.SplitConfigurationOptions.StagePosition;

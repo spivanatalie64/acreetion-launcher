@@ -27,7 +27,7 @@ import org.acreetionos.launcher.R
 import org.acreetionos.launcher.Utilities
 import org.acreetionos.launcher.Utilities.mapRange
 import org.acreetionos.launcher.Utilities.mapToRange
-import org.acreetionos.launcher.icons.GraphicsUtils.setColorAlphaBound
+import com.android.launcher3.icons.GraphicsUtils.setColorAlphaBound
 import org.acreetionos.launcher.taskbar.TaskbarManager.NAVIGATION_BAR_HINT
 import org.acreetionos.launcher.taskbar.TaskbarPinningController.Companion.PINNING_PERSISTENT
 import org.acreetionos.launcher.taskbar.TaskbarPinningController.Companion.PINNING_TRANSIENT
