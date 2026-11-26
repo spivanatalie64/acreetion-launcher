@@ -34,7 +34,7 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.LauncherAppState;
 import org.acreetionos.launcher.LauncherModel.ModelUpdateTask;
 import org.acreetionos.launcher.LauncherSettings;

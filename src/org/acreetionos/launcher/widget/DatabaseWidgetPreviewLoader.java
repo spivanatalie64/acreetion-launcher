@@ -40,7 +40,7 @@ import androidx.annotation.VisibleForTesting;
 import androidx.core.os.BuildCompat;
 
 import org.acreetionos.launcher.DeviceProfile;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.LauncherAppState;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;

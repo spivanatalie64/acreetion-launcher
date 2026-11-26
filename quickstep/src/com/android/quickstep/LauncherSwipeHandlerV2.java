@@ -17,7 +17,7 @@ package com.android.quickstep;
 
 import static com.android.app.animation.Interpolators.EXAGGERATED_EASE;
 import static com.android.app.animation.Interpolators.LINEAR;
-import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
+import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
 import static org.acreetionos.launcher.LauncherState.NORMAL;
 import static org.acreetionos.launcher.Utilities.mapBoundToRange;
 import static org.acreetionos.launcher.views.FloatingIconView.SHAPE_PROGRESS_DURATION;

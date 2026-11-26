@@ -17,8 +17,8 @@ package com.android.quickstep;
 
 import static android.os.Process.THREAD_PRIORITY_BACKGROUND;
 
-import static org.acreetionos.launcher.Flags.enableGridOnlyOverview;
-import static org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail;
+import static com.android.launcher3.Flags.enableGridOnlyOverview;
+import static com.android.launcher3.Flags.enableRefactorTaskThumbnail;
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 import static com.android.quickstep.TaskUtils.checkCurrentOrManagedUserId;
 

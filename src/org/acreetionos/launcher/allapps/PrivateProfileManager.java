@@ -65,7 +65,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.android.app.animation.Interpolators;
 import org.acreetionos.launcher.BuildConfig;
 import org.acreetionos.launcher.DeviceProfile;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.anim.AnimatedPropertySetter;

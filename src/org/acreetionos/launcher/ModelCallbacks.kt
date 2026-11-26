@@ -5,7 +5,7 @@ import android.os.Build
 import android.os.Trace
 import android.util.Log
 import androidx.annotation.UiThread
-import org.acreetionos.launcher.Flags.enableSmartspaceRemovalToggle
+import com.android.launcher3.Flags.enableSmartspaceRemovalToggle
 import org.acreetionos.launcher.LauncherConstants.TraceEvents
 import org.acreetionos.launcher.Utilities.SHOULD_SHOW_FIRST_PAGE_WIDGET
 import org.acreetionos.launcher.WorkspaceLayoutManager.FIRST_SCREEN_ID

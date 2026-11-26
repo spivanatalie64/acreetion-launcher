@@ -18,7 +18,7 @@ package com.android.quickstep
 
 import android.platform.test.flag.junit.SetFlagsRule
 import androidx.test.filters.SmallTest
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.util.LauncherMultivalentJUnit
 import org.acreetionos.launcher.util.TestDispatcherProvider
 import org.acreetionos.launcher.util.rule.setFlags

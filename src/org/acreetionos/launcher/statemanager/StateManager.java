@@ -18,7 +18,7 @@ package org.acreetionos.launcher.statemanager;
 
 import static android.animation.ValueAnimator.areAnimatorsEnabled;
 
-import static org.acreetionos.launcher.Flags.enableStateManagerProtoLog;
+import static com.android.launcher3.Flags.enableStateManagerProtoLog;
 import static org.acreetionos.launcher.anim.AnimatorPlaybackController.callListenerCommandRecursively;
 import static org.acreetionos.launcher.states.StateAnimationConfig.HANDLE_STATE_APPLY;
 import static org.acreetionos.launcher.states.StateAnimationConfig.SKIP_ALL_ANIMATIONS;

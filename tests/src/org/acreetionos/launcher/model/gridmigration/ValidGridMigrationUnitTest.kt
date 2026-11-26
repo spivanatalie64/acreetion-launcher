@@ -26,7 +26,7 @@ import android.util.Log
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import androidx.test.platform.app.InstrumentationRegistry
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.InvariantDeviceProfile
 import org.acreetionos.launcher.LauncherSettings.Favorites
 import org.acreetionos.launcher.celllayout.testgenerator.ValidGridMigrationTestCaseGenerator

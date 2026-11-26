@@ -17,8 +17,8 @@ package com.android.quickstep;
 
 import static android.app.WindowConfiguration.ACTIVITY_TYPE_HOME;
 
-import static org.acreetionos.launcher.Flags.enableHandleDelayedGestureCallbacks;
-import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
+import static com.android.launcher3.Flags.enableHandleDelayedGestureCallbacks;
+import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
 import static org.acreetionos.launcher.util.NavigationMode.NO_BUTTON;
@@ -42,7 +42,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.UiThread;
 
 import com.android.internal.util.ArrayUtils;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.config.FeatureFlags;
 import org.acreetionos.launcher.taskbar.TaskbarUIController;

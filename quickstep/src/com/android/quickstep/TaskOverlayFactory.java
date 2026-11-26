@@ -16,7 +16,7 @@
 
 package com.android.quickstep;
 
-import static org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail;
+import static com.android.launcher3.Flags.enableRefactorTaskThumbnail;
 import static com.android.quickstep.views.OverviewActionsView.DISABLED_NO_THUMBNAIL;
 import static com.android.quickstep.views.OverviewActionsView.DISABLED_ROTATED;
 

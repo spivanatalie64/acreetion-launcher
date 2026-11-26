@@ -15,7 +15,7 @@
  */
 package com.android.quickstep;
 
-import static org.acreetionos.launcher.Flags.enableOverviewIconMenu;
+import static com.android.launcher3.Flags.enableOverviewIconMenu;
 import static org.acreetionos.launcher.util.DisplayController.CHANGE_DENSITY;
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 

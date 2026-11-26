@@ -16,7 +16,7 @@
 
 package org.acreetionos.launcher.widget.custom;
 
-import static org.acreetionos.launcher.Flags.enableSmartspaceAsAWidget;
+import static com.android.launcher3.Flags.enableSmartspaceAsAWidget;
 import static org.acreetionos.launcher.model.data.LauncherAppWidgetInfo.CUSTOM_WIDGET_ID;
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 import static org.acreetionos.launcher.widget.LauncherAppWidgetProviderInfo.CLS_CUSTOM_WIDGET_PREFIX;

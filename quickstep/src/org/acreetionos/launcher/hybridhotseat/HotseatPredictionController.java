@@ -41,7 +41,7 @@ import androidx.annotation.VisibleForTesting;
 import org.acreetionos.launcher.DeviceProfile;
 import org.acreetionos.launcher.DragSource;
 import org.acreetionos.launcher.DropTarget;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.Hotseat;
 import org.acreetionos.launcher.LauncherPrefs;
 import org.acreetionos.launcher.LauncherSettings;

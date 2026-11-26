@@ -21,7 +21,7 @@ import android.util.Log
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import androidx.test.platform.app.InstrumentationRegistry
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.InvariantDeviceProfile.TYPE_PHONE
 import org.acreetionos.launcher.LauncherSettings.Favorites.TABLE_NAME
 import org.acreetionos.launcher.celllayout.board.CellLayoutBoard

@@ -11,7 +11,7 @@ import android.provider.Settings
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import com.android.dx.mockito.inline.extended.ExtendedMockito
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.InvariantDeviceProfile
 import org.acreetionos.launcher.LauncherAppState
 import org.acreetionos.launcher.LauncherModel

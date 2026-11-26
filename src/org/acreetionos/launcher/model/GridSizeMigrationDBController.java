@@ -16,8 +16,8 @@
 
 package org.acreetionos.launcher.model;
 
-import static org.acreetionos.launcher.Flags.enableSmartspaceRemovalToggle;
-import static org.acreetionos.launcher.Flags.oneGridSpecs;
+import static com.android.launcher3.Flags.enableSmartspaceRemovalToggle;
+import static com.android.launcher3.Flags.oneGridSpecs;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.TABLE_NAME;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.TMP_TABLE;
 import static org.acreetionos.launcher.Utilities.SHOULD_SHOW_FIRST_PAGE_WIDGET;

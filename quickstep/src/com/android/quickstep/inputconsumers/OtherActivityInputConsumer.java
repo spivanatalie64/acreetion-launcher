@@ -41,7 +41,7 @@ import android.view.VelocityTracker;
 
 import androidx.annotation.UiThread;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.testing.TestLogging;

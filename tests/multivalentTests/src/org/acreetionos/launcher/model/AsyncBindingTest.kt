@@ -23,7 +23,7 @@ import android.util.SparseArray
 import android.view.View
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.model.BgDataModel.Callbacks
 import org.acreetionos.launcher.model.data.ItemInfo
 import org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR

@@ -22,7 +22,7 @@ import android.util.AttributeSet
 import android.util.Log
 import android.view.View
 import com.android.internal.jank.Cuj
-import org.acreetionos.launcher.Flags.enableOverviewIconMenu
+import com.android.launcher3.Flags.enableOverviewIconMenu
 import org.acreetionos.launcher.R
 import org.acreetionos.launcher.Utilities
 import org.acreetionos.launcher.config.FeatureFlags

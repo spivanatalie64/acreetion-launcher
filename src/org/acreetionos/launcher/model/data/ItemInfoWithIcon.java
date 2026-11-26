@@ -22,7 +22,7 @@ import android.os.Process;
 
 import androidx.annotation.Nullable;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.icons.BitmapInfo;
 import org.acreetionos.launcher.icons.BitmapInfo.DrawableCreationFlags;

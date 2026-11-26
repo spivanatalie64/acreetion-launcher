@@ -52,7 +52,7 @@ import androidx.test.core.content.pm.ApplicationInfoBuilder;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.model.BgDataModel.FixedContainerItems;
 import org.acreetionos.launcher.model.QuickstepModelDelegate.PredictorState;
 import org.acreetionos.launcher.util.LauncherLayoutBuilder;

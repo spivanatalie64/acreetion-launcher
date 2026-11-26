@@ -15,9 +15,9 @@
  */
 package org.acreetionos.launcher.widget.picker;
 
-import static org.acreetionos.launcher.Flags.enableCategorizedWidgetSuggestions;
-import static org.acreetionos.launcher.Flags.enableTieredWidgetsByDefaultInPicker;
-import static org.acreetionos.launcher.Flags.enableUnfoldedTwoPanePicker;
+import static com.android.launcher3.Flags.enableCategorizedWidgetSuggestions;
+import static com.android.launcher3.Flags.enableTieredWidgetsByDefaultInPicker;
+import static com.android.launcher3.Flags.enableUnfoldedTwoPanePicker;
 import static org.acreetionos.launcher.allapps.ActivityAllAppsContainerView.AdapterHolder.SEARCH;
 import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_WIDGETSTRAY_EXPAND_PRESS;
 import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_WIDGETSTRAY_SEARCHED;

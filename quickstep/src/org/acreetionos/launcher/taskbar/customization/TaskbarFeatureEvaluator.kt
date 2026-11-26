@@ -16,7 +16,7 @@
 
 package org.acreetionos.launcher.taskbar.customization
 
-import org.acreetionos.launcher.Flags.enableRecentsInTaskbar
+import com.android.launcher3.Flags.enableRecentsInTaskbar
 import org.acreetionos.launcher.config.FeatureFlags.enableTaskbarPinning
 import org.acreetionos.launcher.taskbar.TaskbarActivityContext
 import org.acreetionos.launcher.util.DisplayController

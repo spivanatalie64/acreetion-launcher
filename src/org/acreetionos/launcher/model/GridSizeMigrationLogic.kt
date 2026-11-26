@@ -20,8 +20,8 @@ import android.database.sqlite.SQLiteDatabase
 import android.graphics.Point
 import android.util.Log
 import androidx.annotation.VisibleForTesting
-import org.acreetionos.launcher.Flags
-import org.acreetionos.launcher.Flags.oneGridSpecs
+import com.android.launcher3.Flags
+import com.android.launcher3.Flags.oneGridSpecs
 import org.acreetionos.launcher.LauncherPrefs
 import org.acreetionos.launcher.LauncherPrefs.Companion.get
 import org.acreetionos.launcher.LauncherPrefs.Companion.getPrefs

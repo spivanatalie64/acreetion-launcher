@@ -19,7 +19,7 @@ import static android.content.pm.LauncherApps.ShortcutQuery.FLAG_GET_KEY_FIELDS_
 
 import static org.acreetionos.launcher.BuildConfig.QSB_ON_FIRST_SCREEN;
 import static org.acreetionos.launcher.BuildConfig.WIDGETS_ENABLED;
-import static org.acreetionos.launcher.Flags.enableSmartspaceRemovalToggle;
+import static com.android.launcher3.Flags.enableSmartspaceRemovalToggle;
 import static org.acreetionos.launcher.Utilities.SHOULD_SHOW_FIRST_PAGE_WIDGET;
 import static org.acreetionos.launcher.shortcuts.ShortcutRequest.PINNED;
 

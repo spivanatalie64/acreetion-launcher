@@ -30,7 +30,7 @@ import android.view.MotionEvent;
 import androidx.annotation.Nullable;
 
 import org.acreetionos.launcher.AbstractFloatingView;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.anim.AnimatorPlaybackController;
 import org.acreetionos.launcher.anim.PendingAnimation;
 import org.acreetionos.launcher.config.FeatureFlags;

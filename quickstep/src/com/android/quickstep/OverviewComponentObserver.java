@@ -40,7 +40,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.UiThread;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.dagger.ApplicationContext;
 import org.acreetionos.launcher.dagger.LauncherAppComponent;

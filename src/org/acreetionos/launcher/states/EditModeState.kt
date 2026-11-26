@@ -16,7 +16,7 @@
 package org.acreetionos.launcher.states
 
 import android.content.Context
-import org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation
+import com.android.launcher3.Flags.enableScalingRevealHomeAnimation
 import org.acreetionos.launcher.Launcher
 import org.acreetionos.launcher.LauncherState
 import org.acreetionos.launcher.logging.StatsLogManager

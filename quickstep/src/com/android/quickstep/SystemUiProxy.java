@@ -17,7 +17,7 @@ package com.android.quickstep;
 
 import static android.app.ActivityManager.RECENT_IGNORE_UNAVAILABLE;
 
-import static org.acreetionos.launcher.Flags.enableUnfoldStateAnimation;
+import static com.android.launcher3.Flags.enableUnfoldStateAnimation;
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
 import static org.acreetionos.launcher.util.SplitConfigurationOptions.StagePosition;

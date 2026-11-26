@@ -18,7 +18,7 @@ package com.android.quickstep.views
 
 import android.graphics.Bitmap
 import android.view.View
-import org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail
+import com.android.launcher3.Flags.enableRefactorTaskThumbnail
 import org.acreetionos.launcher.model.data.TaskViewItemInfo
 import org.acreetionos.launcher.util.SplitConfigurationOptions
 import org.acreetionos.launcher.util.TransformingTouchDelegate

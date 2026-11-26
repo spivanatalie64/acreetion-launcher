@@ -19,7 +19,7 @@ package org.acreetionos.launcher.taskbar
 import android.platform.test.flag.junit.FlagsParameterization
 import android.platform.test.flag.junit.FlagsParameterization.allCombinationsOf
 import android.platform.test.flag.junit.SetFlagsRule
-import org.acreetionos.launcher.Flags.FLAG_TASKBAR_RECENTS_LAYOUT_TRANSITION
+import com.android.launcher3.Flags.FLAG_TASKBAR_RECENTS_LAYOUT_TRANSITION
 import org.acreetionos.launcher.R
 import org.acreetionos.launcher.taskbar.TaskbarControllerTestUtil.runOnMainSync
 import org.acreetionos.launcher.taskbar.TaskbarIconType.ALL_APPS

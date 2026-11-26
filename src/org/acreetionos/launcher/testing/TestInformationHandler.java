@@ -15,7 +15,7 @@
  */
 package org.acreetionos.launcher.testing;
 
-import static org.acreetionos.launcher.Flags.enableGridOnlyOverview;
+import static com.android.launcher3.Flags.enableGridOnlyOverview;
 import static org.acreetionos.launcher.allapps.AllAppsStore.DEFER_UPDATES_TEST;
 import static org.acreetionos.launcher.config.FeatureFlags.ENABLE_TASKBAR_NAVBAR_UNIFICATION;
 import static org.acreetionos.launcher.config.FeatureFlags.FOLDABLE_SINGLE_PAGE;

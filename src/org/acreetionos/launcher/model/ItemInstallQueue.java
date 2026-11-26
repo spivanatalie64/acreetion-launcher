@@ -40,7 +40,7 @@ import android.util.Pair;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.InvariantDeviceProfile;
 import org.acreetionos.launcher.Launcher;
 import org.acreetionos.launcher.LauncherAppState;

@@ -26,7 +26,7 @@ import android.view.Gravity
 import android.view.View
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.view.updateLayoutParams
-import org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail
+import com.android.launcher3.Flags.enableRefactorTaskThumbnail
 import org.acreetionos.launcher.R
 import org.acreetionos.launcher.testing.TestLogging
 import org.acreetionos.launcher.testing.shared.TestProtocol

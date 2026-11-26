@@ -35,7 +35,7 @@ import androidx.annotation.Nullable;
 
 import org.acreetionos.launcher.AbstractFloatingView;
 import org.acreetionos.launcher.DeviceProfile;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.taskbar.TaskbarActivityContext;
 import org.acreetionos.launcher.taskbar.TaskbarControllers;
 import com.android.systemui.shared.system.TaskStackChangeListener;

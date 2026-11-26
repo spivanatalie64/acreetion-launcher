@@ -16,7 +16,7 @@ import android.widget.RemoteViews
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import androidx.test.platform.app.InstrumentationRegistry.getInstrumentation
-import org.acreetionos.launcher.Flags.FLAG_ENABLE_GENERATED_PREVIEWS
+import com.android.launcher3.Flags.FLAG_ENABLE_GENERATED_PREVIEWS
 import org.acreetionos.launcher.InvariantDeviceProfile
 import org.acreetionos.launcher.R
 import org.acreetionos.launcher.icons.IconCache

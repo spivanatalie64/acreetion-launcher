@@ -53,7 +53,7 @@ import androidx.preference.PreferenceScreen;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.acreetionos.launcher.BuildConfig;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.InvariantDeviceProfile;
 import org.acreetionos.launcher.LauncherFiles;
 import org.acreetionos.launcher.R;

@@ -26,7 +26,7 @@ import android.platform.test.annotations.DisableFlags
 import android.platform.test.annotations.EnableFlags
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.InvariantDeviceProfile
 import org.acreetionos.launcher.LauncherPrefs
 import org.acreetionos.launcher.LauncherPrefs.Companion.WORKSPACE_SIZE

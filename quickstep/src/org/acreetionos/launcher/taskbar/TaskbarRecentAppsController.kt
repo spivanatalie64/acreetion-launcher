@@ -19,7 +19,7 @@ import android.content.Context
 import android.window.DesktopModeFlags
 import androidx.annotation.VisibleForTesting
 import org.acreetionos.launcher.BubbleTextView.RunningAppState
-import org.acreetionos.launcher.Flags.enableRecentsInTaskbar
+import com.android.launcher3.Flags.enableRecentsInTaskbar
 import org.acreetionos.launcher.model.data.ItemInfo
 import org.acreetionos.launcher.model.data.TaskItemInfo
 import org.acreetionos.launcher.model.data.WorkspaceItemInfo

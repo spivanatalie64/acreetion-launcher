@@ -20,7 +20,7 @@ import static android.view.WindowManager.LayoutParams.TYPE_NAVIGATION_BAR;
 import static android.view.WindowManager.LayoutParams.TYPE_NAVIGATION_BAR_PANEL;
 
 import static org.acreetionos.launcher.BaseActivity.EVENT_DESTROYED;
-import static org.acreetionos.launcher.Flags.enableUnfoldStateAnimation;
+import static com.android.launcher3.Flags.enableUnfoldStateAnimation;
 import static org.acreetionos.launcher.config.FeatureFlags.ENABLE_TASKBAR_NAVBAR_UNIFICATION;
 import static org.acreetionos.launcher.config.FeatureFlags.enableTaskbarNoRecreate;
 import static org.acreetionos.launcher.util.DisplayController.CHANGE_DENSITY;

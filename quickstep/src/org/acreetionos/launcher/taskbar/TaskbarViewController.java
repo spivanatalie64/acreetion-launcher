@@ -17,8 +17,8 @@ package org.acreetionos.launcher.taskbar;
 
 import static com.android.app.animation.Interpolators.FINAL_FRAME;
 import static com.android.app.animation.Interpolators.LINEAR;
-import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
-import static org.acreetionos.launcher.Flags.taskbarOverflow;
+import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
+import static com.android.launcher3.Flags.taskbarOverflow;
 import static org.acreetionos.launcher.LauncherAnimUtils.SCALE_PROPERTY;
 import static org.acreetionos.launcher.LauncherAnimUtils.VIEW_ALPHA;
 import static org.acreetionos.launcher.LauncherAnimUtils.VIEW_TRANSLATE_X;

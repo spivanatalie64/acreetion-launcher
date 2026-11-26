@@ -16,7 +16,7 @@
 package org.acreetionos.launcher.views;
 
 import static com.android.app.animation.Interpolators.LINEAR;
-import static org.acreetionos.launcher.Flags.enableAdditionalHomeAnimations;
+import static com.android.launcher3.Flags.enableAdditionalHomeAnimations;
 import static org.acreetionos.launcher.Utilities.boundToRange;
 import static org.acreetionos.launcher.Utilities.mapToRange;
 import static org.acreetionos.launcher.anim.AnimatorListeners.forEndCallback;

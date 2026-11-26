@@ -1,4 +1,4 @@
-package: "org.acreetionos.launcher"
+package: "com.android.launcher3"
 container: "system"
 
 flag {

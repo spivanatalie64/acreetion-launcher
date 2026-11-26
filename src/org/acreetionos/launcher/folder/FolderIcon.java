@@ -16,7 +16,7 @@
 
 package org.acreetionos.launcher.folder;
 
-import static org.acreetionos.launcher.Flags.enableCursorHoverStates;
+import static com.android.launcher3.Flags.enableCursorHoverStates;
 import static org.acreetionos.launcher.folder.ClippedFolderIconLayoutRule.ICON_OVERLAP_FACTOR;
 import static org.acreetionos.launcher.folder.ClippedFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW;
 import static org.acreetionos.launcher.folder.FolderGridOrganizer.createFolderGridOrganizer;

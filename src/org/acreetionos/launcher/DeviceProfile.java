@@ -17,8 +17,8 @@
 package org.acreetionos.launcher;
 
 import static com.android.app.animation.Interpolators.LINEAR;
-import static org.acreetionos.launcher.Flags.enableOverviewIconMenu;
-import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
+import static com.android.launcher3.Flags.enableOverviewIconMenu;
+import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
 import static org.acreetionos.launcher.InvariantDeviceProfile.INDEX_DEFAULT;
 import static org.acreetionos.launcher.InvariantDeviceProfile.INDEX_LANDSCAPE;
 import static org.acreetionos.launcher.InvariantDeviceProfile.INDEX_TWO_PANEL_LANDSCAPE;

@@ -29,7 +29,7 @@ import androidx.core.graphics.transform
 import com.android.app.animation.Animations
 import com.android.app.animation.Interpolators
 import com.android.app.animation.Interpolators.LINEAR
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.LauncherAnimUtils.HOTSEAT_SCALE_PROPERTY_FACTORY
 import org.acreetionos.launcher.LauncherAnimUtils.SCALE_INDEX_WORKSPACE_STATE
 import org.acreetionos.launcher.LauncherAnimUtils.WORKSPACE_SCALE_PROPERTY_FACTORY

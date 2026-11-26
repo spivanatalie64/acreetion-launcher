@@ -18,8 +18,8 @@ package com.android.quickstep.inputconsumers;
 import static android.view.MotionEvent.ACTION_MOVE;
 import static android.view.MotionEvent.INVALID_POINTER_ID;
 
-import static org.acreetionos.launcher.Flags.enableCursorHoverStates;
-import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
+import static com.android.launcher3.Flags.enableCursorHoverStates;
+import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
 import static org.acreetionos.launcher.MotionEventsUtils.isTrackpadMotionEvent;
 import static org.acreetionos.launcher.taskbar.TaskbarAutohideSuspendController.FLAG_AUTOHIDE_SUSPEND_TOUCHING;
 

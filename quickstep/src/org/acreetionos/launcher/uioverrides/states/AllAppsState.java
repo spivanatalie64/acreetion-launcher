@@ -16,7 +16,7 @@
 package org.acreetionos.launcher.uioverrides.states;
 
 import static com.android.app.animation.Interpolators.DECELERATE_2;
-import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
+import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
 import static org.acreetionos.launcher.logging.StatsLogManager.LAUNCHER_STATE_ALLAPPS;
 
 import android.content.Context;

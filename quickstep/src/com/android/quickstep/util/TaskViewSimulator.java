@@ -17,7 +17,7 @@ package com.android.quickstep.util;
 
 import static android.app.WindowConfiguration.WINDOWING_MODE_FULLSCREEN;
 
-import static org.acreetionos.launcher.Flags.enableGridOnlyOverview;
+import static com.android.launcher3.Flags.enableGridOnlyOverview;
 import static org.acreetionos.launcher.states.RotationHelper.deltaRotation;
 import static org.acreetionos.launcher.touch.PagedOrientationHandler.MATRIX_POST_TRANSLATE;
 import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;

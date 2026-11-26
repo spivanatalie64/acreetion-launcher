@@ -20,8 +20,8 @@ import static android.graphics.fonts.FontStyle.FONT_WEIGHT_BOLD;
 import static android.graphics.fonts.FontStyle.FONT_WEIGHT_NORMAL;
 import static android.text.Layout.Alignment.ALIGN_NORMAL;
 
-import static org.acreetionos.launcher.Flags.enableContrastTiles;
-import static org.acreetionos.launcher.Flags.enableCursorHoverStates;
+import static com.android.launcher3.Flags.enableContrastTiles;
+import static com.android.launcher3.Flags.enableCursorHoverStates;
 import static org.acreetionos.launcher.InvariantDeviceProfile.KEY_ALLAPPS_THEMED_ICONS;
 import static org.acreetionos.launcher.InvariantDeviceProfile.KEY_SHOW_DESKTOP_LABELS;
 import static org.acreetionos.launcher.InvariantDeviceProfile.KEY_SHOW_DRAWER_LABELS;

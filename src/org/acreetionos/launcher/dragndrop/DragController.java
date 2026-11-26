@@ -32,7 +32,7 @@ import androidx.annotation.VisibleForTesting;
 import com.android.app.animation.Interpolators;
 import org.acreetionos.launcher.DragSource;
 import org.acreetionos.launcher.DropTarget;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.logging.InstanceId;
 import org.acreetionos.launcher.model.data.AppPairInfo;
 import org.acreetionos.launcher.model.data.ItemInfo;

@@ -18,7 +18,7 @@ package org.acreetionos.launcher.compat;
 
 import static android.os.Process.myUserHandle;
 
-import static org.acreetionos.launcher.Flags.FLAG_ENABLE_SUPPORT_FOR_ARCHIVING;
+import static com.android.launcher3.Flags.FLAG_ENABLE_SUPPORT_FOR_ARCHIVING;
 
 import static com.google.common.truth.Truth.assertThat;
 

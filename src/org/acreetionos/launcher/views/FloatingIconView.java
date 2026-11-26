@@ -18,7 +18,7 @@ package org.acreetionos.launcher.views;
 import static android.view.Gravity.LEFT;
 
 import static com.android.app.animation.Interpolators.LINEAR;
-import static org.acreetionos.launcher.Flags.enableAdditionalHomeAnimations;
+import static com.android.launcher3.Flags.enableAdditionalHomeAnimations;
 import static org.acreetionos.launcher.Utilities.getFullDrawable;
 import static org.acreetionos.launcher.Utilities.mapToRange;
 import static org.acreetionos.launcher.util.Executors.MODEL_EXECUTOR;

@@ -41,7 +41,7 @@ import android.platform.test.flag.junit.SetFlagsRule;
 
 import androidx.test.runner.AndroidJUnit4;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.model.data.AppInfo;
 import org.acreetionos.launcher.util.ActivityContextWrapper;
 

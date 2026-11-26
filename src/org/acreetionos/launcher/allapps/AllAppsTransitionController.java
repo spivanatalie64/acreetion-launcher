@@ -45,7 +45,7 @@ import androidx.annotation.Nullable;
 
 import org.acreetionos.launcher.DeviceProfile;
 import org.acreetionos.launcher.DeviceProfile.OnDeviceProfileChangeListener;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.Launcher;
 import org.acreetionos.launcher.LauncherState;
 import org.acreetionos.launcher.R;

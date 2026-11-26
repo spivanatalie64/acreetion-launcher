@@ -21,7 +21,7 @@ import android.content.ComponentName
 import android.content.Intent
 import android.platform.test.annotations.EnableFlags
 import android.platform.test.flag.junit.SetFlagsRule
-import org.acreetionos.launcher.Flags.FLAG_TASKBAR_OVERFLOW
+import com.android.launcher3.Flags.FLAG_TASKBAR_OVERFLOW
 import org.acreetionos.launcher.taskbar.TaskbarControllerTestUtil.runOnMainSync
 import org.acreetionos.launcher.taskbar.bubbles.BubbleBarViewController
 import org.acreetionos.launcher.taskbar.bubbles.stashing.BubbleStashController

@@ -17,10 +17,10 @@
 package org.acreetionos.launcher.model;
 
 import static org.acreetionos.launcher.BuildConfig.WIDGET_ON_FIRST_SCREEN;
-import static org.acreetionos.launcher.Flags.enableLauncherBrMetricsFixed;
-import static org.acreetionos.launcher.Flags.enableSmartspaceAsAWidget;
-import static org.acreetionos.launcher.Flags.enableSmartspaceRemovalToggle;
-import static org.acreetionos.launcher.Flags.enableTieredWidgetsByDefaultInPicker;
+import static com.android.launcher3.Flags.enableLauncherBrMetricsFixed;
+import static com.android.launcher3.Flags.enableSmartspaceAsAWidget;
+import static com.android.launcher3.Flags.enableSmartspaceRemovalToggle;
+import static com.android.launcher3.Flags.enableTieredWidgetsByDefaultInPicker;
 import static org.acreetionos.launcher.LauncherPrefs.IS_FIRST_LOAD_AFTER_RESTORE;
 import static org.acreetionos.launcher.LauncherPrefs.SHOULD_SHOW_SMARTSPACE;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.TABLE_NAME;
@@ -59,7 +59,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.annotation.WorkerThread;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.LauncherAppState;
 import org.acreetionos.launcher.LauncherModel;
 import org.acreetionos.launcher.LauncherPrefs;

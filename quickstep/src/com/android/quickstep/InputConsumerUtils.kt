@@ -482,7 +482,7 @@ object InputConsumerUtils {
                 !previousGestureState.isRecentsAnimationRunning)
         // If a task fragment within Launcher is resumed
         val launcherChildActivityResumed =
-            (org.acreetionos.launcher.Flags.useActivityOverlay() &&
+            (com.android.launcher3.Flags.useActivityOverlay() &&
                 runningTask != null &&
                 runningTask.isHomeTask &&
                 overviewComponentObserver.isHomeAndOverviewSame &&
@@ -736,7 +736,7 @@ object InputConsumerUtils {
     private fun ignoreThreeFingerTrackpadForNavHandleLongPress(
         gestureState: GestureState
     ): Boolean {
-        return (org.acreetionos.launcher.Flags.ignoreThreeFingerTrackpadForNavHandleLongPress() &&
+        return (com.android.launcher3.Flags.ignoreThreeFingerTrackpadForNavHandleLongPress() &&
             gestureState.isThreeFingerTrackpadGesture)
     }
 

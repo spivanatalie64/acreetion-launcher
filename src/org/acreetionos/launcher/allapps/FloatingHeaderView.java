@@ -32,7 +32,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.Insettable;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.allapps.ActivityAllAppsContainerView.AdapterHolder;

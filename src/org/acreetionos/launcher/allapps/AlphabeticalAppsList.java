@@ -32,7 +32,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.recyclerview.widget.DiffUtil;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.allapps.BaseAllAppsAdapter.AdapterItem;
 import org.acreetionos.launcher.model.data.AppInfo;

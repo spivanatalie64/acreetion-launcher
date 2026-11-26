@@ -20,7 +20,7 @@ import android.graphics.Rect;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.util.Themes;
 

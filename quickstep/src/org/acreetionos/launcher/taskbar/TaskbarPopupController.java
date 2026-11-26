@@ -31,7 +31,7 @@ import androidx.annotation.NonNull;
 import com.android.internal.logging.InstanceId;
 import org.acreetionos.launcher.AbstractFloatingView;
 import org.acreetionos.launcher.BubbleTextView;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.LauncherSettings;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.dot.FolderDotInfo;

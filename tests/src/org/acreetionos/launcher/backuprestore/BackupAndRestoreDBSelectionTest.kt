@@ -22,7 +22,7 @@ import android.platform.test.flag.junit.SetFlagsRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.MediumTest
 import androidx.test.platform.app.InstrumentationRegistry.getInstrumentation
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.LauncherPrefs
 import org.acreetionos.launcher.model.ModelDbController
 import org.acreetionos.launcher.provider.RestoreDbTask

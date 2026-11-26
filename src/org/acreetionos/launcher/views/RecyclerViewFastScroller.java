@@ -48,7 +48,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.acreetionos.launcher.FastScrollRecyclerView;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.allapps.LetterListTextView;

@@ -18,7 +18,7 @@ package com.android.quickstep.fallback;
 import static com.android.app.animation.Interpolators.FINAL_FRAME;
 import static com.android.app.animation.Interpolators.INSTANT;
 import static com.android.app.animation.Interpolators.LINEAR;
-import static org.acreetionos.launcher.Flags.enableLargeDesktopWindowingTile;
+import static com.android.launcher3.Flags.enableLargeDesktopWindowingTile;
 import static org.acreetionos.launcher.states.StateAnimationConfig.ANIM_OVERVIEW_MODAL;
 import static org.acreetionos.launcher.states.StateAnimationConfig.ANIM_OVERVIEW_SCALE;
 import static org.acreetionos.launcher.states.StateAnimationConfig.ANIM_OVERVIEW_TRANSLATE_X;

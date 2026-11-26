@@ -18,7 +18,7 @@ package org.acreetionos.launcher.nonquickstep
 import androidx.test.filters.SmallTest
 import org.acreetionos.launcher.AbstractDeviceProfileTest
 import org.acreetionos.launcher.DeviceProfile
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.InvariantDeviceProfile
 import org.acreetionos.launcher.util.rule.setFlags
 import org.junit.Before

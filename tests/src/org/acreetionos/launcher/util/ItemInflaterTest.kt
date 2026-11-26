@@ -30,7 +30,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import androidx.test.platform.app.InstrumentationRegistry
 import org.acreetionos.launcher.BubbleTextView
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.LauncherSettings.Favorites.ITEM_TYPE_APP_PAIR
 import org.acreetionos.launcher.apppairs.AppPairIcon
 import org.acreetionos.launcher.folder.FolderIcon

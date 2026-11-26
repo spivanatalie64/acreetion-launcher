@@ -19,7 +19,7 @@ package org.acreetionos.launcher.provider;
 import static android.os.Process.myUserHandle;
 
 import static org.acreetionos.launcher.BuildConfig.WIDGETS_ENABLED;
-import static org.acreetionos.launcher.Flags.enableLauncherBrMetricsFixed;
+import static com.android.launcher3.Flags.enableLauncherBrMetricsFixed;
 import static org.acreetionos.launcher.InvariantDeviceProfile.TYPE_MULTI_DISPLAY;
 import static org.acreetionos.launcher.LauncherPrefs.APP_WIDGET_IDS;
 import static org.acreetionos.launcher.LauncherPrefs.IS_FIRST_LOAD_AFTER_RESTORE;

@@ -47,7 +47,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.core.util.Pair;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.InvariantDeviceProfile;
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.icons.cache.BaseIconCache;

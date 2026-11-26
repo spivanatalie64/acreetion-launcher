@@ -22,8 +22,8 @@ import static android.view.MotionEvent.ACTION_POINTER_DOWN;
 import static android.view.MotionEvent.ACTION_POINTER_UP;
 import static android.view.MotionEvent.ACTION_UP;
 
-import static org.acreetionos.launcher.Flags.enableCursorHoverStates;
-import static org.acreetionos.launcher.Flags.enableHandleDelayedGestureCallbacks;
+import static com.android.launcher3.Flags.enableCursorHoverStates;
+import static com.android.launcher3.Flags.enableHandleDelayedGestureCallbacks;
 import static org.acreetionos.launcher.LauncherPrefs.backedUpItem;
 import static org.acreetionos.launcher.MotionEventsUtils.isTrackpadMotionEvent;
 import static org.acreetionos.launcher.MotionEventsUtils.isTrackpadMultiFingerSwipe;
@@ -69,7 +69,7 @@ import androidx.annotation.VisibleForTesting;
 
 import org.acreetionos.launcher.ConstantItem;
 import org.acreetionos.launcher.EncryptionType;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.LauncherPrefs;
 import org.acreetionos.launcher.anim.AnimatedFloat;
 import org.acreetionos.launcher.desktop.DesktopAppLaunchTransitionManager;

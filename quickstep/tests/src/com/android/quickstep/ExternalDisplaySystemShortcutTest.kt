@@ -24,7 +24,7 @@ import com.android.dx.mockito.inline.extended.ExtendedMockito.mockitoSession
 import com.android.dx.mockito.inline.extended.StaticMockitoSession
 import org.acreetionos.launcher.AbstractFloatingView
 import org.acreetionos.launcher.AbstractFloatingViewHelper
-import org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail
+import com.android.launcher3.Flags.enableRefactorTaskThumbnail
 import org.acreetionos.launcher.logging.StatsLogManager
 import org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent
 import org.acreetionos.launcher.model.data.TaskViewItemInfo

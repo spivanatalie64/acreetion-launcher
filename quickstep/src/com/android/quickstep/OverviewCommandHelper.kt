@@ -28,8 +28,8 @@ import androidx.annotation.BinderThread
 import androidx.annotation.UiThread
 import androidx.annotation.VisibleForTesting
 import com.android.internal.jank.Cuj
-import org.acreetionos.launcher.Flags.enableLargeDesktopWindowingTile
-import org.acreetionos.launcher.Flags.enableOverviewCommandHelperTimeout
+import com.android.launcher3.Flags.enableLargeDesktopWindowingTile
+import com.android.launcher3.Flags.enableOverviewCommandHelperTimeout
 import org.acreetionos.launcher.PagedView
 import org.acreetionos.launcher.logger.LauncherAtom
 import org.acreetionos.launcher.logging.StatsLogManager

@@ -15,7 +15,7 @@
  */
 package org.acreetionos.launcher.states;
 
-import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
+import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
 import static org.acreetionos.launcher.logging.StatsLogManager.LAUNCHER_STATE_HOME;
 
 import android.content.Context;

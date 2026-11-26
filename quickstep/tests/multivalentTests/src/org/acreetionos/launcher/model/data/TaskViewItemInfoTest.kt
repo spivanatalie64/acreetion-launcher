@@ -20,7 +20,7 @@ import android.content.ComponentName
 import android.content.Intent
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail
+import com.android.launcher3.Flags.enableRefactorTaskThumbnail
 import org.acreetionos.launcher.model.data.ItemInfoWithIcon.FLAG_NOT_PINNABLE
 import org.acreetionos.launcher.model.data.TaskViewItemInfo.Companion.createTaskViewAtom
 import org.acreetionos.launcher.pm.UserCache

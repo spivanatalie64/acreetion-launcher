@@ -18,9 +18,9 @@ package org.acreetionos.launcher.taskbar;
 import static android.view.accessibility.AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED;
 
 import static org.acreetionos.launcher.BubbleTextView.DISPLAY_TASKBAR;
-import static org.acreetionos.launcher.Flags.enableCursorHoverStates;
-import static org.acreetionos.launcher.Flags.enableRecentsInTaskbar;
-import static org.acreetionos.launcher.Flags.taskbarRecentsLayoutTransition;
+import static com.android.launcher3.Flags.enableCursorHoverStates;
+import static com.android.launcher3.Flags.enableRecentsInTaskbar;
+import static com.android.launcher3.Flags.taskbarRecentsLayoutTransition;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.ITEM_TYPE_APP_PAIR;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.ITEM_TYPE_FOLDER;
 import static org.acreetionos.launcher.config.FeatureFlags.enableTaskbarPinning;
@@ -49,7 +49,7 @@ import androidx.annotation.Nullable;
 
 import org.acreetionos.launcher.BubbleTextView;
 import org.acreetionos.launcher.DeviceProfile;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.Insettable;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;

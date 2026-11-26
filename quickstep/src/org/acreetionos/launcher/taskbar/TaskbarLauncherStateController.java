@@ -18,7 +18,7 @@ package org.acreetionos.launcher.taskbar;
 import static com.android.app.animation.Interpolators.EMPHASIZED;
 import static com.android.app.animation.Interpolators.FINAL_FRAME;
 import static com.android.app.animation.Interpolators.INSTANT;
-import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
+import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
 import static org.acreetionos.launcher.Hotseat.ALPHA_CHANNEL_TASKBAR_ALIGNMENT;
 import static org.acreetionos.launcher.Hotseat.ALPHA_CHANNEL_TASKBAR_STASH;
 import static org.acreetionos.launcher.LauncherState.HOTSEAT_ICONS;

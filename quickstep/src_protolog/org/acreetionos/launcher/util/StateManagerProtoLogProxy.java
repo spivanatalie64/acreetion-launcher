@@ -16,7 +16,7 @@
 
 package org.acreetionos.launcher.util;
 
-import static org.acreetionos.launcher.Flags.enableStateManagerProtoLog;
+import static com.android.launcher3.Flags.enableStateManagerProtoLog;
 import static com.android.quickstep.util.QuickstepProtoLogGroup.LAUNCHER_STATE_MANAGER;
 import static com.android.quickstep.util.QuickstepProtoLogGroup.isProtoLogInitialized;
 

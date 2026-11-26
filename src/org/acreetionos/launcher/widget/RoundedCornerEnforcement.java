@@ -16,7 +16,7 @@
 
 package org.acreetionos.launcher.widget;
 
-import static org.acreetionos.launcher.Flags.useSystemRadiusForAppWidgets;
+import static com.android.launcher3.Flags.useSystemRadiusForAppWidgets;
 
 import android.appwidget.AppWidgetHostView;
 import android.content.Context;

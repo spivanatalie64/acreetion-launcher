@@ -19,7 +19,7 @@ import static android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS;
 
 import static androidx.test.InstrumentationRegistry.getInstrumentation;
 
-import static org.acreetionos.launcher.Flags.enableFallbackOverviewInWindow;
+import static com.android.launcher3.Flags.enableFallbackOverviewInWindow;
 import static org.acreetionos.launcher.tapl.LauncherInstrumentation.WAIT_TIME_MS;
 import static org.acreetionos.launcher.tapl.TestHelpers.getHomeIntentInPackage;
 import static org.acreetionos.launcher.tapl.TestHelpers.getLauncherInMyProcess;

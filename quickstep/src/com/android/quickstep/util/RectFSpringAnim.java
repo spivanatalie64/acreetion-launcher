@@ -15,7 +15,7 @@
  */
 package com.android.quickstep.util;
 
-import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
+import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
 
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 

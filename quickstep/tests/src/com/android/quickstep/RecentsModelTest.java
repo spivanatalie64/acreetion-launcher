@@ -37,7 +37,7 @@ import android.platform.test.flag.junit.SetFlagsRule;
 import androidx.test.annotation.UiThreadTest;
 import androidx.test.filters.SmallTest;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.icons.IconProvider;
 import com.android.quickstep.util.GroupTask;

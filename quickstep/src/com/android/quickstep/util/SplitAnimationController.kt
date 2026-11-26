@@ -46,8 +46,8 @@ import androidx.core.util.component1
 import androidx.core.util.component2
 import com.android.app.animation.Interpolators
 import org.acreetionos.launcher.DeviceProfile
-import org.acreetionos.launcher.Flags.enableOverviewIconMenu
-import org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail
+import com.android.launcher3.Flags.enableOverviewIconMenu
+import com.android.launcher3.Flags.enableRefactorTaskThumbnail
 import org.acreetionos.launcher.InsettableFrameLayout
 import org.acreetionos.launcher.QuickstepTransitionManager
 import org.acreetionos.launcher.R

@@ -35,10 +35,10 @@ import android.os.UserManager
 import android.util.ArrayMap
 import android.widget.Toast
 import android.window.RemoteTransition
-import org.acreetionos.launcher.Flags.enablePrivateSpace
-import org.acreetionos.launcher.Flags.enablePrivateSpaceInstallShortcut
-import org.acreetionos.launcher.Flags.privateSpaceAppInstallerButton
-import org.acreetionos.launcher.Flags.privateSpaceSysAppsSeparation
+import com.android.launcher3.Flags.enablePrivateSpace
+import com.android.launcher3.Flags.enablePrivateSpaceInstallShortcut
+import com.android.launcher3.Flags.privateSpaceAppInstallerButton
+import com.android.launcher3.Flags.privateSpaceSysAppsSeparation
 import org.acreetionos.launcher.R
 import org.acreetionos.launcher.Utilities
 import org.acreetionos.launcher.dagger.ApplicationContext

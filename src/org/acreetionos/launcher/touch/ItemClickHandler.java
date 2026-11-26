@@ -42,7 +42,7 @@ import android.widget.Toast;
 
 import org.acreetionos.launcher.BubbleTextView;
 import org.acreetionos.launcher.BuildConfig;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.InvariantDeviceProfile;
 import org.acreetionos.launcher.Launcher;
 import org.acreetionos.launcher.LauncherSettings;

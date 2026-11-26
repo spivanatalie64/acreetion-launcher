@@ -20,7 +20,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.VisibleForTesting.Companion.PRIVATE
-import org.acreetionos.launcher.Flags.privateSpaceRestrictAccessibilityDrag
+import com.android.launcher3.Flags.privateSpaceRestrictAccessibilityDrag
 import org.acreetionos.launcher.LauncherSettings
 import org.acreetionos.launcher.logger.LauncherAtom
 import org.acreetionos.launcher.pm.UserCache

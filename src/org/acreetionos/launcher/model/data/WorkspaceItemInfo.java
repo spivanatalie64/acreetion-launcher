@@ -27,7 +27,7 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.LauncherSettings;
 import org.acreetionos.launcher.LauncherSettings.Favorites;
 import org.acreetionos.launcher.Utilities;

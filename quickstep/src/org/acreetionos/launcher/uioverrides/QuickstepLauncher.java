@@ -23,7 +23,7 @@ import static android.window.DesktopModeFlags.ENABLE_DESKTOP_WINDOWING_WALLPAPER
 
 import static com.android.app.animation.Interpolators.EMPHASIZED;
 import static com.android.internal.jank.Cuj.CUJ_LAUNCHER_LAUNCH_APP_PAIR_FROM_WORKSPACE;
-import static org.acreetionos.launcher.Flags.enableUnfoldStateAnimation;
+import static com.android.launcher3.Flags.enableUnfoldStateAnimation;
 import static org.acreetionos.launcher.LauncherConstants.SavedInstanceKeys.PENDING_SPLIT_SELECT_INFO;
 import static org.acreetionos.launcher.LauncherConstants.SavedInstanceKeys.RUNTIME_STATE;
 import static org.acreetionos.launcher.LauncherSettings.Animation.DEFAULT_NO_ICON;
@@ -107,7 +107,7 @@ import androidx.annotation.RequiresApi;
 import com.android.app.viewcapture.ViewCaptureFactory;
 import org.acreetionos.launcher.AbstractFloatingView;
 import org.acreetionos.launcher.DeviceProfile;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.InvariantDeviceProfile;
 import org.acreetionos.launcher.Launcher;
 import org.acreetionos.launcher.LauncherSettings.Favorites;

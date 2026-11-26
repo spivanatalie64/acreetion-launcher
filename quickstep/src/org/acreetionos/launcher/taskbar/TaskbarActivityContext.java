@@ -28,7 +28,7 @@ import static org.acreetionos.launcher.AbstractFloatingView.TYPE_ALL;
 import static org.acreetionos.launcher.AbstractFloatingView.TYPE_ON_BOARD_POPUP;
 import static org.acreetionos.launcher.AbstractFloatingView.TYPE_REBIND_SAFE;
 import static org.acreetionos.launcher.AbstractFloatingView.TYPE_TASKBAR_OVERLAY_PROXY;
-import static org.acreetionos.launcher.Flags.enableCursorHoverStates;
+import static com.android.launcher3.Flags.enableCursorHoverStates;
 import static org.acreetionos.launcher.Utilities.calculateTextHeight;
 import static org.acreetionos.launcher.Utilities.isRunningInTestHarness;
 import static org.acreetionos.launcher.config.FeatureFlags.ENABLE_TASKBAR_NAVBAR_UNIFICATION;

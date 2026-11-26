@@ -31,7 +31,7 @@ import android.widget.LinearLayout
 import android.widget.Switch
 import androidx.core.view.postDelayed
 import com.android.app.animation.Interpolators.EMPHASIZED_ACCELERATE
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.R
 import org.acreetionos.launcher.popup.ArrowPopup
 import org.acreetionos.launcher.popup.RoundedArrowDrawable

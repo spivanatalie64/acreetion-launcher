@@ -31,7 +31,7 @@ import androidx.annotation.BinderThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.UiThread;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.util.Preconditions;
 import com.android.quickstep.util.ActiveGestureProtoLogProxy;

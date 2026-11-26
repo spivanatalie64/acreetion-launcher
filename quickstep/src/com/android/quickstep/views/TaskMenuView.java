@@ -17,8 +17,8 @@
 package com.android.quickstep.views;
 
 import static com.android.app.animation.Interpolators.EMPHASIZED;
-import static org.acreetionos.launcher.Flags.enableOverviewIconMenu;
-import static org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail;
+import static com.android.launcher3.Flags.enableOverviewIconMenu;
+import static com.android.launcher3.Flags.enableRefactorTaskThumbnail;
 import static org.acreetionos.launcher.util.MultiPropertyFactory.MULTI_PROPERTY_VALUE;
 import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
 import static com.android.quickstep.views.TaskThumbnailViewDeprecated.DIM_ALPHA;

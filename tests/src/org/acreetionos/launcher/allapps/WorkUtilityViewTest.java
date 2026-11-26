@@ -21,7 +21,7 @@ import static android.view.View.VISIBLE;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
 
-import static org.acreetionos.launcher.Flags.FLAG_WORK_SCHEDULER_IN_WORK_PROFILE;
+import static com.android.launcher3.Flags.FLAG_WORK_SCHEDULER_IN_WORK_PROFILE;
 
 import static com.google.common.truth.Truth.assertThat;
 

@@ -16,7 +16,7 @@
 package org.acreetionos.launcher.widget;
 
 import static com.android.app.animation.Interpolators.EMPHASIZED;
-import static org.acreetionos.launcher.Flags.enableWidgetTapToAdd;
+import static com.android.launcher3.Flags.enableWidgetTapToAdd;
 import static org.acreetionos.launcher.LauncherState.NORMAL;
 import static org.acreetionos.launcher.anim.AnimatorListeners.forSuccessCallback;
 import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_WIDGET_ADD_BUTTON_TAP;

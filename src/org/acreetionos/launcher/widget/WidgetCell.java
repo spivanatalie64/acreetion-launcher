@@ -18,7 +18,7 @@ package org.acreetionos.launcher.widget;
 
 import static android.view.accessibility.AccessibilityNodeInfo.ACTION_CLICK;
 
-import static org.acreetionos.launcher.Flags.enableWidgetTapToAdd;
+import static com.android.launcher3.Flags.enableWidgetTapToAdd;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.CONTAINER_WIDGETS_TRAY;
 import static org.acreetionos.launcher.widget.util.WidgetSizes.getWidgetItemSizePx;
 

@@ -18,7 +18,7 @@ package org.acreetionos.launcher.widget;
 import static android.app.Activity.RESULT_CANCELED;
 
 import static org.acreetionos.launcher.BuildConfig.WIDGETS_ENABLED;
-import static org.acreetionos.launcher.Flags.enableWorkspaceInflation;
+import static com.android.launcher3.Flags.enableWorkspaceInflation;
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 import static org.acreetionos.launcher.util.Executors.UI_HELPER_EXECUTOR;
 import static org.acreetionos.launcher.widget.LauncherAppWidgetProviderInfo.fromProviderInfo;

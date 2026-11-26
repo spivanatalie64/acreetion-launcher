@@ -20,7 +20,7 @@ import android.platform.test.annotations.EnableFlags
 import android.platform.test.flag.junit.SetFlagsRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.LauncherSettings.Favorites
 import org.acreetionos.launcher.util.LauncherModelHelper
 import org.acreetionos.launcher.util.LauncherModelHelper.SandboxModelContext

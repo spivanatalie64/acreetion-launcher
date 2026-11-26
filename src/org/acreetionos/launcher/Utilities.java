@@ -17,7 +17,7 @@
 package org.acreetionos.launcher;
 
 import static org.acreetionos.launcher.BuildConfig.WIDGET_ON_FIRST_SCREEN;
-import static org.acreetionos.launcher.Flags.enableSmartspaceAsAWidget;
+import static com.android.launcher3.Flags.enableSmartspaceAsAWidget;
 import static org.acreetionos.launcher.icons.BitmapInfo.FLAG_THEMED;
 import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
 import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_TOP_OR_LEFT;

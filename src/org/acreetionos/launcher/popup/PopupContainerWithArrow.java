@@ -45,7 +45,7 @@ import org.acreetionos.launcher.BubbleTextView;
 import org.acreetionos.launcher.DragSource;
 import org.acreetionos.launcher.DropTarget;
 import org.acreetionos.launcher.DropTarget.DragObject;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.Launcher;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.Utilities;

@@ -16,7 +16,7 @@
 
 package com.android.quickstep.util
 
-import org.acreetionos.launcher.Flags.enableLargeDesktopWindowingTile
+import com.android.launcher3.Flags.enableLargeDesktopWindowingTile
 import com.android.quickstep.RecentsAnimationController
 import com.android.quickstep.views.DesktopTaskView
 import com.android.quickstep.views.TaskView

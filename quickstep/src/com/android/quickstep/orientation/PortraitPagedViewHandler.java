@@ -24,7 +24,7 @@ import static android.view.Gravity.TOP;
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
-import static org.acreetionos.launcher.Flags.enableOverviewIconMenu;
+import static com.android.launcher3.Flags.enableOverviewIconMenu;
 import static org.acreetionos.launcher.LauncherAnimUtils.VIEW_TRANSLATE_X;
 import static org.acreetionos.launcher.LauncherAnimUtils.VIEW_TRANSLATE_Y;
 import static org.acreetionos.launcher.touch.SingleAxisSwipeDetector.VERTICAL;

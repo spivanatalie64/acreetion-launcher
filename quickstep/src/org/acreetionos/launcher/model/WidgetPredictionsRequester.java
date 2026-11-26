@@ -16,7 +16,7 @@
 
 package org.acreetionos.launcher.model;
 
-import static org.acreetionos.launcher.Flags.enableCategorizedWidgetSuggestions;
+import static com.android.launcher3.Flags.enableCategorizedWidgetSuggestions;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.CONTAINER_WIDGETS_PREDICTION;
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 import static org.acreetionos.launcher.util.Executors.MODEL_EXECUTOR;

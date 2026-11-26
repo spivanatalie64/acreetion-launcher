@@ -19,7 +19,7 @@ package org.acreetionos.launcher;
 import static android.app.admin.DevicePolicyManager.ACTION_DEVICE_POLICY_RESOURCE_UPDATED;
 import static android.content.Context.RECEIVER_EXPORTED;
 
-import static org.acreetionos.launcher.Flags.enableSmartspaceRemovalToggle;
+import static com.android.launcher3.Flags.enableSmartspaceRemovalToggle;
 import static org.acreetionos.launcher.InvariantDeviceProfile.GRID_NAME_PREFS_KEY;
 import static org.acreetionos.launcher.LauncherPrefs.DB_FILE;
 import static org.acreetionos.launcher.LauncherPrefs.GRID_NAME;

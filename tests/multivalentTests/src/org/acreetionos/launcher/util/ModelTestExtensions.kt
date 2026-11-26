@@ -1,7 +1,7 @@
 package org.acreetionos.launcher.util
 
 import android.content.ContentValues
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.LauncherModel
 import org.acreetionos.launcher.LauncherSettings.Favorites
 import org.acreetionos.launcher.LauncherSettings.Favorites.APPWIDGET_ID

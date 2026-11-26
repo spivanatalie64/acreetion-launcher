@@ -26,7 +26,7 @@ import android.platform.test.annotations.EnableFlags
 import android.platform.test.flag.junit.SetFlagsRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.acreetionos.launcher.AppFilter
-import org.acreetionos.launcher.Flags.FLAG_ENABLE_PRIVATE_SPACE
+import com.android.launcher3.Flags.FLAG_ENABLE_PRIVATE_SPACE
 import org.acreetionos.launcher.LauncherAppState
 import org.acreetionos.launcher.LauncherSettings
 import org.acreetionos.launcher.icons.IconCache

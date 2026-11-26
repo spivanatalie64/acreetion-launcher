@@ -29,7 +29,7 @@ import android.platform.test.annotations.EnableFlags
 import android.util.LongSparseArray
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import org.acreetionos.launcher.Flags.FLAG_ENABLE_SUPPORT_FOR_ARCHIVING
+import com.android.launcher3.Flags.FLAG_ENABLE_SUPPORT_FOR_ARCHIVING
 import org.acreetionos.launcher.LauncherAppState
 import org.acreetionos.launcher.LauncherSettings.Favorites
 import org.acreetionos.launcher.LauncherSettings.Favorites.CONTAINER_DESKTOP

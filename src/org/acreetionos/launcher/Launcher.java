@@ -27,9 +27,9 @@ import static org.acreetionos.launcher.AbstractFloatingView.TYPE_FOLDER;
 import static org.acreetionos.launcher.AbstractFloatingView.TYPE_ICON_SURFACE;
 import static org.acreetionos.launcher.AbstractFloatingView.TYPE_REBIND_SAFE;
 import static org.acreetionos.launcher.AbstractFloatingView.getTopOpenViewWithType;
-import static org.acreetionos.launcher.Flags.enableAddAppWidgetViaConfigActivityV2;
-import static org.acreetionos.launcher.Flags.enableSmartspaceRemovalToggle;
-import static org.acreetionos.launcher.Flags.enableWorkspaceInflation;
+import static com.android.launcher3.Flags.enableAddAppWidgetViaConfigActivityV2;
+import static com.android.launcher3.Flags.enableSmartspaceRemovalToggle;
+import static com.android.launcher3.Flags.enableWorkspaceInflation;
 import static org.acreetionos.launcher.InvariantDeviceProfile.KEY_DRAWER_OPEN_KEYBOARD;
 import static org.acreetionos.launcher.LauncherAnimUtils.HOTSEAT_SCALE_PROPERTY_FACTORY;
 import static org.acreetionos.launcher.LauncherAnimUtils.SCALE_INDEX_WIDGET_TRANSITION;
@@ -602,7 +602,7 @@ public class Launcher extends StatefulActivity<LauncherState>
         mStartupLatencyLogger.logEnd(LAUNCHER_LATENCY_STARTUP_ACTIVITY_ON_CREATE);
 
         if (BuildCompat.isAtLeastV()
-                && org.acreetionos.launcher.Flags.enableTwoPaneLauncherSettings()) {
+                && com.android.launcher3.Flags.enableTwoPaneLauncherSettings()) {
             RuleController.getInstance(this).setRules(
                     RuleController.parseRules(this, R.xml.split_configuration));
         }
@@ -783,7 +783,7 @@ public class Launcher extends StatefulActivity<LauncherState>
     }
 
     private void updateFixedLandscape() {
-        if (!org.acreetionos.launcher.Flags.oneGridSpecs()) {
+        if (!com.android.launcher3.Flags.oneGridSpecs()) {
             return;
         }
         // When the flag oneGridSpecs is on we want to disable ALLOW_ROTATION which is replaced

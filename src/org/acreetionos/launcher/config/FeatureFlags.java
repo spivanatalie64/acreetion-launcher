@@ -26,7 +26,7 @@ import android.content.res.Resources;
 import androidx.annotation.VisibleForTesting;
 
 import org.acreetionos.launcher.BuildConfig;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 
 /**
  * Defines a set of flags used to control various launcher behaviors.

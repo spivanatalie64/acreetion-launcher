@@ -20,8 +20,8 @@ import static android.platform.test.flag.junit.SetFlagsRule.DefaultInitValueType
 
 import static com.android.dx.mockito.inline.extended.ExtendedMockito.spyOn;
 import static org.acreetionos.launcher.AbstractFloatingView.TYPE_SNACKBAR;
-import static org.acreetionos.launcher.Flags.FLAG_ENABLE_DISMISS_PREDICTION_UNDO;
-import static org.acreetionos.launcher.Flags.FLAG_ENABLE_PRIVATE_SPACE;
+import static com.android.launcher3.Flags.FLAG_ENABLE_DISMISS_PREDICTION_UNDO;
+import static com.android.launcher3.Flags.FLAG_ENABLE_PRIVATE_SPACE;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.CONTAINER_ALL_APPS;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.CONTAINER_HOTSEAT_PREDICTION;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.ITEM_TYPE_APPLICATION;

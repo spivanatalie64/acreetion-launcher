@@ -28,7 +28,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.LauncherPrefs;
 import org.acreetionos.launcher.SessionCommitReceiver;
 import org.acreetionos.launcher.dagger.ApplicationContext;

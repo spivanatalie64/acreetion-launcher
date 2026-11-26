@@ -23,7 +23,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.taskbar.overlay.TaskbarOverlayContext;
 import org.acreetionos.launcher.taskbar.overlay.TaskbarOverlayDragLayer;

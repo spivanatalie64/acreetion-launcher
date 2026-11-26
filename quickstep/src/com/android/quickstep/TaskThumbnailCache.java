@@ -15,7 +15,7 @@
  */
 package com.android.quickstep;
 
-import static org.acreetionos.launcher.Flags.enableGridOnlyOverview;
+import static com.android.launcher3.Flags.enableGridOnlyOverview;
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;
 
 import android.content.Context;

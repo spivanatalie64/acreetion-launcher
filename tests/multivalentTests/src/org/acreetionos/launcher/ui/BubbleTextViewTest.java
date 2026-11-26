@@ -26,8 +26,8 @@ import static org.acreetionos.launcher.BubbleTextView.DISPLAY_ALL_APPS;
 import static org.acreetionos.launcher.BubbleTextView.DISPLAY_PREDICTION_ROW;
 import static org.acreetionos.launcher.BubbleTextView.DISPLAY_SEARCH_RESULT;
 import static org.acreetionos.launcher.BubbleTextView.DISPLAY_SEARCH_RESULT_SMALL;
-import static org.acreetionos.launcher.Flags.FLAG_ENABLE_SUPPORT_FOR_ARCHIVING;
-import static org.acreetionos.launcher.Flags.FLAG_USE_NEW_ICON_FOR_ARCHIVED_APPS;
+import static com.android.launcher3.Flags.FLAG_ENABLE_SUPPORT_FOR_ARCHIVING;
+import static com.android.launcher3.Flags.FLAG_USE_NEW_ICON_FOR_ARCHIVED_APPS;
 import static org.acreetionos.launcher.LauncherPrefs.ENABLE_TWOLINE_ALLAPPS_TOGGLE;
 import static org.acreetionos.launcher.model.data.ItemInfoWithIcon.FLAG_ARCHIVED;
 
@@ -55,7 +55,7 @@ import androidx.test.filters.SdkSuppress;
 import androidx.test.filters.SmallTest;
 
 import org.acreetionos.launcher.BubbleTextView;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.LauncherPrefs;
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.model.data.AppInfo;

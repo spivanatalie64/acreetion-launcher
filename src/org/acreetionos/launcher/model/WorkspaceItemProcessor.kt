@@ -26,7 +26,7 @@ import android.graphics.Point
 import android.text.TextUtils
 import android.util.Log
 import android.util.LongSparseArray
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.InvariantDeviceProfile
 import org.acreetionos.launcher.LauncherAppState
 import org.acreetionos.launcher.LauncherSettings.Favorites

@@ -21,7 +21,7 @@ import static com.android.app.animation.Interpolators.AGGRESSIVE_EASE_IN_OUT;
 import static com.android.app.animation.Interpolators.FINAL_FRAME;
 import static com.android.app.animation.Interpolators.INSTANT;
 import static com.android.app.animation.Interpolators.LINEAR;
-import static org.acreetionos.launcher.Flags.enableLargeDesktopWindowingTile;
+import static com.android.launcher3.Flags.enableLargeDesktopWindowingTile;
 import static org.acreetionos.launcher.LauncherState.QUICK_SWITCH_FROM_HOME;
 import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_SPLIT_SELECTION_EXIT_HOME;
 import static org.acreetionos.launcher.states.StateAnimationConfig.ANIM_OVERVIEW_FADE;

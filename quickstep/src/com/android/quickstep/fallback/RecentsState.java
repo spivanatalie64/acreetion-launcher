@@ -15,7 +15,7 @@
  */
 package com.android.quickstep.fallback;
 
-import static org.acreetionos.launcher.Flags.enableDesktopWindowingCarouselDetach;
+import static com.android.launcher3.Flags.enableDesktopWindowingCarouselDetach;
 import static org.acreetionos.launcher.LauncherState.FLAG_CLOSE_POPUPS;
 import static org.acreetionos.launcher.uioverrides.states.BackgroundAppState.getOverviewScaleAndOffsetForBackgroundState;
 import static org.acreetionos.launcher.uioverrides.states.OverviewModalTaskState.getOverviewScaleAndOffsetForModalState;

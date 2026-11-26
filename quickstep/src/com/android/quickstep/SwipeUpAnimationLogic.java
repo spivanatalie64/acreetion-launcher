@@ -17,7 +17,7 @@ package com.android.quickstep;
 
 import static com.android.app.animation.Interpolators.ACCELERATE_1_5;
 import static com.android.app.animation.Interpolators.LINEAR;
-import static org.acreetionos.launcher.Flags.enableAdditionalHomeAnimations;
+import static com.android.launcher3.Flags.enableAdditionalHomeAnimations;
 import static org.acreetionos.launcher.PagedView.INVALID_PAGE;
 
 import android.animation.Animator;

@@ -27,7 +27,7 @@ import android.content.pm.LauncherApps
 import android.content.pm.PackageManager
 import android.content.pm.PackageManager.NameNotFoundException
 import android.os.UserHandle
-import org.acreetionos.launcher.Flags.enableSupportForArchiving
+import com.android.launcher3.Flags.enableSupportForArchiving
 import org.acreetionos.launcher.Utilities.ATLEAST_V
 import kotlin.LazyThreadSafetyMode.NONE
 

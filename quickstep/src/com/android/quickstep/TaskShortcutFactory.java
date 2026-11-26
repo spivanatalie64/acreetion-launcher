@@ -20,7 +20,7 @@ import static android.app.WindowConfiguration.WINDOWING_MODE_FREEFORM;
 import static android.content.Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS;
 import static android.view.Surface.ROTATION_0;
 
-import static org.acreetionos.launcher.Flags.enableRefactorTaskThumbnail;
+import static com.android.launcher3.Flags.enableRefactorTaskThumbnail;
 import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_SYSTEM_SHORTCUT_FREE_FORM_TAP;
 import static org.acreetionos.launcher.util.SplitConfigurationOptions.STAGE_POSITION_BOTTOM_OR_RIGHT;
 
@@ -41,7 +41,7 @@ import android.window.SplashScreen;
 import androidx.annotation.Nullable;
 
 import org.acreetionos.launcher.DeviceProfile;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.R;
 import org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent;
 import org.acreetionos.launcher.model.WellbeingModel;

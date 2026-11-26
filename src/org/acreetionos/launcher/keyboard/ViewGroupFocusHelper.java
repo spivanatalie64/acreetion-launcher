@@ -19,7 +19,7 @@ package org.acreetionos.launcher.keyboard;
 import android.graphics.Rect;
 import android.view.View;
 
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.PagedView;
 
 /**

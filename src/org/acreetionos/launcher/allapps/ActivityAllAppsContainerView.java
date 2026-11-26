@@ -15,7 +15,7 @@
  */
 package org.acreetionos.launcher.allapps;
 
-import static org.acreetionos.launcher.Flags.enableExpandingPauseWorkButton;
+import static com.android.launcher3.Flags.enableExpandingPauseWorkButton;
 import static org.acreetionos.launcher.allapps.ActivityAllAppsContainerView.AdapterHolder.MAIN;
 import static org.acreetionos.launcher.allapps.ActivityAllAppsContainerView.AdapterHolder.SEARCH;
 import static org.acreetionos.launcher.allapps.ActivityAllAppsContainerView.AdapterHolder.WORK;
@@ -72,7 +72,7 @@ import org.acreetionos.launcher.DeviceProfile;
 import org.acreetionos.launcher.DeviceProfile.OnDeviceProfileChangeListener;
 import org.acreetionos.launcher.DragSource;
 import org.acreetionos.launcher.DropTarget.DragObject;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.Insettable;
 import org.acreetionos.launcher.InsettableFrameLayout;
 import org.acreetionos.launcher.R;

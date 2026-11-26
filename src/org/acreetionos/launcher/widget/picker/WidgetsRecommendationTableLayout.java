@@ -15,7 +15,7 @@
  */
 package org.acreetionos.launcher.widget.picker;
 
-import static org.acreetionos.launcher.Flags.enableCategorizedWidgetSuggestions;
+import static com.android.launcher3.Flags.enableCategorizedWidgetSuggestions;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.CONTAINER_WIDGETS_PREDICTION;
 import static org.acreetionos.launcher.widget.util.WidgetSizes.getWidgetSizePx;
 import static org.acreetionos.launcher.widget.util.WidgetsTableUtils.WIDGETS_TABLE_ROW_COUNT_COMPARATOR;

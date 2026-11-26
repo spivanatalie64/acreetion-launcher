@@ -30,7 +30,7 @@ import androidx.core.util.component1
 import androidx.core.util.component2
 import androidx.core.view.updateLayoutParams
 import org.acreetionos.launcher.DeviceProfile
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.R
 import org.acreetionos.launcher.Utilities
 import org.acreetionos.launcher.logger.LauncherAtom

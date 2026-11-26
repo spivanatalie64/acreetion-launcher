@@ -22,7 +22,7 @@ import static com.android.app.animation.Interpolators.FINAL_FRAME;
 import static com.android.app.animation.Interpolators.INSTANT;
 import static com.android.app.animation.Interpolators.LINEAR;
 import static com.android.internal.jank.InteractionJankMonitor.Configuration;
-import static org.acreetionos.launcher.Flags.enableScalingRevealHomeAnimation;
+import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;
 import static org.acreetionos.launcher.QuickstepTransitionManager.PINNED_TASKBAR_TRANSITION_DURATION;
 import static org.acreetionos.launcher.config.FeatureFlags.ENABLE_TASKBAR_NAVBAR_UNIFICATION;
 import static org.acreetionos.launcher.logging.StatsLogManager.LauncherEvent.LAUNCHER_TRANSIENT_TASKBAR_HIDE;

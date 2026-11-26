@@ -25,7 +25,7 @@ import android.platform.test.flag.junit.SetFlagsRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SdkSuppress
 import androidx.test.filters.SmallTest
-import org.acreetionos.launcher.Flags.FLAG_ENABLE_SUPPORT_FOR_ARCHIVING
+import com.android.launcher3.Flags.FLAG_ENABLE_SUPPORT_FOR_ARCHIVING
 import org.acreetionos.launcher.util.Executors.MODEL_EXECUTOR
 import org.acreetionos.launcher.util.LauncherModelHelper
 import org.acreetionos.launcher.util.PackageUserKey

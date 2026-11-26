@@ -6,7 +6,7 @@ import android.app.backup.BackupRestoreEventLogger.BackupRestoreDataType
 import android.app.backup.BackupRestoreEventLogger.BackupRestoreError
 import android.content.Context
 import androidx.annotation.VisibleForTesting
-import org.acreetionos.launcher.Flags.enableLauncherBrMetricsFixed
+import com.android.launcher3.Flags.enableLauncherBrMetricsFixed
 import org.acreetionos.launcher.LauncherSettings.Favorites
 import org.acreetionos.launcher.backuprestore.LauncherRestoreEventLogger
 

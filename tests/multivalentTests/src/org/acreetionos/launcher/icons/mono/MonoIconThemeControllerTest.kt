@@ -26,7 +26,7 @@ import android.platform.uiautomatorhelpers.DeviceHelpers.context
 import android.util.DisplayMetrics
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
-import org.acreetionos.launcher.Flags
+import com.android.launcher3.Flags
 import org.acreetionos.launcher.icons.BaseIconFactory
 import org.acreetionos.launcher.icons.BitmapInfo
 import org.acreetionos.launcher.util.LauncherMultivalentJUnit.Companion.isRunningInRobolectric

@@ -15,8 +15,8 @@
  */
 package org.acreetionos.launcher.model;
 
-import static org.acreetionos.launcher.Flags.enableCategorizedWidgetSuggestions;
-import static org.acreetionos.launcher.Flags.enableTieredWidgetsByDefaultInPicker;
+import static com.android.launcher3.Flags.enableCategorizedWidgetSuggestions;
+import static com.android.launcher3.Flags.enableTieredWidgetsByDefaultInPicker;
 import static org.acreetionos.launcher.LauncherSettings.Favorites.CONTAINER_WIDGETS_PREDICTION;
 
 import static java.util.stream.Collectors.groupingBy;

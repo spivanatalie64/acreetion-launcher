@@ -17,8 +17,8 @@
 package org.acreetionos.launcher.model;
 
 import static org.acreetionos.launcher.BuildConfig.WIDGETS_ENABLED;
-import static org.acreetionos.launcher.Flags.enableSmartspaceRemovalToggle;
-import static org.acreetionos.launcher.Flags.enableWorkspaceInflation;
+import static com.android.launcher3.Flags.enableSmartspaceRemovalToggle;
+import static com.android.launcher3.Flags.enableWorkspaceInflation;
 import static org.acreetionos.launcher.model.ItemInstallQueue.FLAG_LOADER_RUNNING;
 import static org.acreetionos.launcher.model.ModelUtils.filterCurrentWorkspaceItems;
 import static org.acreetionos.launcher.util.Executors.MAIN_EXECUTOR;

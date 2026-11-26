@@ -42,7 +42,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
 import org.acreetionos.launcher.BubbleTextView;
-import org.acreetionos.launcher.Flags;
+import com.android.launcher3.Flags;
 import org.acreetionos.launcher.Utilities;
 import org.acreetionos.launcher.apppairs.AppPairIcon;
 import org.acreetionos.launcher.apppairs.AppPairIconDrawingParams;
