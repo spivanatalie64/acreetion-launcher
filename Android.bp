@@ -633,7 +633,9 @@ android_app {
 }
 
 phony {
-    name: "AcreetionLauncherQuickStep",
+    // The GSI product (build/make/target/product/gsi) depends on this exact
+    // module name; keep it as the compatibility handle for AcreetionLauncher.
+    name: "Launcher3QuickStep",
     required: [
         "AcreetionLauncher",
     ],
