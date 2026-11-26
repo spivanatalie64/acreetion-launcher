@@ -72,7 +72,8 @@ public final class IconShape {
 
     @Inject
     public IconShape(@ApplicationContext Context context) {
-        pickBestShape(context);
+        // Acreetion: default icon shape is Circle (the field default). Do not let
+        // pickBestShape() override it with the shape closest to the system mask.
     }
 
     public ShapeDelegate getShape() {

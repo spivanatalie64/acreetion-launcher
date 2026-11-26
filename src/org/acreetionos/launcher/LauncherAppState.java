@@ -284,7 +284,8 @@ public class LauncherAppState implements SafeCloseable {
 
         @Override
         public void onSystemIconStateChanged(String iconState) {
-            IconShape.INSTANCE.get(mContext).pickBestShape(mContext);
+            // Acreetion: keep the default Circle icon shape; do not re-pick the
+            // shape closest to the system mask when the system icon state changes.
             refreshAndReloadLauncher();
             LauncherPrefs.get(mContext).put(ICON_STATE, iconState);
         }

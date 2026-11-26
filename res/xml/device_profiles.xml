@@ -39,7 +39,7 @@
             launcher:allAppsIconTextSize="14.0"
             launcher:allAppsBorderSpace="16"
             launcher:allAppsCellHeight="104"
-            launcher:canBeDefault="true" />
+            />
 
         <display-option
             launcher:name="Shorter Stubby"
@@ -51,7 +51,7 @@
             launcher:allAppsIconTextSize="14.0"
             launcher:allAppsBorderSpace="16"
             launcher:allAppsCellHeight="104"
-            launcher:canBeDefault="true" />
+            />
 
     </grid-option>
 
@@ -77,7 +77,7 @@
             launcher:allAppsIconTextSize="14.0"
             launcher:allAppsBorderSpace="16"
             launcher:allAppsCellHeight="104"
-            launcher:canBeDefault="true" />
+            />
 
         <display-option
             launcher:name="Shorter Stubby"
@@ -89,7 +89,7 @@
             launcher:allAppsIconTextSize="14.0"
             launcher:allAppsBorderSpace="16"
             launcher:allAppsCellHeight="104"
-            launcher:canBeDefault="true" />
+            />
 
     </grid-option>
 
@@ -116,7 +116,7 @@
             launcher:allAppsCellHeight="104"
             launcher:startAlignTaskbar="true"
             launcher:startAlignTaskbarLandscape="true"
-            launcher:canBeDefault="true" />
+            />
 
         <display-option
             launcher:name="Stubby"
@@ -128,7 +128,7 @@
             launcher:allAppsCellHeight="104"
             launcher:startAlignTaskbar="true"
             launcher:startAlignTaskbarLandscape="true"
-            launcher:canBeDefault="true" />
+            />
 
         <display-option
             launcher:name="Nexus S"
@@ -140,7 +140,7 @@
             launcher:allAppsCellHeight="104"
             launcher:startAlignTaskbar="true"
             launcher:startAlignTaskbarLandscape="true"
-            launcher:canBeDefault="true" />
+            />
 
         <display-option
             launcher:name="Nexus 4"
@@ -152,7 +152,7 @@
             launcher:allAppsCellHeight="104"
             launcher:startAlignTaskbar="true"
             launcher:startAlignTaskbarLandscape="true"
-            launcher:canBeDefault="true" />
+            />
 
         <display-option
             launcher:name="Nexus 5"
@@ -164,7 +164,7 @@
             launcher:allAppsCellHeight="104"
             launcher:startAlignTaskbar="true"
             launcher:startAlignTaskbarLandscape="true"
-            launcher:canBeDefault="true" />
+            />
 
     </grid-option>
 
@@ -191,6 +191,7 @@
             launcher:allAppsCellHeight="104"
             launcher:startAlignTaskbar="true"
             launcher:startAlignTaskbarLandscape="true"
+            launcher:hotseatQsbSpace="24"
             launcher:canBeDefault="true" />
 
         <display-option
@@ -203,6 +204,7 @@
             launcher:allAppsCellHeight="104"
             launcher:startAlignTaskbar="true"
             launcher:startAlignTaskbarLandscape="true"
+            launcher:hotseatQsbSpace="24"
             launcher:canBeDefault="true" />
 
         <display-option
@@ -215,6 +217,7 @@
             launcher:allAppsCellHeight="104"
             launcher:startAlignTaskbar="true"
             launcher:startAlignTaskbarLandscape="true"
+            launcher:hotseatQsbSpace="24"
             launcher:canBeDefault="true" />
 
     </grid-option>
@@ -240,7 +243,7 @@
             launcher:allAppsCellHeight="104"
             launcher:startAlignTaskbar="true"
             launcher:startAlignTaskbarLandscape="true"
-            launcher:canBeDefault="true" />
+            />
 
     </grid-option>
 
@@ -265,7 +268,7 @@
             launcher:allAppsCellHeight="104"
             launcher:startAlignTaskbar="true"
             launcher:startAlignTaskbarLandscape="true"
-            launcher:canBeDefault="true" />
+            />
 
     </grid-option>
 
