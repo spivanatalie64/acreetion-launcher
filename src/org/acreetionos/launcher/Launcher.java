@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static android.app.PendingIntent.FLAG_IMMUTABLE;
 import static android.app.PendingIntent.FLAG_UPDATE_CURRENT;
 import static android.content.pm.ActivityInfo.CONFIG_UI_MODE;

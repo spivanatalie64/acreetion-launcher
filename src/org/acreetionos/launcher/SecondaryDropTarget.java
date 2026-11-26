@@ -1,5 +1,7 @@
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static android.appwidget.AppWidgetManager.INVALID_APPWIDGET_ID;
 import static android.appwidget.AppWidgetProviderInfo.WIDGET_FEATURE_RECONFIGURABLE;
 

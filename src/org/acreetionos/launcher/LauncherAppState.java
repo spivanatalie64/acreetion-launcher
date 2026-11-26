@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static android.app.admin.DevicePolicyManager.ACTION_DEVICE_POLICY_RESOURCE_UPDATED;
 import static android.content.Context.RECEIVER_EXPORTED;
 

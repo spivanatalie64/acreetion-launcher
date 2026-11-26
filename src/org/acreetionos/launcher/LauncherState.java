@@ -15,6 +15,8 @@
  */
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static com.android.app.animation.Interpolators.ACCELERATE_2;
 import static com.android.app.animation.Interpolators.DECELERATE_2;
 import static org.acreetionos.launcher.anim.AnimatorListeners.forEndCallback;

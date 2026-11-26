@@ -15,6 +15,8 @@
  */
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static androidx.recyclerview.widget.RecyclerView.NO_POSITION;
 
 import android.view.KeyEvent;

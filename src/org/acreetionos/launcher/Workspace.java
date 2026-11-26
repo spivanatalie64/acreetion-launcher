@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static org.acreetionos.launcher.AbstractFloatingView.TYPE_WIDGET_RESIZE_FRAME;
 import static org.acreetionos.launcher.BubbleTextView.DISPLAY_FOLDER;
 import static com.android.launcher3.Flags.enableSmartspaceRemovalToggle;

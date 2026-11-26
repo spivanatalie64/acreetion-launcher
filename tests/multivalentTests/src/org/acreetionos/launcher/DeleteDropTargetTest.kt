@@ -1,5 +1,7 @@
 package org.acreetionos.launcher
 
+import com.android.launcher3.Flags
+
 import android.content.Context
 import android.platform.test.annotations.EnableFlags
 import android.platform.test.flag.junit.SetFlagsRule

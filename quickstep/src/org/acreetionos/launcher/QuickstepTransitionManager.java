@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static android.app.WindowConfiguration.ACTIVITY_TYPE_HOME;
 import static android.app.WindowConfiguration.ACTIVITY_TYPE_STANDARD;
 import static android.app.WindowConfiguration.WINDOWING_MODE_MULTI_WINDOW;

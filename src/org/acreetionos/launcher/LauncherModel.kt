@@ -15,6 +15,8 @@
  */
 package org.acreetionos.launcher
 
+import com.android.launcher3.Flags
+
 import android.app.admin.DevicePolicyManager
 import android.content.Context
 import android.content.Intent

@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
 import android.content.Context;

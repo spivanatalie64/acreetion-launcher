@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static org.acreetionos.launcher.BuildConfig.WIDGET_ON_FIRST_SCREEN;
 import static com.android.launcher3.Flags.enableSmartspaceAsAWidget;
 import static com.android.launcher3.icons.BitmapInfo.FLAG_THEMED;

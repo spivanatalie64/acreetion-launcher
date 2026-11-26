@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static org.acreetionos.launcher.dragndrop.DraggableView.DRAGGABLE_ICON;
 import static com.android.launcher3.icons.IconNormalizer.ICON_VISIBLE_AREA_FACTOR;
 import static org.acreetionos.launcher.util.MultiTranslateDelegate.INDEX_REORDER_PREVIEW_OFFSET;

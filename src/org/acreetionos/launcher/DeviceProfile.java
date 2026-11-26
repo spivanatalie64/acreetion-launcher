@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static com.android.app.animation.Interpolators.LINEAR;
 import static com.android.launcher3.Flags.enableOverviewIconMenu;
 import static com.android.launcher3.Flags.enableScalingRevealHomeAnimation;

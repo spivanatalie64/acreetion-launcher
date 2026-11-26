@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;

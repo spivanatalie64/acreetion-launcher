@@ -16,6 +16,8 @@
 
 package org.acreetionos.launcher;
 
+import com.android.launcher3.Flags;
+
 import static org.acreetionos.launcher.LauncherPrefs.DB_FILE;
 import static org.acreetionos.launcher.LauncherPrefs.FIXED_LANDSCAPE_MODE;
 import static org.acreetionos.launcher.LauncherPrefs.GRID_NAME;

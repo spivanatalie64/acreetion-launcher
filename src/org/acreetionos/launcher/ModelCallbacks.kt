@@ -1,5 +1,7 @@
 package org.acreetionos.launcher
 
+import com.android.launcher3.Flags
+
 import android.annotation.TargetApi
 import android.os.Build
 import android.os.Trace
